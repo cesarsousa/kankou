@@ -1,18 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jstl/core" prefix="c" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<style type="text/css">
-input {
-	height: 30px;
-}
 
-</style>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>${Btitle}</title>
+
+<%@ include file="/libraries.jsp"  %>
+
 </head>
 <body>
+<div id="wrap">
+<div id="main">
 
 <table style="width: 100%; border-collapse: collapse;">
 	<tr>
@@ -66,12 +64,11 @@ input {
 </div>
 </div>
 
-<div align="right" style="width: 100%; height: 90px; background-color: #696969; vertical-align: middle;">
-<div align="center">
-<div style="width: 700px; text-align: left;">
-	<p style="color: #ffffff; font-weight: bold; padding-top: 20px;"> &copy; ${Brodape}
-</div>
-</div>
+</div> <!-- main -->
+</div> <!-- wrap -->
+
+<div id="footer">
+	<%@ include file="/footer.jsp" %>
 </div>
 
 </body>
