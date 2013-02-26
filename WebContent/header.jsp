@@ -3,6 +3,6 @@
 <!-- <div id="rodape"> -->
 <div>
 <div align="center">
-	<p class="textoRodape">${BTextoRodape}</p>
+	<p class="textoCabecalho">${BTextoCabecalho}</p>
 </div>
 </div>

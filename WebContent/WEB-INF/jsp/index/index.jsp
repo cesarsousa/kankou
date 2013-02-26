@@ -3,7 +3,7 @@
 <html>
 <head>
 
-<title>${Btitle}</title>
+<title>${BTextoTitulo}</title>
 
 <%@ include file="/libraries.jsp"  %>
 
@@ -12,9 +12,7 @@
 <div id="wrap">
 <div id="main">
 
-<div align="center">
-	<p style="color: #ffffff; font-weight: bold; padding-top: 20px; font-size: xx-large;">KANKOU.net.br</p>
-</div>
+<%@ include file="/header.jsp" %>
 
 <br/><br/>
 

@@ -3,7 +3,7 @@
 <html>
 <head>
 
-<title>${Btitle}</title>
+<title>${BTextoTitulo}</title>
 
 <%@ include file="/libraries.jsp"  %>
 
@@ -12,7 +12,10 @@
 <div id="wrap">
 <div id="main">
 
-<table style="width: 100%; border-collapse: collapse;">
+<%@ include file="/header.jsp" %>
+
+
+<%-- <table style="width: 100%; border-collapse: collapse;">
 	<tr>
 	<td align="right" style="width: 100%; background-color: #696969; vertical-align: middle;">
 	<div style="padding: 10px;">		
@@ -46,7 +49,7 @@
 	</div>
 	</td>
 	</tr>
-</table>
+</table> --%>
 
 <br/><br/>
 
@@ -56,11 +59,6 @@
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	box-shadow: 2px 2px 2px #CCCCCC;">
-<p>${Bname}<br/><input type="text"/></p>
-<p>${Bhello}<br/><input type="text"/></p>
-<p>${Bdescricao}<br/><input type="text"/></p>
-
-<p style="color: #8DB6CD; font-weight: bold;"><input type="checkbox" />${Btermo}
 </div>
 </div>
 
