@@ -14,17 +14,20 @@
 
 <%@ include file="/header.jsp" %>
 
-<br/><br/>
+<form id="formLocaleBR" action="<c:url value="/index/locale/BR"></c:url>" method="get"></form>
+<form id="formLocaleCN" action="<c:url value="/index/locale/CN"></c:url>" method="get"></form>
+<form id="formLocaleUS" action="<c:url value="/index/locale/US"></c:url>" method="get"></form>
+<form id="formLocaleFR" action="<c:url value="/index/locale/FR"></c:url>" method="get"></form>
+<form id="formLocaleES" action="<c:url value="/index/locale/ES"></c:url>" method="get"></form>
 
 <div align="center">
 <div class="cardFlag">
 
 	<table id="tabFlags" class="colapsed">
-		<tr class="zebrado pad10">
+	
+		<tr id="localeBR" class="zebrado pad10">
 		<td>
-		<a href="<c:url value="/index/locale/BR"></c:url>">
 		<img alt="português" title="português" src="image/flagBrasil.jpg" width="100px" height="70px">
-		</a>
 		</td>
 		<td>
 		<p>O Acupunturista e o exame da língua.</p>
@@ -32,11 +35,9 @@
 		</td>
 		</tr>
 		
-		<tr class="zebrado">
+		<tr id="localeCN" class="zebrado">
 		<td>
-		<a href="<c:url value="/index/locale/CN"></c:url>">
 		<img alt="普通话" title="普通话" src="image/flagChina.jpg" width="100px" height="70px">
-		</a>
 		</td>
 		<td>
 		<p>针灸及考试舌头 .</p>
@@ -44,11 +45,9 @@
 		</td>
 		</tr>
 		
-		<tr class="zebrado">
+		<tr id="localeUS" class="zebrado">
 		<td>
-		<a href="<c:url value="/index/locale/US"></c:url>">
 		<img alt="english" title="english" src="image/flagUSA.jpg" width="100px" height="70px">
-		</a>
 		</td>
 		<td>
 		<p>The Acupuncturist and tongue examination.</p>
@@ -56,11 +55,9 @@
 		</td>
 		</tr>
 		
-		<tr class="zebrado">
+		<tr id="localeFR" class="zebrado">
 		<td>
-		<a href="<c:url value="/index/locale/FR"></c:url>">
 		<img alt="français" title="français" src="image/flagFranca.jpg" width="100px" height="70px">
-		</a>
 		</td>
 		<td>
 		<p>L'acupuncteur et l'examen de la langue.</p>
@@ -68,11 +65,9 @@
 		</td>
 		</tr>	
 		
-		<tr class="zebrado">
+		<tr id="localeES" class="zebrado">
 		<td>
-		<a href="<c:url value="/index/locale/ES"></c:url>">
 		<img alt="español" title="español" src="image/flagEspanha.jpg" width="100px" height="70px">
-		</a>
 		</td>
 		<td>
 		<p>El acupunturista y un examen de la lengua.</p>
