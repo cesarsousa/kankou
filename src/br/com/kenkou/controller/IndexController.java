@@ -27,6 +27,7 @@ public class IndexController {
 	@Path("/")
 	public void index(){		
 		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
+		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));		
 	}
@@ -39,6 +40,8 @@ public class IndexController {
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
 		result.include("BTextoIntroducaoUpper1", rb.getString("BTextoIntroducaoUpper1"));
 		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
+		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
+		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
 		
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		

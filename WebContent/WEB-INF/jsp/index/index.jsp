@@ -27,7 +27,7 @@
 	
 		<tr id="localeBR" class="zebrado pad10">
 		<td>
-		<img alt="português" title="português" src="image/flagBrasil.jpg" width="100px" height="70px">
+		<img alt="português" title="português" class="imgSombra" src="image/flagBrasil.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>O Acupunturista e o exame da língua.</p>
@@ -37,7 +37,7 @@
 		
 		<tr id="localeCN" class="zebrado">
 		<td>
-		<img alt="普通话" title="普通话" src="image/flagChina.jpg" width="100px" height="70px">
+		<img alt="普通话" title="普通话" class="imgSombra" src="image/flagChina.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>针灸及考试舌头 .</p>
@@ -47,7 +47,7 @@
 		
 		<tr id="localeUS" class="zebrado">
 		<td>
-		<img alt="english" title="english" src="image/flagUSA.jpg" width="100px" height="70px">
+		<img alt="english" title="english" class="imgSombra" src="image/flagUSA.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>The Acupuncturist and tongue examination.</p>
@@ -57,7 +57,7 @@
 		
 		<tr id="localeFR" class="zebrado">
 		<td>
-		<img alt="français" title="français" src="image/flagFranca.jpg" width="100px" height="70px">
+		<img alt="français" title="français" class="imgSombra" src="image/flagFranca.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>L'acupuncteur et l'examen de la langue.</p>
@@ -67,7 +67,7 @@
 		
 		<tr id="localeES" class="zebrado">
 		<td>
-		<img alt="español" title="español" src="image/flagEspanha.jpg" width="100px" height="70px">
+		<img alt="español" title="español" class="imgSombra" src="image/flagEspanha.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>El acupunturista y un examen de la lengua.</p>

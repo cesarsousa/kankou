@@ -12,57 +12,59 @@
 <div id="wrap">
 <div id="main">
 
-<%@ include file="/header.jsp" %>
-
-
-<%-- <table style="width: 100%; border-collapse: collapse;">
+<table style="width: 100%; border-collapse: collapse;">
 	<tr>
-	<td align="right" style="width: 100%; background-color: #696969; vertical-align: middle;">
+	<td align="right" style="width: 100%;">
 	<div style="padding: 10px;">		
 		<a href="<c:url value="/index/locale/BR"></c:url>">
-		<img alt="português" title="português" src="image/flagBrasil.jpg" width="50px" height="35px">
+		<img alt="português" title="português" src="${imagem}/flagBrasil.jpg" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/US"></c:url>">
-		<img alt="english" title="english" src="image/flagUSA.jpg" width="50px" height="35px">
+		<img alt="english" title="english" src="${imagem}/flagUSA.jpg" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/CN"></c:url>">
-		<img alt="普通话" title="普通话" src="image/flagChina.jpg"width="50px" height="35px">
+		<img alt="普通话" title="普通话" src="${imagem}/flagChina.jpg" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/ES"></c:url>">
-		<img alt="español" title="español" src="image/flagEspanha.jpg" width="50px" height="35px">
+		<img alt="español" title="español" src="${imagem}/flagEspanha.jpg" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/FR"></c:url>">
-		<img alt="français" title="français" src="image/flagFranca.jpg" width="50px" height="35px">
+		<img alt="français" title="français" src="${imagem}/flagFranca.jpg" width="50px" height="35px">
 		</a>	
 	</div>
 	</td>
-	</tr>
-	
-	<tr>
-	<td align="right" style="width: 100%; height: 90px; background-color: #9C9C9C; vertical-align: middle;">
-	<div align="center">
-	<h1 style="color: #000000; padding: 10px; font-family: serif;">${Btitle}</h1>
-	</div>
-	</td>
-	</tr>
-</table> --%>
+	</tr>	
+</table>
 
-<br/><br/>
+
+
+<%@ include file="/header.jsp" %>
 
 <div align="center">
 <div class="cardFlagPgs">
 
-
-<form action="<c:url value="/"></c:url>">
-<input type="submit" value="voltar" />
-</form>
-
-<span style="font-size: xx-large; font-weight: bold;">${BTextoIntroducaoUpper1}</span>
-<span style="font-size: medium; font-weight: normal;">${BTextoIntroducaoLower1}</span>
+<table width="100%" border="0">
+  <tr>
+    <td width="20%"><img src="${imagem}/imagemIntro_topo.png" width="300" height="300" /></td>
+    <td width="80%" rowspan="2" valign="top" align="justify">
+    	<p>
+    	<span class="letraGrande">${BTextoIntroducaoUpper1}</span>
+		<span class="letraNormal">${BTextoIntroducaoLower1}</span>
+		<p>
+		<p>
+    	<span class="letraGrande">${BTextoIntroducaoUpper2}</span>
+		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
+		<p>
+    </td>
+  </tr>
+  <tr>
+    <td><img src="${imagem}/imagemIntro_base.png" width="300" height="300" /></td>
+  </tr>
+</table>
 
 </div>
 </div>

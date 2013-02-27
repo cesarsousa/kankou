@@ -48,7 +48,7 @@ body {
 }
 
 .cardFlagPgs {
-	width: 1000px; 
+	width: 800px; 
 	text-align: left; 
 	padding: 30px;
 	border: 4px solid #000000;  
@@ -59,8 +59,12 @@ body {
 	background-color: #FFFFFF;	
 }
 
-img {
+.imgSombra {
 	box-shadow: 2px 2px 2px #8B8484;
+}
+
+.txtSombra {
+	text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 table#tabFlags p {
@@ -94,5 +98,13 @@ table#tabFlags tr td {
 	height: 100px;
 	background-color: #cccccc;
 	padding: 0;
+}
+
+.letraGrande {
+	font-size: xx-large; font-weight: bold;
+}
+
+.letraNormal {
+	font-size: large; font-weight: normal;
 }
 
