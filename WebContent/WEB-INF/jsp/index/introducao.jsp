@@ -50,7 +50,7 @@
 <table width="100%" border="0">
   <tr>
     <td width="20%"><img src="${imagem}/imagemIntro_topo.png" width="300" height="300" /></td>
-    <td width="80%" rowspan="2" valign="top" align="justify">
+    <td width="80%" rowspan="2"  align="justify">
     	<p>
     	<span class="letraGrande">${BTextoIntroducaoUpper1}</span>
 		<span class="letraNormal">${BTextoIntroducaoLower1}</span>
@@ -59,6 +59,11 @@
     	<span class="letraGrande">${BTextoIntroducaoUpper2}</span>
 		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
 		<p>
+		
+		<p>
+		<input >
+		</p>
+		
     </td>
   </tr>
   <tr>

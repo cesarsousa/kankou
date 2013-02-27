@@ -79,6 +79,7 @@ table#tabFlags p {
 
 table#tabFlags tr td {
 	padding: 10px;
+	cursor: pointer;
 }
 
 .colapsed {
@@ -101,10 +102,10 @@ table#tabFlags tr td {
 }
 
 .letraGrande {
-	font-size: xx-large; font-weight: bold;
+	font-size: xx-large; font-weight: bold; color: #4F4F4F; text-shadow: #1C1C1C 0.1em 0.1em 0.2em;
 }
 
 .letraNormal {
-	font-size: large; font-weight: normal;
+	font-size: large; font-weight: normal; color: #1C1C1C;
 }
 
