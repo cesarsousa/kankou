@@ -17,23 +17,23 @@
 	<td align="right" style="width: 100%;">
 	<div style="padding: 10px;">		
 		<a href="<c:url value="/index/locale/BR"></c:url>">
-		<img alt="português" title="português" src="${imagem}/flagBrasil.jpg" width="50px" height="35px">
+		<img alt="português" title="português" src="${imagem}/iconeFlagBR.png" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/US"></c:url>">
-		<img alt="english" title="english" src="${imagem}/flagUSA.jpg" width="50px" height="35px">
+		<img alt="english" title="english" src="${imagem}/iconeFlagUS.png" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/CN"></c:url>">
-		<img alt="普通话" title="普通话" src="${imagem}/flagChina.jpg" width="50px" height="35px">
+		<img alt="普通话" title="普通话" src="${imagem}/iconeFlagCN.png" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/ES"></c:url>">
-		<img alt="español" title="español" src="${imagem}/flagEspanha.jpg" width="50px" height="35px">
+		<img alt="español" title="español" src="${imagem}/iconeFlagES.png" width="50px" height="35px">
 		</a>
 		
 		<a href="<c:url value="/index/locale/FR"></c:url>">
-		<img alt="français" title="français" src="${imagem}/flagFranca.jpg" width="50px" height="35px">
+		<img alt="français" title="français" src="${imagem}/iconeFlagFR.png" width="50px" height="35px">
 		</a>	
 	</div>
 	</td>
@@ -49,8 +49,8 @@
 
 <table width="100%" border="0">
   <tr>
-    <td width="20%"><img src="${imagem}/imagemIntro_topo.png" width="300" height="300" /></td>
-    <td width="80%" rowspan="2"  align="justify">
+    <td width="10%" valign="top"><img src="${imagem}/imagemIntro_topo.png" width="200" height="300" /></td>
+    <td width="90%" rowspan="2"  align="justify">
     	<p>
     	<span class="letraGrande">${BTextoIntroducaoUpper1}</span>
 		<span class="letraNormal">${BTextoIntroducaoLower1}</span>
@@ -60,14 +60,13 @@
 		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
 		<p>
 		
-		<p>
-		<input >
-		</p>
+		
+		<div id="btRealizarExame" class="degradeAzul setDefault destacar" >${BTxtBtRealizarExame}</div>			
 		
     </td>
   </tr>
   <tr>
-    <td><img src="${imagem}/imagemIntro_base.png" width="300" height="300" /></td>
+    <td valign="bottom"><img src="${imagem}/imagemIntro_base.png" width="200" height="300" /></td>
   </tr>
 </table>
 

@@ -42,6 +42,7 @@ public class IndexController {
 		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
 		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
 		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
+		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));
 		
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		
