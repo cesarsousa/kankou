@@ -30,6 +30,12 @@ body {
 
 a {
 	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#linkein:hover{
+	text-decoration: none;
+	color: #CCCCCC;
 }
 
 .introFotoTopo {
