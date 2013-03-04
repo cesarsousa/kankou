@@ -15,7 +15,7 @@
 <table style="width: 100%; border-collapse: collapse;">
 	<tr>
 	<td align="right" style="width: 100%;">
-	<div style="padding: 10px;">		
+	<div style="padding: 10px;">
 		<a href="<c:url value="/index/locale/BR"></c:url>">
 		<img alt="português" title="português" src="${imagem}/iconeFlagBR.png" width="50px" height="35px">
 		</a>
@@ -59,8 +59,8 @@
     	<span class="letraGrande">${BTextoIntroducaoUpper2}</span>
 		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
 		<p>
-		
-		
+				
+		<form id="formRealizarExame" action="<c:url value="" />" method="get"></form>
 		<div id="btRealizarExame" class="degradeAzul setDefault destacar" >${BTxtBtRealizarExame}</div>			
 		
     </td>

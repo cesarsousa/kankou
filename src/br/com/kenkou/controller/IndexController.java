@@ -29,24 +29,10 @@ public class IndexController {
 		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
-		result.include("BTextoRodape", rb.getString("BTextoRodape"));		
-	}
-	
-	public void introducao(){	
-		
-		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
-		
-		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
-		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
-		result.include("BTextoIntroducaoUpper1", rb.getString("BTextoIntroducaoUpper1"));
-		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
-		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
-		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
-		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));
-		
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		
-	}
+		
+	}	
 	
 	@Get("/index/locale/BR")
 	public void setLocalizacaoBrasil(String locale){
@@ -76,5 +62,21 @@ public class IndexController {
 	public void setLocalizacaoEspanha(String locale){
 		sessao.setLocale(new Locale("es", "ES"));		
 		result.redirectTo(this).introducao();
+	}
+	
+	public void introducao(){	
+		
+		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
+		
+		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
+		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
+		result.include("BTextoIntroducaoUpper1", rb.getString("BTextoIntroducaoUpper1"));
+		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
+		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
+		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
+		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));
+		
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		
 	}
 }

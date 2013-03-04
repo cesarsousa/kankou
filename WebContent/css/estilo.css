@@ -33,6 +33,10 @@ a {
 	color: #FFFFFF;
 }
 
+.texturaHeader {
+	background: url("../image/texturaCinzaCabecalho.jpg");
+}
+
 #linkein:hover{
 	text-decoration: none;
 	color: #CCCCCC;
