@@ -12,6 +12,7 @@ import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.com.kenkou.component.Sessao;
+import br.com.kenkou.model.JspRequest;
 
 @Resource
 public class IndexController {
@@ -31,52 +32,83 @@ public class IndexController {
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		
+		sessao.setJspRequest(JspRequest.INTRODUCAO);
 		
 	}	
 	
-	@Get("/index/locale/BR")
-	public void setLocalizacaoBrasil(String locale){
+	@Get("/index/locale/BR/{jspRequest}")
+	public void setLocalizacaoBrasil(String jspRequest){
 		sessao.setLocale(new Locale("pt", "BR"));
-		result.redirectTo(this).introducao();
+		redirect(jspRequest);
 	}
 	
-	@Get("/index/locale/US")
-	public void setLocalizacaoUSA(String locale){
+	@Get("/index/locale/US/{jspRequest}")
+	public void setLocalizacaoUSA(String jspRequest){
 		sessao.setLocale(new Locale("en", "US"));
-		result.redirectTo(this).introducao();
+		redirect(jspRequest);
 	}
 	
-	@Get("/index/locale/CN")
-	public void setLocalizacaoChina(String locale){
+	@Get("/index/locale/CN/{jspRequest}")
+	public void setLocalizacaoChina(String jspRequest){
 		sessao.setLocale(new Locale("zh", "CN"));		
-		result.redirectTo(this).introducao();
+		redirect(jspRequest);
 	}
 	
-	@Get("/index/locale/FR")
-	public void setLocalizacaoFranca(String locale){
+	@Get("/index/locale/FR/{jspRequest}")
+	public void setLocalizacaoFranca(String jspRequest){
 		sessao.setLocale(new Locale("fr", "FR"));		
-		result.redirectTo(this).introducao();
+		redirect(jspRequest);
 	}
 	
-	@Get("/index/locale/ES")
-	public void setLocalizacaoEspanha(String locale){
+	@Get("/index/locale/ES/{jspRequest}")
+	public void setLocalizacaoEspanha(String jspRequest){
 		sessao.setLocale(new Locale("es", "ES"));		
-		result.redirectTo(this).introducao();
+		redirect(jspRequest);
 	}
 	
-	public void introducao(){	
-		
+	@Get("/realizarExame")
+	public void realizarExame(){		
+		sessao.setJspRequest(JspRequest.EXAME);
+		redirect(JspRequest.EXAME);
+	}
+	
+	private void redirect(String jspRequest) {
+		if(JspRequest.INTRODUCAO.equals(jspRequest))
+			result.redirectTo(this).introducao();
+		else if(JspRequest.EXAME.equals(jspRequest))
+			result.redirectTo(this).exame();
+		else		
+			result.redirectTo(this).index();		
+	}
+	
+	public void exame(){
 		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
-		
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		
+		result.include("BIconeHome", rb.getString("BIconeHome"));
+		result.include("BExameTxt1", rb.getString("BExameTxt1"));
+		result.include("BExameTxt2", rb.getString("BExameTxt2"));
+		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
+		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));		
+	}
+	
+	
+	@Get("/home")
+	public void introducao(){
+		
+		sessao.setJspRequest(JspRequest.INTRODUCAO);
+		
+		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());		
+		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
+		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		
 		result.include("BTextoIntroducaoUpper1", rb.getString("BTextoIntroducaoUpper1"));
 		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
 		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
 		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
-		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));
-		
-		result.include("BTextoRodape", rb.getString("BTextoRodape"));
-		
+		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));	
 	}
 }

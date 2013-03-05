@@ -1,8 +1,8 @@
 
 $(document).ready(function() {	
 	
-	/*$('#btRealizarExame').click(function(){
-    	$('#').submit();
-    });*/
+	$('#btRealizarExame').click(function(){
+    	$('#formRealizarExame').submit();
+    });
    
 });

@@ -9,3 +9,4 @@
 <script type="text/javascript" src="${javascript}/jquery.infinitecarousel3.js"></script> --%>
 
 <script type="text/javascript" src="${javascript}/index.js"></script>
+<script type="text/javascript" src="${javascript}/introducao.js"></script>

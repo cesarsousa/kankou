@@ -14,11 +14,13 @@
 
 <%@ include file="/header.jsp" %>
 
-<form id="formLocaleBR" action="<c:url value="/index/locale/BR"></c:url>" method="get"></form>
-<form id="formLocaleCN" action="<c:url value="/index/locale/CN"></c:url>" method="get"></form>
-<form id="formLocaleUS" action="<c:url value="/index/locale/US"></c:url>" method="get"></form>
-<form id="formLocaleFR" action="<c:url value="/index/locale/FR"></c:url>" method="get"></form>
-<form id="formLocaleES" action="<c:url value="/index/locale/ES"></c:url>" method="get"></form>
+<form id="formLocaleBR" action="<c:url value="/index/locale/BR/${sessao.jspRequest}"></c:url>" method="get"></form>
+<form id="formLocaleCN" action="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>" method="get"></form>
+<form id="formLocaleUS" action="<c:url value="/index/locale/US/${sessao.jspRequest}"></c:url>" method="get"></form>
+<form id="formLocaleFR" action="<c:url value="/index/locale/FR/${sessao.jspRequest}"></c:url>" method="get"></form>
+<form id="formLocaleES" action="<c:url value="/index/locale/ES/${sessao.jspRequest}"></c:url>" method="get"></form>
+
+
 
 <div align="center">
 <div class="cardFlag">

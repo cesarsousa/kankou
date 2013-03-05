@@ -45,25 +45,41 @@
 <%@ include file="/header.jsp" %>
 
 <div align="center">
-<div class="cardFlagPgs">
 
+<div class="cardFlagPgs">
 
 <table width="100%" border="0">
   <tr>
     <td width="10%" valign="top"><img src="${imagem}/imagemIntro_topo.png" width="200" height="300" /></td>
     <td width="90%" rowspan="2"  align="justify">
+    	
+    	<div align="center" style="vertical-align: top;">
+    	<a href="<c:url value="/home" />">
+		<img alt="${BIconeHome}" title="${BIconeHome}" src="${imagem}/iconeHome.png" class="iconeMenu">
+		</a>
+    	</div>
+    	
+    	
     	<p>
-    	<span class="letraGrande">${BTextoIntroducaoUpper1}</span>
-		<span class="letraNormal">${BTextoIntroducaoLower1}</span>
+		<span class="letraGrande">${BExameTxt1}</span>
 		<p>
 		<p>
-    	<span class="letraGrande">${BTextoIntroducaoUpper2}</span>
-		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
+		<div id="" class="degradeVermelha setDefault destacar" >${BExameTxt2}</div>	
 		<p>
-				
-		<form id="formRealizarExame" action="<c:url value="/realizarExame" />" method="get"></form>
-		<div id="btRealizarExame" class="degradeAzul setDefault destacar" >${BTxtBtRealizarExame}</div>			
 		
+		<p>
+		<span class="letraNormal">Adicionar algumas fotos do ppt aki</span>
+		</p>
+		
+		<div class="quadroMenu">
+		<p>
+		<span class="letraMedia">${BQuadroMenuTxt1}</span>
+		</p>
+		<p>
+		<span class="letraNormal">${BQuadroMenuTxt2}</span>
+		</p>
+		</div>
+				
     </td>
   </tr>
   <tr>

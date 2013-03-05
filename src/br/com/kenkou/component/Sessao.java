@@ -5,6 +5,7 @@ import java.util.Locale;
 
 import br.com.caelum.vraptor.ioc.Component;
 import br.com.caelum.vraptor.ioc.SessionScoped;
+import br.com.kenkou.model.JspRequest;
 
 @Component
 @SessionScoped
