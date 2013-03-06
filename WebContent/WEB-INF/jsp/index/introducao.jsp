@@ -62,7 +62,9 @@
 		<p>
 				
 		<form id="formRealizarExame" action="<c:url value="/realizarExame" />" method="get"></form>
+		<div align="center">
 		<div id="btRealizarExame" class="degradeAzul setDefault destacar" >${BTxtBtRealizarExame}</div>			
+		</div>
 		
     </td>
   </tr>

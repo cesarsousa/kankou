@@ -32,8 +32,7 @@ public class IndexController {
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		
-		sessao.setJspRequest(JspRequest.INTRODUCAO);
-		
+		sessao.setJspRequest(JspRequest.INTRODUCAO);		
 	}	
 	
 	@Get("/index/locale/BR/{jspRequest}")
@@ -68,7 +67,6 @@ public class IndexController {
 	
 	@Get("/realizarExame")
 	public void realizarExame(){		
-		sessao.setJspRequest(JspRequest.EXAME);
 		redirect(JspRequest.EXAME);
 	}
 	
@@ -82,6 +80,9 @@ public class IndexController {
 	}
 	
 	public void exame(){
+		
+		sessao.setJspRequest(JspRequest.EXAME);
+		
 		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));

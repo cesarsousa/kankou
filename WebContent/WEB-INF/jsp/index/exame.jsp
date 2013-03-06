@@ -63,21 +63,22 @@
     	<p>
 		<span class="letraGrande">${BExameTxt1}</span>
 		<p>
-		<p>
+		
+		<div align="center">
 		<div id="" class="degradeVermelha setDefault destacar" >${BExameTxt2}</div>	
-		<p>
+		</div>
 		
 		<p>
 		<span class="letraNormal">Adicionar algumas fotos do ppt aki</span>
 		</p>
 		
 		<div class="quadroMenu">
-		<p>
-		<span class="letraMedia">${BQuadroMenuTxt1}</span>
-		</p>
-		<p>
-		<span class="letraNormal">${BQuadroMenuTxt2}</span>
-		</p>
+			<p>
+			<span class="letraMedia">${BQuadroMenuTxt1}</span>
+			</p>
+			<p>
+			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			</p>
 		</div>
 				
     </td>
