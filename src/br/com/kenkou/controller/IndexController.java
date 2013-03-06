@@ -13,6 +13,7 @@ import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.com.kenkou.component.Sessao;
 import br.com.kenkou.model.JspRequest;
+import br.com.kenkou.model.VariacaoLesao;
 
 @Resource
 public class IndexController {
@@ -79,23 +80,6 @@ public class IndexController {
 			result.redirectTo(this).index();		
 	}
 	
-	public void exame(){
-		
-		sessao.setJspRequest(JspRequest.EXAME);
-		
-		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
-		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
-		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
-		result.include("BTextoRodape", rb.getString("BTextoRodape"));
-		
-		result.include("BIconeHome", rb.getString("BIconeHome"));
-		result.include("BExameTxt1", rb.getString("BExameTxt1"));
-		result.include("BExameTxt2", rb.getString("BExameTxt2"));
-		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
-		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));		
-	}
-	
-	
 	@Get("/home")
 	public void introducao(){
 		
@@ -112,4 +96,41 @@ public class IndexController {
 		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
 		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));	
 	}
+	
+	public void exame(){
+		
+		sessao.setJspRequest(JspRequest.EXAME);
+		
+		ResourceBundle rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
+		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
+		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		
+		result.include("BIconeHome", rb.getString("BIconeHome"));
+		result.include("BExameTxt1", rb.getString("BExameTxt1"));
+		result.include("BExameTxt2", rb.getString("BExameTxt2"));
+		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
+		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));	
+		
+		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));
+		result.include("BQuadrMenuBt2", rb.getString("BQuadrMenuBt2"));
+		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
+		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
+		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
+	}
+	
+	@Get("/consultar")
+	public void consultarVariacaoOuLesao(VariacaoLesao variacaoLesao){
+		switch (variacaoLesao) {
+		case VARIACAO_ANATOMICA:
+			
+			break;
+
+		default:
+			break;
+		}
+	}
+	
+	
+	
 }

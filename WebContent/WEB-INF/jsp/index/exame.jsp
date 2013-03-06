@@ -50,8 +50,8 @@
 
 <table width="100%" border="0">
   <tr>
-    <td width="10%" valign="top"><img src="${imagem}/imagemIntro_topo.png" width="200" height="300" /></td>
-    <td width="90%" rowspan="2"  align="justify">
+    <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
+    <td width="95%" rowspan="2"  align="justify">
     	
     	<div align="center" style="vertical-align: top;">
     	<a href="<c:url value="/home" />">
@@ -79,12 +79,27 @@
 			<p>
 			<span class="letraNormal">${BQuadroMenuTxt2}</span>
 			</p>
+			
+			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
+				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
+			</form>
+			
+			<table class="tabQuadroMenu">
+				<tr>
+				<td id="divVariacaoAnatomica" width="20%" class="degradeVerde menuTabela letraNormal">${BQuadrMenuBt1}</td>
+				<td id="divLesaoComum" width="20%" class="degradeAmarelo menuTabela letraNormal">${BQuadrMenuBt2}</td>
+				<td id="divLesaoBenigna" width="20%" class="degradeLaranja menuTabela letraNormal">${BQuadrMenuBt3}</td>
+				<td id="divLesaoPremaligna" width="20%" class="degradePele menuTabela letraNormal">${BQuadrMenuBt4}</td>
+				<td id="divLesaoMaligna" width="20%" class="degradeVermelha menuTabela letraNormal">${BQuadrMenuBt5}</td>
+				</tr>
+			</table>
+			
 		</div>
 				
     </td>
   </tr>
   <tr>
-    <td valign="bottom"><img src="${imagem}/imagemIntro_base.png" width="200" height="300" /></td>
+    <td valign="bottom"><img src="${imagem}/imagemIntro_base.png" class="imgFundoTab" /></td>
   </tr>
 </table>
 
