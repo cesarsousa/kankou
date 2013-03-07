@@ -1,8 +1,8 @@
 package br.com.kenkou.model;
 
-public class JspRequest {
+public enum JspRequest {
 	
-	public static final String INTRODUCAO = "introducao";
-	public static final String EXAME = "exame";
+	INTRODUCAO, EXAME, VARIACAO_ANATOMICA, LESAO_COMUM, LESAO_BENIGNA, LESAO_PREMALIGNA, LESAO_MALIGNA;
+	
 
 }

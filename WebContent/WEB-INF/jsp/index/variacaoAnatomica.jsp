@@ -53,12 +53,23 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">
     	
-    	<div align="center" style="vertical-align: top;">
-    	<a href="<c:url value="/home" />">
+    	<div align="center">
+    	
+    	
+		${BQuadrMenuBt1}
+		
+		<a href="<c:url value="/home" />">
 		<img alt="${BIconeHome}" title="${BIconeHome}" src="${imagem}/iconeHome.png" class="iconeMenu">
 		</a>
-    	</div>
+		
+		<a href="<c:url value="/exame" />">
+		<img alt="${BIconeExame}" title="${BIconeExame}" src="${imagem}/iconeExame.png" class="iconeMenu">
+		</a>		
+		
     	
+
+    	<%-- 
+    	</div>
     	
     	<p>
 		<span class="letraGrande">${BExameTxt1}</span>
@@ -86,13 +97,13 @@
 			
 			<table class="tabQuadroMenu">
 				<tr>
-				<td id="divVARIACAO_ANATOMICA" width="20%" class="degradeVerde menuTabela letraNormal">${BQuadrMenuBt1}</td>
-				<td id="divLESAO_COMUM" width="20%" class="degradeAmarelo menuTabela letraNormal">${BQuadrMenuBt2}</td>
-				<td id="divLESAO_BENIGNA" width="20%" class="degradeLaranja menuTabela letraNormal">${BQuadrMenuBt3}</td>
-				<td id="divLESAO_PREMALIGNA" width="20%" class="degradePele menuTabela letraNormal">${BQuadrMenuBt4}</td>
-				<td id="divLESAO_MALIGNA" width="20%" class="degradeVermelha menuTabela letraNormal">${BQuadrMenuBt5}</td>
+				<td id="divVariacaoAnatomica" width="20%" class="degradeVerde menuTabela letraNormal">${BQuadrMenuBt1}</td>
+				<td id="divLesaoComum" width="20%" class="degradeAmarelo menuTabela letraNormal">${BQuadrMenuBt2}</td>
+				<td id="divLesaoBenigna" width="20%" class="degradeLaranja menuTabela letraNormal">${BQuadrMenuBt3}</td>
+				<td id="divLesaoPremaligna" width="20%" class="degradePele menuTabela letraNormal">${BQuadrMenuBt4}</td>
+				<td id="divLesaoMaligna" width="20%" class="degradeVermelha menuTabela letraNormal">${BQuadrMenuBt5}</td>
 				</tr>
-			</table>
+			</table> --%>
 			
 		</div>
 				

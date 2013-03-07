@@ -10,3 +10,4 @@
 
 <script type="text/javascript" src="${javascript}/index.js"></script>
 <script type="text/javascript" src="${javascript}/introducao.js"></script>
+<script type="text/javascript" src="${javascript}/exame.js"></script>

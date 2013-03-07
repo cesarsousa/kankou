@@ -1,9 +1,15 @@
 @CHARSET "UTF-8";
 
 /* INICIO dos estilos para fixar o rodape */
-html, body, #wrap {height: 100%;}
+html, body, #wrap {
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
  
-body > #wrap {height: auto; min-height: 100%;}
+body > #wrap {
+	height: auto;
+	min-height: 100%;	
+}
  
 #main {overflow:auto;
 	padding-bottom: 60px;}  /* deve ter a mesma altura do rodapé */
@@ -24,9 +30,9 @@ body:before {
 }
 /* FIM dos estilos para fixar o rodape */
 
-body {
+/* body {
 	background: url("../image/texturaCinza.jpg");
-}
+} */
 
 a {
 	text-decoration: none;
@@ -59,6 +65,13 @@ a {
 	vertical-align: middle;"
 }
 
+#styleHeaderFooter {
+	width: 100%;
+	padding: 20px;
+	/* background: url("../image/texturaCinzaCabecalho.jpg"); */
+	background: #CCCCCC;
+}
+
 .cardFlag {
 	width: 700px; 
 	text-align: left; 
@@ -75,7 +88,7 @@ a {
 	width: 800px; 
 	text-align: left; 
 	padding: 20px;
-	border: 4px solid #000000;  
+	border: 0px solid #CCCCCC;  
 	border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;

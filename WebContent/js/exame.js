@@ -1,25 +1,12 @@
 
 $(document).ready(function() {	
 	
-	$('#divVariacaoAnatomica').click(function(){
-		$('#inputVariacaoLesao').attr('value', 'VARIACAO_ANATOMICA');		
+	$('#divVARIACAO_ANATOMICA, #divLESAO_COMUM ,#divLESAO_BENIGNA ,#divLESAO_MALIGNA ,#divLESAO_PREMALIGNA').click(function(){
+		var idOrigem = this.id;
+		var origem = idOrigem.replace("div","");		
+		$('#inputVariacaoLesao').attr('value', origem);		
     	$('#formVariacaoLesao').submit();
     });
 	
-	/*$('#localeUS').click(function(){
-    	$('#formLocaleUS').submit();
-    });
 	
-	$('#localeCN').click(function(){
-    	$('#formLocaleCN').submit();
-    });
-	
-	$('#localeFR').click(function(){
-    	$('#formLocaleFR').submit();
-    });
-	
-	$('#localeES').click(function(){
-    	$('#formLocaleES').submit();
-    });*/
-   
 });

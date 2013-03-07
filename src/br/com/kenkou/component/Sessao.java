@@ -14,7 +14,7 @@ public class Sessao implements Serializable {
 	private static final long serialVersionUID = 7326185191399101513L;
 	
 	private Locale locale;
-	private String jspRequest;
+	private JspRequest jspRequest;
 	
 	public Locale getLocale() {
 		return locale == null ? Locale.getDefault() : locale ;
@@ -24,11 +24,11 @@ public class Sessao implements Serializable {
 		this.locale = locale;
 	}
 	
-	public String getJspRequest() {
+	public JspRequest getJspRequest() {
 		return jspRequest;
 	}
 	
-	public void setJspRequest(String jspRequest) {
+	public void setJspRequest(JspRequest jspRequest) {
 		this.jspRequest = jspRequest;
 	}
 
