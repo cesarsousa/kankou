@@ -9,10 +9,11 @@
 
 </head>
 <body>
-<div id="wrap">
+<div id="wrap" class="fundoIndex">
 <div id="main">
+ 
+<div style="height: 50px;"></div>
 
-<%@ include file="/header.jsp" %>
 
 <form id="formLocaleBR" action="<c:url value="/index/locale/BR/${sessao.jspRequest}"></c:url>" method="get"></form>
 <form id="formLocaleCN" action="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>" method="get"></form>
@@ -81,6 +82,7 @@
 </div>
 
 </div> <!-- main -->
+<div style="height: 50px;"></div>
 </div> <!-- wrap -->
 
 <div id="footer">
