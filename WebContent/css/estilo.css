@@ -99,15 +99,20 @@ a {
 	text-align: left; 
 	padding: 20px;
 	border: 0px solid #CCCCCC;  
-	border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 1px 1px 1px 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
 /* 	box-shadow: 2px 2px 2px #CCCCCC; */
 	background-color: #FFFFFF;	
 }
 
 .imgSombra {
 	box-shadow: 2px 2px 2px #8B8484;
+}
+
+.iconeLogo{
+	width: 60px;
+	height: 70px;
 }
 
 .txtSombra {
@@ -158,19 +163,28 @@ table#tabFlags tr td {
 	width: 200px;
 	height: 300px;
 }
-		
+
+.tdFlagLocale{
+	align: right;
+	vertical-align: middle;
+	width: 200px;
+	border-left: 1px solid #E8E8E8;
+	
+	
+}
+
 .letraGrande {
 	font-size: xx-large; 
 	font-weight: bold; 
 	color: #4F4F4F; 
-	text-shadow: #1C1C1C 0.1em 0.1em 0.2em;
+	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
 .letraMedia{
 	font-size: x-large; 
 	font-weight: bold; 
 	color: #4F4F4F; 
-	text-shadow: #1C1C1C 0.1em 0.1em 0.2em;
+	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
 .letraNormal {
@@ -324,6 +338,12 @@ table#tabFlags tr td {
 	cursor: pointer;
 	width: 70px;
 	height: 70px;	
+}
+
+.iconeLocale {
+	width: 30px;
+	height: 20px;
+	border: 1px solid #000000;
 }
 
 .iconeMenu:hover{	
