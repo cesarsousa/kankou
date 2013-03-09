@@ -39,3 +39,11 @@
 
 </div>
 </div>
+<div id="styleHeaderFooter" class="fundoIndex" align="center">
+<div id="subMenu">
+<ul>
+<li><a href="<c:url value="/home" />" >${BSubMenuIntro}</a></li>
+<li><a href="<c:url value="/realizarExame" />" >${BSubMenuExame}</a></li>
+</ul>
+</div>
+</div>

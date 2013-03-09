@@ -21,21 +21,12 @@
 <table width="100%" border="0">
   <tr>
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
-    <td width="95%" rowspan="2"  align="justify">
+    <td width="95%" rowspan="2"  align="justify">   	
     	
-    	<div align="center" style="vertical-align: top;">
-    	<a href="<c:url value="/home" />">
-		<img alt="${BIconeHome}" title="${BIconeHome}" src="${imagem}/iconeHome.png" class="iconeMenu">
-		</a>
-    	</div>
-    	
-    	
-    	<p>
-		<span class="letraGrande">${BExameTxt1}</span>
-		<p>
+    	${BTextoExame}
 		
 		<div align="center">
-		<div id="" class="degradeVermelha setDefault destacar" >${BExameTxt2}</div>	
+		<div id="" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</div>	
 		</div>
 		
 		<p>

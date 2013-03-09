@@ -28,7 +28,10 @@ public class IndexController {
 		rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
 		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
-		result.include("BTextoRodape", rb.getString("BTextoRodape"));		
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		
+		result.include("BSubMenuIntro", rb.getString("BSubMenuIntro"));
+		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));		
 	}
 
 	@Path("/")
@@ -103,12 +106,12 @@ public class IndexController {
 	@Get("/home")
 	public void introducao(){
 		
-		sessao.setJspRequest(JspRequest.INTRODUCAO);		
+		sessao.setJspRequest(JspRequest.INTRODUCAO);
 		
-		result.include("BTextoIntroducaoUpper1", rb.getString("BTextoIntroducaoUpper1"));
-		result.include("BTextoIntroducaoLower1", rb.getString("BTextoIntroducaoLower1"));
-		result.include("BTextoIntroducaoUpper2", rb.getString("BTextoIntroducaoUpper2"));
-		result.include("BTextoIntroducaoLower2", rb.getString("BTextoIntroducaoLower2"));
+		initResourceBundle();
+		
+		result.include("BTextoIntroducao", rb.getString("BTextoIntroducao"));	
+		
 		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));	
 	}
 	
@@ -117,9 +120,11 @@ public class IndexController {
 		
 		sessao.setJspRequest(JspRequest.EXAME);
 						
-		result.include("BIconeHome", rb.getString("BIconeHome"));
-		result.include("BExameTxt1", rb.getString("BExameTxt1"));
-		result.include("BExameTxt2", rb.getString("BExameTxt2"));
+		initResourceBundle();
+		
+		result.include("BTextoExame", rb.getString("BTextoExame"));	
+		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
+		
 		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
 		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));	
 		

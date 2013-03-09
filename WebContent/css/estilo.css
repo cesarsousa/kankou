@@ -40,7 +40,7 @@ body:before {
 
 a {
 	text-decoration: none;
-	color: #FFFFFF;
+	
 }
 
 .texturaHeader {
@@ -75,11 +75,43 @@ a {
 
 #styleHeaderFooter {
 	width: 100%;
-	padding: 20px;
+	padding: 10px;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 	/* background: url("../image/texturaCinzaCabecalho.jpg"); */
 	/* background: #CCCCCC; */
+}
+
+#subMenu {
+	width: 800px;
+	text-align: center;
+}
+
+#subMenu li {
+	list-style: none;
+	display: inline;
+	width: 50%;
+	text-align: center;
+	padding: 10px;
+}
+
+#subMenu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+#subMenu a:hover {
+	text-decoration: none;
+	color: #FF8C00;
+}
+
+#downloadRoteiroExame{
+	color: #FF8C00;
+	font-size: large;
+	font-weight: bold;
+	
+	
 }
 
 .cardFlag {
@@ -174,21 +206,21 @@ table#tabFlags tr td {
 }
 
 .letraGrande {
-	font-size: xx-large; 
-	font-weight: bold; 
+	font-size: large; 
+	font-weight: bold;
+	font-style: italic; 
 	color: #4F4F4F; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
 .letraMedia{
-	font-size: x-large; 
+	font-size: medium; 
 	font-weight: bold; 
 	color: #4F4F4F; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
-.letraNormal {
-	font-size: large; 
+.letraNormal {	 
 	font-weight: normal; 
 	color: #1C1C1C;	
 }
@@ -367,7 +399,5 @@ table#tabFlags tr td {
 	box-shadow: 2px 2px 2px #8B8484;
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 10px;
-		
+	padding-bottom: 10px;		
 }
-

@@ -21,14 +21,8 @@
   <tr>
     <td width="10%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab"/></td>
     <td width="90%" rowspan="2"  align="justify">
-    	<p>
-    	<span class="letraGrande">${BTextoIntroducaoUpper1}</span>
-		<span class="letraNormal">${BTextoIntroducaoLower1}</span>
-		<p>
-		<p>
-    	<span class="letraGrande">${BTextoIntroducaoUpper2}</span>
-		<span class="letraNormal">${BTextoIntroducaoLower2}</span>
-		<p>
+    
+    	${BTextoIntroducao}
 				
 		<form id="formRealizarExame" action="<c:url value="/realizarExame" />" method="get"></form>
 		<div align="center">
