@@ -124,6 +124,7 @@ public class IndexController {
 		
 		result.include("BTextoExame", rb.getString("BTextoExame"));	
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
+		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));	
 		
 		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
 		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));	

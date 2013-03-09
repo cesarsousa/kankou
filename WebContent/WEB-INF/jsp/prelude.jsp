@@ -5,4 +5,5 @@
 <c:set var="javascript" value="${pageContext.request.contextPath}/js" scope="request"/>
 <c:set var="css" value="${pageContext.request.contextPath}/css" scope="request"/>
 <c:set var="imagem" value="${pageContext.request.contextPath}/image" scope="request"/>
+<c:set var="imagemGeral" value="${pageContext.request.contextPath}/imagensgerais" scope="request"/>
 <c:set var="contexto" value="${pageContext.request.contextPath}" scope="request" />

@@ -33,6 +33,22 @@
 		<span class="letraNormal">Adicionar algumas fotos do ppt aki</span>
 		</p>
 		
+		<div align="center">
+		<div id="divLabelFonteExame" style="width: 90%; border: 1px solid #CCCCCC; padding: 10px;"> 
+			<span class="labelFonteImagem">${BTextoFonteFotoExame} ‘A digital manual for the early diagnosis of oral neoplasia’.</span>
+			
+			<div id="divImagSiteFonteExame">
+				<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
+				<img width="400px" height="200px" 
+					alt="A digital manual for the early diagnosis of oral neoplasia" 
+					title="A digital manual for the early diagnosis of oral neoplasia" 
+					src="${imagem}/siteFonteExame.png">
+				</a>
+			</div>		
+		</div>
+		</div>		
+		<br/>		
+		
 		<div class="quadroMenu">
 			<p>
 			<span class="letraMedia">${BQuadroMenuTxt1}</span>

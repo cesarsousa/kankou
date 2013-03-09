@@ -66,6 +66,24 @@ a {
 	background-repeat: no-repeat;
 }
 
+.linkDefault {
+	color: #4682B4;
+}
+.linkDefault:hover {
+	color: #4682B4;
+	font-style: italic;
+}
+
+.labelFonteImagem{
+	font-size: small;
+	padding: 5px;
+	color: #4682B4;
+}
+
+.siteFonte{
+	font-size: small;	
+}
+
 #rodape {
 	width: 100%;
 	height: 90px; 
