@@ -29,24 +29,78 @@
 		<div id="" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</div>	
 		</div>
 		
-		<p>
-		<span class="letraNormal">Adicionar algumas fotos do ppt aki</span>
-		</p>
+		<br/>
 		
-		<div align="center">
-		<div id="divLabelFonteExame" style="width: 90%; border: 1px solid #CCCCCC; padding: 10px;"> 
-			<span class="labelFonteImagem">${BTextoFonteFotoExame} ‘A digital manual for the early diagnosis of oral neoplasia’.</span>
+		<table class="tabPrettyPhoto">
+			<tr>
+			<td>
+			<a href="${imagemGeral}/exame1.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame1.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame2.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame2.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame3.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame3.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame4.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame4.JPG" width="100" height="100">
+			</a>
+			</td>
+			</tr>
 			
-			<div id="divImagSiteFonteExame">
-				<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
-				<img width="400px" height="200px" 
-					alt="A digital manual for the early diagnosis of oral neoplasia" 
-					title="A digital manual for the early diagnosis of oral neoplasia" 
-					src="${imagem}/siteFonteExame.png">
-				</a>
-			</div>		
-		</div>
-		</div>		
+			<tr>	
+			<td>
+			<a href="${imagemGeral}/exame5.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame5.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame6.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame6.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame7.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame7.JPG" width="100" height="100">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/exame8.JPG" rel="prettyPhoto[galeria1]" title="titlelink">
+				<img  alt="altimg" src="${imagemGeral}/exame8.JPG" width="100" height="100">
+			</a>
+			</td>
+			</tr>
+			<tfoot>
+			<tr>
+			<td colspan="4">
+			<div align="center">
+			<div id="divLabelFonteExame"> 
+				<span class="labelFonteImagem">${BTextoFonteFotoExame} ‘A digital manual for the early diagnosis of oral neoplasia’.</span>
+				
+				<div id="divImagSiteFonteExame" style="padding: 10px;">
+					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
+					<img width="400px" height="200px" 
+						alt="A digital manual for the early diagnosis of oral neoplasia" 
+						title="A digital manual for the early diagnosis of oral neoplasia" 
+						src="${imagem}/siteFonteExame.png">
+					</a>
+				</div>		
+			</div>
+			</div>
+			</td>
+			</tr>
+			</tfoot>
+		</table>
+		
+		
+		
 		<br/>		
 		
 		<div class="quadroMenu">

@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 	
-	 $('#divImagSiteFonteExame').hide();
+	$('#divImagSiteFonteExame').hide();
 	$("#divLabelFonteExame").hover(function(){
         $('#divImagSiteFonteExame').slideDown(500);
     },
@@ -16,7 +16,6 @@ $(document).ready(function() {
     	$('#formVariacaoLesao').submit();
     });
 	
-	
-	
+	$("a[rel^='prettyPhoto']").prettyPhoto();	
 	
 });

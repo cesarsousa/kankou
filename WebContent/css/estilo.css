@@ -39,8 +39,7 @@ body:before {
 }
 
 a {
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 
 .texturaHeader {
@@ -98,6 +97,13 @@ a {
 	border-bottom: 1px solid #CCCCCC;
 	/* background: url("../image/texturaCinzaCabecalho.jpg"); */
 	/* background: #CCCCCC; */
+}
+
+.tabPrettyPhoto{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #CCCCCC;
 }
 
 #subMenu {
