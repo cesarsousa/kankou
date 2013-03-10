@@ -82,7 +82,7 @@
 			<td colspan="4">
 			<div align="center">
 			<div id="divLabelFonteExame"> 
-				<span class="labelFonteImagem">${BTextoFonteFotoExame} ‘A digital manual for the early diagnosis of oral neoplasia’.</span>
+				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
 				
 				<div id="divImagSiteFonteExame" style="padding: 10px;">
 					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">

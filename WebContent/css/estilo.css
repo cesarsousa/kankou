@@ -92,7 +92,6 @@ a {
 
 #styleHeaderFooter {
 	width: 100%;
-	padding: 10px;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 	/* background: url("../image/texturaCinzaCabecalho.jpg"); */
@@ -103,7 +102,11 @@ a {
 	width: 100%;
 	padding: 10px;
 	text-align: center;
-	border: 1px solid #CCCCCC;
+	border: 1px solid #c8c8c8;
+}
+
+.tabPrettyPhoto tr td:hover {
+	background-color: #E6E6FA;
 }
 
 #subMenu {
@@ -223,7 +226,7 @@ table#tabFlags tr td {
 .tdFlagLocale{
 	align: right;
 	vertical-align: middle;
-	width: 200px;
+	width: 220px;
 	border-left: 1px solid #E8E8E8;
 	
 	
