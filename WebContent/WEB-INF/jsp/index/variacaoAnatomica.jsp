@@ -26,16 +26,7 @@
     	<div align="center">
     	
     	
-		${BQuadrMenuBt1}
-		
-		<a href="<c:url value="/home" />">
-		<img alt="${BIconeHome}" title="${BIconeHome}" src="${imagem}/iconeHome.png" class="iconeMenu">
-		</a>
-		
-		<a href="<c:url value="/exame" />">
-		<img alt="${BIconeExame}" title="${BIconeExame}" src="${imagem}/iconeExame.png" class="iconeMenu">
-		</a>		
-		
+		${BQuadrMenuBt1}	
     	
 
     	<%-- 

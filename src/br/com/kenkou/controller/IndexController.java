@@ -31,7 +31,13 @@ public class IndexController {
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		
 		result.include("BSubMenuIntro", rb.getString("BSubMenuIntro"));
-		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));		
+		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));
+		
+		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));
+		result.include("BQuadrMenuBt2", rb.getString("BQuadrMenuBt2"));
+		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
+		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
+		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
 	}
 
 	@Path("/")
@@ -120,40 +126,50 @@ public class IndexController {
 		
 		sessao.setJspRequest(JspRequest.EXAME);
 						
-		initResourceBundle();
+		initResourceBundle();		
 		
 		result.include("BTextoExame", rb.getString("BTextoExame"));	
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
-		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));	
+		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
+		
+		for(int i = 1; i < 9; i++){
+			String titulo = "BExameF" + i + "Titulo";
+			String descricao = "BExameF" + i + "Desricao";
+			result.include(titulo, rb.getString(titulo));
+			result.include(descricao, rb.getString(descricao));
+			System.out.println(rb.getString(titulo));
+			System.out.println(rb.getString(descricao));
+		}
 		
 		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
-		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));	
-		
-		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));
-		result.include("BQuadrMenuBt2", rb.getString("BQuadrMenuBt2"));
-		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
-		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
-		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
+		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));		
 	}
 	
-	public void variacaoAnatomica(){		
+	
+	@Get("/variacoes/anatomicas")
+	public void variacaoAnatomica(){
+		/*sessao.setJspRequest(JspRequest.VARIACAO_ANATOMICA);*/
 		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));		
 	}
 	
+	@Get("/lesoes/comuns")
 	public void lesaoComun(){		
 		result.include("BQuadrMenuBt2", rb.getString("BQuadrMenuBt2"));		
 	}
 	
+	@Get("/lesoes/benignas")
 	public void lesaoBenigna(){		
 		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));		
 	}
 	
-	public void lesaoMaligna(){		
-		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));		
-	}
-	
+	@Get("/lesoes/premalignas")
 	public void lesaoPremaligna(){		
 		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));		
+	}
+	
+	@Get("/lesoes/malignas")
+	public void lesaoMaligna(){		
+		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));		
 	}
 	
 	

@@ -42,8 +42,13 @@
 <div id="styleHeaderFooter" class="fundoIndex" align="center">
 <div id="subMenu">
 <ul>
-<li><a href="<c:url value="/home" />" >${BSubMenuIntro}</a></li>
-<li><a href="<c:url value="/realizarExame" />" >${BSubMenuExame}</a></li>
+<li id="limenuHome" ><a id="menuHome" href="<c:url value="/home" />" >${BSubMenuIntro}</a></li>
+<li id="limenuExame" ><a id="menuExame" href="<c:url value="/realizarExame" />" >${BSubMenuExame}</a></li>
+<li id="limenuVariacaoAnatomica" ><a id="menuVariacaoAnatomica" href="<c:url value="/variacoes/anatomicas" />" >${BQuadrMenuBt1}</a></li>
+<li id="limenuLesaoComum"><a id="menuLesaoComum" href="<c:url value="/lesoes/comuns" />" >${BQuadrMenuBt2}</a></li>
+<li id="limenuLesaoBenigna"><a id="menuLesaoBenigna" href="<c:url value="/lesoes/benignas" />" >${BQuadrMenuBt3}</a></li>
+<li id="limenuLesaoPremaligna"><a id="menuLesaoPremaligna" href="<c:url value="/lesoes/premalignas" />" >${BQuadrMenuBt4}</a></li>
+<li id="limenuLesaoMaligna"><a id="menuLesaoMaligna" href="<c:url value="/lesoes/malignas" />" >${BQuadrMenuBt5}</a></li>
 </ul>
 </div>
 </div>

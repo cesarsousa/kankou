@@ -46,6 +46,10 @@ a {
 	background: url("../image/texturaCinzaCabecalho.jpg");
 }
 
+.corPreta {
+	color: #000000;
+}
+
 #linkein {
 	color: #000000;
 }
@@ -110,8 +114,9 @@ a {
 }
 
 #subMenu {
-	width: 800px;
+	width: 100%;
 	text-align: center;
+	font-size: small;
 }
 
 #subMenu li {
@@ -130,15 +135,13 @@ a {
 }
 #subMenu a:hover {
 	text-decoration: none;
-	color: #FF8C00;
+	color: #000000;
 }
 
 #downloadRoteiroExame{
 	color: #FF8C00;
 	font-size: large;
-	font-weight: bold;
-	
-	
+	font-weight: bold;	
 }
 
 .cardFlag {
