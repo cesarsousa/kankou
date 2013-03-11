@@ -30,7 +30,7 @@
     		<tr>
     		<td colspan="2">
     		<div class="msgBorder msgVariacaoAnatomica">
-	    		${BVarAnatomTexto}
+	    		${BVarAnatomTexto}z
 	    	</div>
     		</td>
     		</tr>

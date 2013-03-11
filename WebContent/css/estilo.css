@@ -467,11 +467,22 @@ table#tabFlags tr td {
 	font-size: large;
 }
 
-#tabVariacaoAnatomica tr td:hover{
-	background-color: #5D980D;
+.msgLesaoComum {
+	background-color: #FFFF00;
+	border-color: #FFFF00;
+	text-align: left;
+	color: #ffffff;
+	font-size: large;
 }
 
 #tabExame tr td:hover{
 	background-color: #87CEEB;
 }
 
+#tabVariacaoAnatomica tr td:hover{
+	background-color: #5D980D;
+}
+
+#tabLesaoComum tr td:hover{
+	background-color: #FFFF00;
+}
