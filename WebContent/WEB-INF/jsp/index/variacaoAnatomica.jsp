@@ -23,51 +23,91 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">
     	
-    	<div align="center">
+    	<div align="center">   	
     	
-    	
-		${BQuadrMenuBt1}	
-    	
-
-    	<%-- 
-    	</div>
-    	
-    	<p>
-		<span class="letraGrande">${BExameTxt1}</span>
-		<p>
-		
-		<div align="center">
-		<div id="" class="degradeVermelha setDefault destacar" >${BExameTxt2}</div>	
-		</div>
-		
-		<p>
-		<span class="letraNormal">Adicionar algumas fotos do ppt aki</span>
-		</p>
-		
-		<div class="quadroMenu">
-			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
-			</p>
-			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
-			</p>
+    	<table class="tabPrettyPhoto">
+    		<thead>
+    		<tr>
+    		<td colspan="2">
+    		<div class="msgBorder msgVariacaoAnatomica">
+	    		${BVarAnatomTexto}
+	    	</div>
+    		</td>
+    		</tr>
+    		</thead>
+    		
+    		<tbody id="tabVariacaoAnatomica">
+			<tr>
+			<td>
+			<a href="${imagemGeral}/varAnat1.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF1Descricao}">
+				<img  alt="${BVarAnatF1Titulo}" src="${imagemGeral}/varAnat1.JPG" width="200" height="200">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/varAnat2.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF2Descricao}">
+				<img  alt="${BVarAnatF2Titulo}" src="${imagemGeral}/varAnat2.JPG" width="200" height="200">
+			</a>
+			</td>
+			</tr>
 			
-			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
-				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
-			</form>
+			<tr>
+			<td>
+			<a href="${imagemGeral}/varAnat3.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF3Descricao}">
+				<img  alt="${BVarAnatF3Titulo}" src="${imagemGeral}/varAnat3.JPG" width="200" height="200">
+			</a>
+			</td>						
+			<td>
+			<a href="${imagemGeral}/varAnat4.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF4Descricao}">
+				<img  alt="${BVarAnatF4Titulo}" src="${imagemGeral}/varAnat4.JPG" width="200" height="200">
+			</a>
+			</td>
+			</tr>
 			
-			<table class="tabQuadroMenu">
-				<tr>
-				<td id="divVariacaoAnatomica" width="20%" class="degradeVerde menuTabela letraNormal">${BQuadrMenuBt1}</td>
-				<td id="divLesaoComum" width="20%" class="degradeAmarelo menuTabela letraNormal">${BQuadrMenuBt2}</td>
-				<td id="divLesaoBenigna" width="20%" class="degradeLaranja menuTabela letraNormal">${BQuadrMenuBt3}</td>
-				<td id="divLesaoPremaligna" width="20%" class="degradePele menuTabela letraNormal">${BQuadrMenuBt4}</td>
-				<td id="divLesaoMaligna" width="20%" class="degradeVermelha menuTabela letraNormal">${BQuadrMenuBt5}</td>
-				</tr>
-			</table> --%>
+			<tr>				
+			<td>
+			<a href="${imagemGeral}/varAnat5.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF5Descricao}">
+				<img  alt="${BVarAnatF5Titulo}" src="${imagemGeral}/varAnat5.JPG" width="200" height="200">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/varAnat6.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF6Descricao}">
+				<img  alt="${BVarAnatF6Titulo}" src="${imagemGeral}/varAnat6.JPG" width="200" height="200">
+			</a>
+			</td>
+			</tr>
+			</tbody>
 			
-		</div>
+			<tfoot>
+			
+			<%-- <tr>
+			<td colspan="2">
+			<div align="center">
+			<div id="divLabelFonteExame"> 
+				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
 				
+				<div id="divImagSiteFonteExame" style="padding: 10px;">
+					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
+					<img width="400px" height="200px" 
+						alt="A digital manual for the early diagnosis of oral neoplasia" 
+						title="A digital manual for the early diagnosis of oral neoplasia" 
+						src="${imagem}/siteFonteExame.png">
+					</a>
+				</div>		
+			</div>
+			</div>
+			</td>
+			</tr> --%>
+			
+			<tr>
+			<td colspan="2">
+			<div class="msgBorder msgVariacaoAnatomica">
+	    		${BVarAnatomTextoRodapeTab}
+	    	</div>
+			</td>
+			</tr>
+			</tfoot>
+		</table>
+		</div>			
     </td>
   </tr>
   <tr>

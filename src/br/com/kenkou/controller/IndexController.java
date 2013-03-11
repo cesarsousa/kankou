@@ -132,13 +132,11 @@ public class IndexController {
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
 		
-		for(int i = 1; i < 9; i++){
+		for(int i = 1; i < 10; i++){
 			String titulo = "BExameF" + i + "Titulo";
-			String descricao = "BExameF" + i + "Desricao";
+			String descricao = "BExameF" + i + "Descricao";
 			result.include(titulo, rb.getString(titulo));
 			result.include(descricao, rb.getString(descricao));
-			System.out.println(rb.getString(titulo));
-			System.out.println(rb.getString(descricao));
 		}
 		
 		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
@@ -148,8 +146,17 @@ public class IndexController {
 	
 	@Get("/variacoes/anatomicas")
 	public void variacaoAnatomica(){
-		/*sessao.setJspRequest(JspRequest.VARIACAO_ANATOMICA);*/
-		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));		
+		sessao.setJspRequest(JspRequest.VARIACAO_ANATOMICA);
+		
+		result.include("BVarAnatomTexto", rb.getString("BVarAnatomTexto"));
+		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
+		result.include("BVarAnatomTextoRodapeTab", rb.getString("BVarAnatomTextoRodapeTab"));
+		for(int i = 1; i < 7; i++){
+			String titulo = "BVarAnatF" + i + "Titulo";
+			String descricao = "BVarAnatF" + i + "Descricao";
+			result.include(titulo, rb.getString(titulo));
+			result.include(descricao, rb.getString(descricao));
+		}
 	}
 	
 	@Get("/lesoes/comuns")
