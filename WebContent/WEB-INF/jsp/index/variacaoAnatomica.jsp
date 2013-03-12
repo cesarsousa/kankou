@@ -9,7 +9,7 @@
 
 </head>
 <body>
-<div id="wrap">
+<div id="wrap" class="degradeBodyVerde">
 <div id="main">
 
 <%@ include file="/header.jsp" %>

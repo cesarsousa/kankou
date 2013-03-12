@@ -219,6 +219,7 @@ table#tabFlags tr td {
 	width: 100%;
 	padding: 5px;
 	border: 0;
+	font-weight: bold;
 }
 
 .imgFundoTab {
@@ -271,6 +272,10 @@ table#tabFlags tr td {
 	opacity: 0.6;		
 }
 
+.divDownload {
+	padding: 15px;
+}
+
 /* .degradeFooter {
 	background: #B5B5B5; Old browsers
 	IE9 SVG, needs conditional override of 'filter' to 'none'
@@ -307,6 +312,66 @@ table#tabFlags tr td {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E8E8', endColorstr='#B5B5B5',GradientType=0 ); /* IE6-8 */
 }
 
+.degradeBodyVerde {	
+	background: #FFFFFF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #5D980D 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#5D980D)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #5D980D 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #5D980D 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #5D980D 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #5D980D 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#5D980D',GradientType=0 ); /* IE6-8 */
+}
+
+.degradeBodyAmarelo {	
+	background: #FFFFFF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #FFD700 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFD700)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #FFD700 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFD700',GradientType=0 ); /* IE6-8 */
+}
+
+.degradeBodyLaranja {	
+	background: #FFFFFF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #CD950C 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#CD950C)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #CD950C 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #CD950C 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #CD950C 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #CD950C 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CD950C',GradientType=0 ); /* IE6-8 */
+}
+
+.degradeBodyVermelha {	
+	background: #FFFFFF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #FF0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FF0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #FF0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #FF0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #FF0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #FF0000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FF0000',GradientType=0 ); /* IE6-8 */
+}
+
+.degradeBodyRoxo {	
+	background: #FFFFFF; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #5D478B 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#5D478B)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #5D478B 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #5D478B 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #5D478B 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #5D478B 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#5D478B',GradientType=0 ); /* IE6-8 */
+}
+
 .degradeVerde {	
 	background: #00FF00; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -318,19 +383,6 @@ table#tabFlags tr td {
 	background: linear-gradient(to bottom, #00FF00 0%, #008B00 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FF00', endColorstr='#008B00',GradientType=0 ); /* IE6-8 */
 }
-
-.degradeBodyVerde {	
-	background: #FFFFFF; /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #FFFFFF 0%,  #008B00 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#008B00)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #FFFFFF 0%, #008B00 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #FFFFFF 0%, #008B00 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #FFFFFF 0%, #008B00 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #FFFFFF 0%, #008B00 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#008B00',GradientType=0 ); /* IE6-8 */
-}	
-	
 	
 .degradeAmarelo {	
 	background: #FFFF00; /* Old browsers */
@@ -355,17 +407,17 @@ table#tabFlags tr td {
 	background: linear-gradient(to bottom, #FFC125 0%, #CD950C 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFC125', endColorstr='#CD950C',GradientType=0 ); /* IE6-8 */
 }	
-	
-.degradePele {	
-	background: #EE9A49; /* Old browsers */
+	 
+.degradeRoxo {	
+	background: #8968CD; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #EE9A49 0%,  #EE7621 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EE9A49), color-stop(100%,#EE7621)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #EE9A49 0%, #EE7621 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #EE9A49 0%, #EE7621 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #EE9A49 0%, #EE7621 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #EE9A49 0%, #EE7621 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE9A49', endColorstr='#EE7621',GradientType=0 ); /* IE6-8 */
+	background: -moz-linear-gradient(top, #8968CD 0%,  #5D478B 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8968CD), color-stop(100%,#5D478B)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #8968CD 0%, #5D478B 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #8968CD 0%, #EE7621 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8968CD 0%, #5D478B 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #8968CD 0%, #5D478B 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8968CD', endColorstr='#5D478B',GradientType=0 ); /* IE6-8 */
 }
 
 .degradeAzul {	
@@ -484,16 +536,16 @@ table#tabFlags tr td {
 }
 
 .msgLesaoPremaligna {
-	background-color: #EE7621;
-	border-color: #EE7621;
+	background-color: #FF0000;
+	border-color: #FF0000;
 	text-align: left;
 	color: #ffffff;
 	font-size: large;
 }
 
 .msgLesaoMaligna {
-	background-color: #FF0000;
-	border-color: #FF0000;
+	background-color: #5D478B;
+	border-color: #5D478B;
 	text-align: left;
 	color: #ffffff;
 	font-size: large;
@@ -516,14 +568,9 @@ table#tabFlags tr td {
 }
 
 #tabLesaoPremaligna tr td:hover{
-/* 	background-color: #EE9A49; */
-	background-color: #EE7621;
+	background-color: #FF0000;
 }
 
 #tabLesaoMaligna tr td:hover{
-	background-color: #FF0000;
-	/* background-color: #A52A2A; */
+	background-color: #5D478B;	
 }
-
-
-

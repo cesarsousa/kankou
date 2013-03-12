@@ -23,13 +23,13 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">   	
     	
-    	${BTextoExame}
+    	${BTextoExame}		
 		
-		<div align="center">
-		<div id="" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</div>	
-		</div>
-		
-		<br/>
+		<div align="center" class="divDownload">
+		<p>
+		<a href="${download}/auto_exame_da_boca.zip" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</a>	
+		</p>
+		</div>		
 		
 		<table class="tabPrettyPhoto">
 			<tbody id="tabExame">
@@ -128,11 +128,11 @@
 			
 			<table class="tabQuadroMenu">
 				<tr>
-				<td id="divVARIACAO_ANATOMICA" width="20%" class="degradeVerde menuTabela letraNormal">${BQuadrMenuBt1}</td>
-				<td id="divLESAO_COMUM" width="20%" class="degradeAmarelo menuTabela letraNormal">${BQuadrMenuBt2}</td>
-				<td id="divLESAO_BENIGNA" width="20%" class="degradeLaranja menuTabela letraNormal">${BQuadrMenuBt3}</td>
-				<td id="divLESAO_PREMALIGNA" width="20%" class="degradePele menuTabela letraNormal">${BQuadrMenuBt4}</td>
-				<td id="divLESAO_MALIGNA" width="20%" class="degradeVermelha menuTabela letraNormal">${BQuadrMenuBt5}</td>
+				<td id="divVARIACAO_ANATOMICA" width="20%" class="degradeVerde menuTabela">${BQuadrMenuBt1}</td>
+				<td id="divLESAO_COMUM" width="20%" class="degradeAmarelo menuTabela">${BQuadrMenuBt2}</td>
+				<td id="divLESAO_BENIGNA" width="20%" class="degradeLaranja menuTabela">${BQuadrMenuBt3}</td>
+				<td id="divLESAO_PREMALIGNA" width="20%" class="degradeVermelha menuTabela">${BQuadrMenuBt4}</td>
+				<td id="divLESAO_MALIGNA" width="20%" class="degradeRoxo menuTabela">${BQuadrMenuBt5}</td>
 				</tr>
 			</table>
 			

@@ -57,17 +57,17 @@ $(document).ready(function() {
     });	
 
 	$("#menuLesaoPremaligna").hover(function(){
-        $('#limenuLesaoPremaligna').addClass('degradePele');
+        $('#limenuLesaoPremaligna').addClass('degradeVermelha');
     },
     function(){
-    	$('#limenuLesaoPremaligna').removeClass('degradePele');
+    	$('#limenuLesaoPremaligna').removeClass('degradeVermelha');
     });	
 	
 	$("#menuLesaoMaligna").hover(function(){
-        $('#limenuLesaoMaligna').addClass('degradeVermelha');
+        $('#limenuLesaoMaligna').addClass('degradeRoxo');
     },
     function(){
-    	$('#limenuLesaoMaligna').removeClass('degradeVermelha');
+    	$('#limenuLesaoMaligna').removeClass('degradeRoxo');
     });
 	
 	
