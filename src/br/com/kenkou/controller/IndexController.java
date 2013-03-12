@@ -122,10 +122,8 @@ public class IndexController {
 	}
 	
 	@Get("/exame")
-	public void exame(){
-		
-		sessao.setJspRequest(JspRequest.EXAME);
-						
+	public void exame(){		
+		sessao.setJspRequest(JspRequest.EXAME);						
 		initResourceBundle();		
 		
 		result.include("BTextoExame", rb.getString("BTextoExame"));	
@@ -147,6 +145,7 @@ public class IndexController {
 	@Get("/variacoes/anatomicas")
 	public void variacaoAnatomica(){
 		sessao.setJspRequest(JspRequest.VARIACAO_ANATOMICA);
+		initResourceBundle();
 		
 		result.include("BVarAnatomTexto", rb.getString("BVarAnatomTexto"));
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
@@ -162,6 +161,7 @@ public class IndexController {
 	@Get("/lesoes/comuns")
 	public void lesaoComun(){
 		sessao.setJspRequest(JspRequest.LESAO_COMUM);
+		initResourceBundle();
 		
 		result.include("BLesaoComumTexto", rb.getString("BLesaoComumTexto"));
 		result.include("BLesaoComumTextoRodapeTab", rb.getString("BLesaoComumTextoRodapeTab"));	
@@ -176,6 +176,7 @@ public class IndexController {
 	@Get("/lesoes/benignas")
 	public void lesaoBenigna(){
 		sessao.setJspRequest(JspRequest.LESAO_BENIGNA);
+		initResourceBundle();
 		
 		result.include("BLesaoBenignaTexto", rb.getString("BLesaoBenignaTexto"));
 		result.include("BLesaoBenignaTextoRodapeTab", rb.getString("BLesaoBenignaTextoRodapeTab"));	
@@ -188,7 +189,8 @@ public class IndexController {
 	}
 	
 	@Get("/lesoes/premalignas")
-	public void lesaoPremaligna(){		
+	public void lesaoPremaligna(){
+		
 		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));		
 	}
 	
