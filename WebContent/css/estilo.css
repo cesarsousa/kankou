@@ -172,6 +172,21 @@ a {
 	box-shadow: 2px 2px 2px #8B8484;
 }
 
+.fotoTitulo{
+	font-size: large;
+	font-weight: bold;
+	color: #87CEFA;
+	text-align: left;
+}
+
+.fotoDescricao{
+	font-size: medium;
+	font-weight: normal;
+	color: gray;
+	text-align: left;
+	
+}
+
 .iconeLogo{
 	width: 60px;
 	height: 70px;
@@ -571,6 +586,10 @@ table#tabFlags tr td {
 	background-color: #FF0000;
 }
 
-#tabLesaoMaligna tr td:hover{
-	background-color: #5D478B;	
+.destaquetabLesaoMaligna:hover{
+	background-color: #5D478B;
 }
+
+/* #tabLesaoMaligna tr td:hover{
+	background-color: #5D478B;	
+} */

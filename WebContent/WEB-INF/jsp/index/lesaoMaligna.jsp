@@ -37,15 +37,28 @@
     		</thead>
     		
     		<tbody id="tabLesaoMaligna">
+    		
 				<tr>
-				<td>
-				<a href="${imagemGeral}/lesaocomum1.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoMalignaF1Descricao}">
-					<img  alt="${BLesaoMalignaF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" width="200" height="200">
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna1.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF1Descricao}">
+					<img  alt="${BLesaoMalignaF1Titulo}" src="${imagemGeral}/lesaomaligna1.JPG" width="100" height="100">
 				</a>
 				</td>
 				<td>
-				<p>${BLesaoMalignaF1Titulo}</p>
-				<p>${BLesaoMalignaF1Descricao}</p>
+				<p class="fotoTitulo">${BLesaoMalignaF1Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF1Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna2.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF2Descricao}">
+					<img  alt="${BLesaoMalignaF2Titulo}" src="${imagemGeral}/lesaomaligna2.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF1Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF1Descricao}</p>
 				</td>
 				</tr>		
 		
