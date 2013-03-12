@@ -172,6 +172,10 @@
 </div>
 </div>
 
+<div id='back-top'>
+<a href='#top'><span></span></a>
+</div>
+
 </div> <!-- main -->
 </div> <!-- wrap -->
 

@@ -30,6 +30,56 @@ body:before {
 }
 /* FIM dos estilos para fixar o rodape */
 
+/* INICIO estilos para o efeito de rolagem para o topo */
+#back-top {
+position: fixed;
+bottom: 80px;
+}
+
+#back-top label {
+	font-weight: bold;
+}
+
+#back-top a {
+width: 108px;
+display: block;
+text-align: center;
+font: 11px/100% Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+text-decoration: none;
+color: #777;
+border: none;
+
+/* transition */
+-webkit-transition: 1s;
+-moz-transition: 1s;
+transition: 1s;
+}
+
+#back-top a:hover {color: #eb610e;}
+
+/* arrow icon (span tag) */
+#back-top span {
+width: 108px;
+height: 108px;
+display: block;
+margin-bottom: 7px;
+background: #777 url("../image/up-arrow.png") no-repeat center center;
+
+/* rounded corners */
+-webkit-border-radius: 1px;
+-moz-border-radius: 1px;
+border-radius: 1px;
+
+/* transition */
+-webkit-transition: 1s;
+-moz-transition: 1s;
+transition: 1s;}
+
+#back-top a:hover span {   background-color: #eb610e;}
+
+/* FIM dos estilos de rolagem */
+
 /* body {
 	background: url("../image/texturaCinza.jpg");
 } */
@@ -582,9 +632,13 @@ table#tabFlags tr td {
 	background-color: #CD950C;
 }
 
-#tabLesaoPremaligna tr td:hover{
+.destaquetabLesaoPremaligna:hover{
 	background-color: #FF0000;
 }
+
+/* #tabLesaoPremaligna tr td:hover{
+	background-color: #FF0000;
+} */
 
 .destaquetabLesaoMaligna:hover{
 	background-color: #5D478B;

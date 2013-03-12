@@ -57,10 +57,142 @@
 				</a>
 				</td>
 				<td>
-				<p class="fotoTitulo">${BLesaoMalignaF1Titulo}</p>
-				<p class="fotoDescricao">${BLesaoMalignaF1Descricao}</p>
+				<p class="fotoTitulo">${BLesaoMalignaF2Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF2Descricao}</p>
 				</td>
-				</tr>		
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna3.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF3Descricao}">
+					<img  alt="${BLesaoMalignaF3Titulo}" src="${imagemGeral}/lesaomaligna3.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF3Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF3Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna4.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF4Descricao}">
+					<img  alt="${BLesaoMalignaF4Titulo}" src="${imagemGeral}/lesaomaligna4.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF4Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF4Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna5.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF5Descricao}">
+					<img  alt="${BLesaoMalignaF5Titulo}" src="${imagemGeral}/lesaomaligna5.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF5Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF5Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna6.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF6Descricao}">
+					<img  alt="${BLesaoMalignaF6Titulo}" src="${imagemGeral}/lesaomaligna6.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF6Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF6Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna7.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF7Descricao}">
+					<img  alt="${BLesaoMalignaF7Titulo}" src="${imagemGeral}/lesaomaligna7.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF7Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF7Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna8.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF8Descricao}">
+					<img  alt="${BLesaoMalignaF8Titulo}" src="${imagemGeral}/lesaomaligna8.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF8Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF8Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna9.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF9Descricao}">
+					<img  alt="${BLesaoMalignaF9Titulo}" src="${imagemGeral}/lesaomaligna9.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF9Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF9Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna10.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF10Descricao}">
+					<img  alt="${BLesaoMalignaF10Titulo}" src="${imagemGeral}/lesaomaligna10.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF10Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF10Descricao}</p>
+				</td>
+				</tr>
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna11.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF11Descricao}">
+					<img  alt="${BLesaoMalignaF11Titulo}" src="${imagemGeral}/lesaomaligna11.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF11Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF11Descricao}</p>
+				</td>
+				</tr>	
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna12.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF12Descricao}">
+					<img  alt="${BLesaoMalignaF12Titulo}" src="${imagemGeral}/lesaomaligna12.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF12Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF12Descricao}</p>
+				</td>
+				</tr>	
+				
+				<tr>
+				<td class="destaquetabLesaoMaligna">
+				<a href="${imagemGeral}/lesaomaligna13.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF13Descricao}">
+					<img  alt="${BLesaoMalignaF13Titulo}" src="${imagemGeral}/lesaomaligna13.JPG" width="100" height="100">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoMalignaF13Titulo}</p>
+				<p class="fotoDescricao">${BLesaoMalignaF13Descricao}</p>
+				</td>
+				</tr>			
 		
 			</tbody>
 			
@@ -85,6 +217,10 @@
 </table>
 
 </div>
+</div>
+
+<div id='back-top'>
+<a href='#top'><span></span></a>
 </div>
 
 </div> <!-- main -->
