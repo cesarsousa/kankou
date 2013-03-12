@@ -483,6 +483,22 @@ table#tabFlags tr td {
 	font-size: large;
 }
 
+.msgLesaoPremaligna {
+	background-color: #EE7621;
+	border-color: #EE7621;
+	text-align: left;
+	color: #ffffff;
+	font-size: large;
+}
+
+.msgLesaoMaligna {
+	background-color: #FF0000;
+	border-color: #FF0000;
+	text-align: left;
+	color: #ffffff;
+	font-size: large;
+}
+
 #tabExame tr td:hover{
 	background-color: #87CEEB;
 }
@@ -498,3 +514,16 @@ table#tabFlags tr td {
 #tabLesaoBenigna tr td:hover{
 	background-color: #CD950C;
 }
+
+#tabLesaoPremaligna tr td:hover{
+/* 	background-color: #EE9A49; */
+	background-color: #EE7621;
+}
+
+#tabLesaoMaligna tr td:hover{
+	background-color: #FF0000;
+	/* background-color: #A52A2A; */
+}
+
+
+

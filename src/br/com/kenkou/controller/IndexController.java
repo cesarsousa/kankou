@@ -190,13 +190,32 @@ public class IndexController {
 	
 	@Get("/lesoes/premalignas")
 	public void lesaoPremaligna(){
+		sessao.setJspRequest(JspRequest.LESAO_PREMALIGNA);
+		initResourceBundle();
 		
-		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));		
+		result.include("BLesaoPremalignaTexto", rb.getString("BLesaoPremalignaTexto"));
+		result.include("BLesaoPremalignaTextoRodapeTab", rb.getString("BLesaoPremalignaTextoRodapeTab"));	
+		for(int i = 1; i < 19; i++){
+			String titulo = "BLesaoPremalignaF" + i + "Titulo";
+			String descricao = "BLesaoPremalignaF" + i + "Descricao";
+			result.include(titulo, rb.getString(titulo));
+			result.include(descricao, rb.getString(descricao));
+		}	
 	}
 	
 	@Get("/lesoes/malignas")
-	public void lesaoMaligna(){		
-		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));		
+	public void lesaoMaligna(){	
+		sessao.setJspRequest(JspRequest.LESAO_MALIGNA);
+		initResourceBundle();
+		
+		result.include("BLesaoMalignaTexto", rb.getString("BLesaoMalignaTexto"));
+		result.include("BLesaoMalignaTextoRodapeTab", rb.getString("BLesaoMalignaTextoRodapeTab"));	
+		for(int i = 1; i < 14; i++){
+			String titulo = "BLesaoMalignaF" + i + "Titulo";
+			String descricao = "BLesaoMalignaF" + i + "Descricao";
+			result.include(titulo, rb.getString(titulo));
+			result.include(descricao, rb.getString(descricao));
+		}			
 	}
 	
 	
