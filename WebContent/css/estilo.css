@@ -468,8 +468,16 @@ table#tabFlags tr td {
 }
 
 .msgLesaoComum {
-	background-color: #FFFF00;
-	border-color: #FFFF00;
+	background-color: #FFD700;
+	border-color: #FFD700;
+	text-align: left;
+	color: #ffffff;
+	font-size: large;
+}
+
+.msgLesaoBenigna {
+	background-color: #CD950C;
+	border-color: #CD950C;
 	text-align: left;
 	color: #ffffff;
 	font-size: large;
@@ -484,5 +492,9 @@ table#tabFlags tr td {
 }
 
 #tabLesaoComum tr td:hover{
-	background-color: #FFFF00;
+	background-color: #FFD700;
+}
+
+#tabLesaoBenigna tr td:hover{
+	background-color: #CD950C;
 }

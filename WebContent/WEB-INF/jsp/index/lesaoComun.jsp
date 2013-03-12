@@ -23,8 +23,6 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">
     	
-    	<div align="center">
-    	
     	<div align="center">   	
     	
     	<table class="tabPrettyPhoto">
@@ -41,41 +39,62 @@
     		<tbody id="tabLesaoComum">
 			<tr>
 			<td>
-			<a href="${imagemGeral}/varAnat1.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF1Descricao}">
-				<img  alt="${BVarAnatF1Titulo}" src="${imagemGeral}/varAnat1.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum1.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF1Descricao}">
+				<img  alt="${BLesaoComunF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" width="200" height="200">
 			</a>
 			</td>
 			<td>
-			<a href="${imagemGeral}/varAnat2.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF2Descricao}">
-				<img  alt="${BVarAnatF2Titulo}" src="${imagemGeral}/varAnat2.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum2.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF2Descricao}">
+				<img  alt="${BLesaoComunF2Titulo}" src="${imagemGeral}/lesaocomum2.JPG" width="200" height="200">
 			</a>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
-			<a href="${imagemGeral}/varAnat3.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF3Descricao}">
-				<img  alt="${BVarAnatF3Titulo}" src="${imagemGeral}/varAnat3.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum3.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF3Descricao}">
+				<img  alt="${BLesaoComunF3Titulo}" src="${imagemGeral}/lesaocomum3.JPG" width="200" height="200">
 			</a>
 			</td>						
 			<td>
-			<a href="${imagemGeral}/varAnat4.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF4Descricao}">
-				<img  alt="${BVarAnatF4Titulo}" src="${imagemGeral}/varAnat4.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum4.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF4Descricao}">
+				<img  alt="${BLesaoComunF4Titulo}" src="${imagemGeral}/lesaocomum4.JPG" width="200" height="200">
 			</a>
 			</td>
 			</tr>
 			
 			<tr>				
 			<td>
-			<a href="${imagemGeral}/varAnat5.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF5Descricao}">
-				<img  alt="${BVarAnatF5Titulo}" src="${imagemGeral}/varAnat5.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum5.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF5Descricao}">
+				<img  alt="${BLesaoComunF5Titulo}" src="${imagemGeral}/lesaocomum5.JPG" width="200" height="200">
 			</a>
 			</td>
 			<td>
-			<a href="${imagemGeral}/varAnat6.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF6Descricao}">
-				<img  alt="${BVarAnatF6Titulo}" src="${imagemGeral}/varAnat6.JPG" width="200" height="200">
+			<a href="${imagemGeral}/lesaocomum6.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF6Descricao}">
+				<img  alt="${BLesaoComunF6Titulo}" src="${imagemGeral}/lesaocomum6.JPG" width="200" height="200">
 			</a>
 			</td>
+			</tr>
+			
+			<tr>				
+			<td>
+			<a href="${imagemGeral}/lesaocomum7.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF7Descricao}">
+				<img  alt="${BLesaoComunF7Titulo}" src="${imagemGeral}/lesaocomum7.JPG" width="200" height="200">
+			</a>
+			</td>
+			<td>
+			<a href="${imagemGeral}/lesaocomum8.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF8Descricao}">
+				<img  alt="${BLesaoComunF8Titulo}" src="${imagemGeral}/lesaocomum8.JPG" width="200" height="200">
+			</a>
+			</td>
+			</tr>
+			
+			<tr>				
+			<td colspan="2">
+			<a href="${imagemGeral}/lesaocomum9.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF9Descricao}">
+				<img  alt="${BLesaoComunF9Titulo}" src="${imagemGeral}/lesaocomum9.JPG" width="200" height="200">
+			</a>
+			</td>			
 			</tr>
 			</tbody>
 			
@@ -109,9 +128,8 @@
 			</tr>
 			</tfoot>
 		</table>
+		
 		</div>
-			
-		</div>				
     </td>
   </tr>
   <tr>
