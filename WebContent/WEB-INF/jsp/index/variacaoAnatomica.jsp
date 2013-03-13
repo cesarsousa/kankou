@@ -107,6 +107,32 @@
 			</tr>
 			</tfoot>
 		</table>
+		
+		<br/>		
+		<div class="quadroMenu">
+			<p>
+			<span class="letraMedia">${BQuadroMenuTxt1}</span>
+			</p>
+			<p>
+			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			</p>
+			
+			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
+				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
+			</form>
+			
+			<table class="tabQuadroMenu">
+				<tr>
+				<td id="divVARIACAO_ANATOMICA" width="20%" class="degradeVerde menuTabela">${BQuadrMenuBt1}</td>
+				<td id="divLESAO_COMUM" width="20%" class="degradeAmarelo menuTabela">${BQuadrMenuBt2}</td>
+				<td id="divLESAO_BENIGNA" width="20%" class="degradeLaranja menuTabela">${BQuadrMenuBt3}</td>
+				<td id="divLESAO_PREMALIGNA" width="20%" class="degradeVermelha menuTabela">${BQuadrMenuBt4}</td>
+				<td id="divLESAO_MALIGNA" width="20%" class="degradeRoxo menuTabela">${BQuadrMenuBt5}</td>
+				</tr>
+			</table>
+			
+		</div>
+		
 		</div>			
     </td>
   </tr>

@@ -129,27 +129,7 @@
 			
 			</tbody>
 			
-			<tfoot>
-			
-			<%-- <tr>
-			<td colspan="2">
-			<div align="center">
-			<div id="divLabelFonteExame"> 
-				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
-				
-				<div id="divImagSiteFonteExame" style="padding: 10px;">
-					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
-					<img width="400px" height="200px" 
-						alt="A digital manual for the early diagnosis of oral neoplasia" 
-						title="A digital manual for the early diagnosis of oral neoplasia" 
-						src="${imagem}/siteFonteExame.png">
-					</a>
-				</div>		
-			</div>
-			</div>
-			</td>
-			</tr> --%>
-			
+			<tfoot>			
 			<tr>
 			<td colspan="3">
 			<div class="msgBorder msgLesaoBenigna">
@@ -159,6 +139,31 @@
 			</tr>
 			</tfoot>
 		</table>
+		
+		<br/>		
+		<div class="quadroMenu">
+			<p>
+			<span class="letraMedia">${BQuadroMenuTxt1}</span>
+			</p>
+			<p>
+			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			</p>
+			
+			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
+				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
+			</form>
+			
+			<table class="tabQuadroMenu">
+				<tr>
+				<td id="divVARIACAO_ANATOMICA" width="20%" class="degradeVerde menuTabela">${BQuadrMenuBt1}</td>
+				<td id="divLESAO_COMUM" width="20%" class="degradeAmarelo menuTabela">${BQuadrMenuBt2}</td>
+				<td id="divLESAO_BENIGNA" width="20%" class="degradeLaranja menuTabela">${BQuadrMenuBt3}</td>
+				<td id="divLESAO_PREMALIGNA" width="20%" class="degradeVermelha menuTabela">${BQuadrMenuBt4}</td>
+				<td id="divLESAO_MALIGNA" width="20%" class="degradeRoxo menuTabela">${BQuadrMenuBt5}</td>
+				</tr>
+			</table>
+			
+		</div>
 		
 		</div>
 				

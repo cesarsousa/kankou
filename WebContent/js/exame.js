@@ -1,6 +1,10 @@
 
 $(document).ready(function() {
 	
+	$('#tabDownloadExame').click(function(){
+		$('#linkDownloadExame').submit();
+	});
+	
 	$('#divImagSiteFonteExame').hide();
 	$("#divLabelFonteExame").hover(function(){
         $('#divImagSiteFonteExame').slideDown(500);

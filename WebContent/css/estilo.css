@@ -223,14 +223,14 @@ a {
 }
 
 .fotoTitulo{
-	font-size: large;
+	font-size: medium;
 	font-weight: bold;
 	color: #87CEFA;
 	text-align: left;
 }
 
 .fotoDescricao{
-	font-size: medium;
+	font-size: small;
 	font-weight: normal;
 	color: gray;
 	text-align: left;
@@ -338,7 +338,7 @@ table#tabFlags tr td {
 }
 
 .divDownload {
-	padding: 15px;
+	padding: 15px;	
 }
 
 /* .degradeFooter {

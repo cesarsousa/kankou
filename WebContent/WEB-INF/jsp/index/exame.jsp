@@ -23,14 +23,14 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">   	
     	
-    	${BTextoExame}		
+    	${BTextoExame}    			
 		
 		<div align="center" class="divDownload">
 		<p>
 		<a href="${download}/auto_exame_da_boca.zip" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</a>	
 		</p>
 		</div>		
-		
+	
 		<table class="tabPrettyPhoto">
 			<tbody id="tabExame">
 			<tr>

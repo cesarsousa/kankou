@@ -33,6 +33,9 @@ public class IndexController {
 		result.include("BSubMenuIntro", rb.getString("BSubMenuIntro"));
 		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));
 		
+		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
+		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));
+		
 		result.include("BQuadrMenuBt1", rb.getString("BQuadrMenuBt1"));
 		result.include("BQuadrMenuBt2", rb.getString("BQuadrMenuBt2"));
 		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
@@ -135,10 +138,7 @@ public class IndexController {
 			String descricao = "BExameF" + i + "Descricao";
 			result.include(titulo, rb.getString(titulo));
 			result.include(descricao, rb.getString(descricao));
-		}
-		
-		result.include("BQuadroMenuTxt1", rb.getString("BQuadroMenuTxt1"));
-		result.include("BQuadroMenuTxt2", rb.getString("BQuadroMenuTxt2"));		
+		}				
 	}
 	
 	
