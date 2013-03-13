@@ -53,8 +53,8 @@
 		<img alt="english" title="english" class="imgSombra" src="image/flagUSA.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p>The Acupuncturist and tongue examination.</p>
-		<p>Learn to expand routine examination and act in the prevention of oral cancer.</p>
+		<p>The acupuncturist and the inspection of the tongue.</p>
+		<p>Learn to expand routine examination and act in the prevention of mouth cancer.</p>
 		</td>
 		</tr>
 		
