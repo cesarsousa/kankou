@@ -132,6 +132,7 @@ public class IndexController {
 		result.include("BTextoExame", rb.getString("BTextoExame"));	
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
+		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
 		
 		for(int i = 1; i < 10; i++){
 			String titulo = "BExameF" + i + "Titulo";

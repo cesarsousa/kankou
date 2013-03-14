@@ -25,11 +25,11 @@
     	
     	${BTextoExame}    			
 		
-		<div align="center" class="divDownload">
-		<p>
-		<a href="${download}/auto_exame_da_boca.zip" class="degradeLaranja setDefault destacar">${BTextoDownloadExame}</a>	
+		<br/>
+		<p class="linkDownloadAutoExame" align="center">
+		<a href="${download}/auto_exame_da_boca.zip">${BTextoDownloadExame}</a>	
 		</p>
-		</div>		
+		<br/>	
 	
 		<table class="tabPrettyPhoto">
 			<tbody id="tabExame">
@@ -90,19 +90,12 @@
 			
 			<tfoot>
 			<tr>
-			<td colspan="3">
+			<td colspan="3" style="border-top: 1px solid #CCCCCC;">
 			<div align="center">
 			<div id="divLabelFonteExame"> 
-				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
-				
-				<div id="divImagSiteFonteExame" style="padding: 10px;">
-					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
-					<img width="400px" height="200px" 
-						alt="A digital manual for the early diagnosis of oral neoplasia" 
-						title="A digital manual for the early diagnosis of oral neoplasia" 
-						src="${imagem}/siteFonteExame.png">
-					</a>
-				</div>		
+				${BTextoFonteFotoExame} 
+				<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank"> ‘A digital manual for the early diagnosis of oral neoplasia’</a>
+				, ${BTextoFonteFotoExame2}
 			</div>
 			</div>
 			</td>

@@ -92,6 +92,11 @@ a {
 	text-decoration: none;	
 }
 
+a:visited {
+	text-decoration: none;
+}
+	
+
 .texturaHeader {
 	background: url("../image/texturaCinzaCabecalho.jpg");
 }
@@ -337,8 +342,22 @@ table#tabFlags tr td {
 	opacity: 0.6;		
 }
 
-.divDownload {
-	padding: 15px;	
+.linkDownloadAutoExame {	
+	border: 2px solid #CD950C;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.linkDownloadAutoExame a {	
+	color: #CD950C;
+	text-align: center;
+	font-weight: bold;
+}
+
+.linkDownloadAutoExame a:hover {
+	text-shadow: #CCCCCC 0.1em 0.1em 0.2em;
 }
 
 /* .degradeFooter {
@@ -510,7 +529,7 @@ table#tabFlags tr td {
 }	
 
 .setDefault {
-	width: 90%;
+	width: 100%;
 	color: #FFFFFF;
 	text-shadow: #DDDDDD 0.1em 0.1em 0.2em;
 	text-align: center;
