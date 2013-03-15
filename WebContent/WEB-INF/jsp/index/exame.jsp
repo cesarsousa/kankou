@@ -23,9 +23,9 @@
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
     <td width="95%" rowspan="2"  align="justify">   	
     	
-    	${BTextoExame}    			
-		
-		<br/>
+    	${BTextoExame} 
+    	
+    	<br/>
 		<p class="linkDownloadAutoExame" align="center">
 		<a href="${download}/auto_exame_da_boca.zip">${BTextoDownloadExame}</a>	
 		</p>
