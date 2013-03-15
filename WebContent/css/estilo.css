@@ -411,13 +411,13 @@ table#tabFlags tr td {
 .degradeBodyAmarelo {	
 	background: #FFFFFF; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #FFFFFF 0%,  #FFD700 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#FFD700)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #FFFFFF 0%, #FFD700 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #FFFFFF 0%, #FFD700 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FFD700',GradientType=0 ); /* IE6-8 */
+	background: -moz-linear-gradient(top, #FFFFFF 0%,  #CDCD00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFFFF), color-stop(100%,#CDCD00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #FFFFFF 0%, #CDCD00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #FFFFFF 0%, #CDCD00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #FFFFFF 0%, #CDCD00 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #FFFFFF 0%, #CDCD00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#CDCD00',GradientType=0 ); /* IE6-8 */
 }
 
 .degradeBodyLaranja {	
@@ -471,8 +471,8 @@ table#tabFlags tr td {
 .degradeAmarelo {	
 	background: #FFFF00; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #FFFF00 0%,  #FFD700 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFFF00), color-stop(100%,#FFD700)); /* Chrome,Safari4+ */
+	background: -moz-linear-gradient(top, #FFFF00 0%,  #CDCD00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#CDCD00), color-stop(100%,#FFD700)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #FFFF00 0%, #FFD700 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #FFFF00 0%, #FFD700 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #FFFF00 0%, #FFD700 100%); /* IE10+ */
@@ -604,8 +604,8 @@ table#tabFlags tr td {
 }
 
 .msgLesaoComum {
-	background-color: #FFD700;
-	border-color: #FFD700;
+	background-color: #CDCD00;
+	border-color: #CDCD00;
 	text-align: left;
 	color: #ffffff;
 	font-size: large;
@@ -644,7 +644,7 @@ table#tabFlags tr td {
 }
 
 #tabLesaoComum tr td:hover{
-	background-color: #FFD700;
+	background-color: #CDCD00;
 }
 
 #tabLesaoBenigna tr td:hover{
