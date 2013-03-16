@@ -38,7 +38,7 @@
 		</td>
 		</tr>
 		
-		<tr id="localeCN" class="zebrado">
+		<!-- <tr id="localeCN" class="zebrado">
 		<td>
 		<img alt="普通话" title="普通话" class="imgSombra" src="image/flagChina.jpg" width="100px" height="70px">
 		</td>
@@ -46,7 +46,7 @@
 		<p>针灸及考试舌头 .</p>
 		<p>学习扩大常规检查和采取行动预防口腔癌.</p>
 		</td>
-		</tr>
+		</tr> -->
 		
 		<tr id="localeUS" class="zebrado">
 		<td>
@@ -58,7 +58,7 @@
 		</td>
 		</tr>
 		
-		<tr id="localeFR" class="zebrado">
+		<!-- <tr id="localeFR" class="zebrado">
 		<td>
 		<img alt="français" title="français" class="imgSombra" src="image/flagFranca.jpg" width="100px" height="70px">
 		</td>
@@ -66,9 +66,9 @@
 		<p>L'acupuncteur et l'examen de la langue.</p>
 		<p>Apprenez à développer examen de routine et d'agir dans la prévention du cancer de la bouche.</p>
 		</td>
-		</tr>	
+		</tr>	 -->
 		
-		<tr id="localeES" class="zebrado">
+		<!-- <tr id="localeES" class="zebrado">
 		<td>
 		<img alt="español" title="español" class="imgSombra" src="image/flagEspanha.jpg" width="100px" height="70px">
 		</td>
@@ -76,7 +76,8 @@
 		<p>El acupunturista y un examen de la lengua.</p>
 		<p>Aprenda a ampliar el examen de rutina y actuar en la prevención del cáncer oral.</p>
 		</td>
-		</tr>		
+		</tr> -->
+				
 	</table>
 </div>
 </div>

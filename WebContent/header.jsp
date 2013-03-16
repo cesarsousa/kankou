@@ -21,7 +21,7 @@
 		<img alt="english" title="english" src="${imagem}/iconeFlagUS.png" class="iconeLocale imgSombra">
 		</a>
 		
-		<a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
+		<%-- <a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
 		<img alt="普通话" title="普通话" src="${imagem}/iconeFlagCN.png" class="iconeLocale imgSombra">
 		</a>
 		
@@ -31,7 +31,8 @@
 		
 		<a href="<c:url value="/index/locale/FR/${sessao.jspRequest}"></c:url>">
 		<img alt="français" title="français" src="${imagem}/iconeFlagFR.png" class="iconeLocale imgSombra">
-		</a>	
+		</a> --%>
+			
 	</div>
 	</td>
 </tr>
