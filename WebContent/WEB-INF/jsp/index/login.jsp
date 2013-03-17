@@ -7,6 +7,16 @@
 
 <%@ include file="/libraries.jsp"  %>
 
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$('#campoLogin').focus();
+
+});
+
+</script>
+
 <style type="text/css">
 .login {
 	width: 300px; height: 50px;
@@ -15,6 +25,7 @@
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	font-size: large;
+	text-align: center;
 }
 .login:hover {
 	border: 2px solid #000000;
@@ -32,7 +43,7 @@
 <p>Somente pessoal autorizado</p>
 
 <form action="<c:url value="/autenticar" />" method="get">
-<input type="password" name="password" class="login" />
+<input id="campoLogin" type="password" name="password" class="login"/>
 </form>
 
 <p style="font-size: xx-large; font-weight: bold; color: red; text-shadow: black 0.1em 0.1em 0.2em;">
