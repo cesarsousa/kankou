@@ -16,6 +16,16 @@ public class Sessao implements Serializable {
 	private Locale locale;
 	private JspRequest jspRequest;
 	
+	private boolean acessoAutorizado; 
+	
+	public boolean isAcessoAutorizado() {
+		return acessoAutorizado;
+	}
+	
+	public void setAcessoAutorizado(boolean acessoAutorizado) {
+		this.acessoAutorizado = acessoAutorizado;
+	}
+	
 	public Locale getLocale() {
 		return locale == null ? Locale.getDefault() : locale ;
 	}
