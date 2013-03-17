@@ -42,8 +42,20 @@ public class IndexController {
 		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
 		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
 	}
-
+	
 	@Path("/")
+	public void login(){}
+	@Get("/autenticar")
+	public void autenticar(String password){
+		if("sitekankouco".equals(password)){
+			result.redirectTo(this).index();
+		}else{
+			result.include("erroLogin", "A senha digitada esta incorreta. Acesso Negado !");
+			result.redirectTo(this).login();
+		}
+	}
+
+	/*@Path("/")*/
 	public void index(){		
 		sessao.setJspRequest(JspRequest.INTRODUCAO);		
 	}	

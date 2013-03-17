@@ -30,7 +30,7 @@
 	
 		<tr id="localeBR" class="zebrado pad10">
 		<td>
-		<img alt="português" title="português" class="imgSombra" src="image/flagBrasil.jpg" width="100px" height="70px">
+		<img alt="português" title="português" class="imgSombra" src="${imagem}/flagBrasil.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>O Acupunturista e o exame da língua.</p>
@@ -50,7 +50,7 @@
 		
 		<tr id="localeUS" class="zebrado">
 		<td>
-		<img alt="english" title="english" class="imgSombra" src="image/flagUSA.jpg" width="100px" height="70px">
+		<img alt="english" title="english" class="imgSombra" src="${imagem}/flagUSA.jpg" width="100px" height="70px">
 		</td>
 		<td>
 		<p>The acupuncturist and the inspection of the tongue.</p>
