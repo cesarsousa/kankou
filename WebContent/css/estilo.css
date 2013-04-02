@@ -1,17 +1,24 @@
 @CHARSET "UTF-8";
 
 @font-face {
-  font-family: 'Dr Sugiyama';
+  font-family: 'Alegreya SC';
   font-style: normal;
   font-weight: 400;
-  src: local('Dr Sugiyama Regular'), local('DrSugiyama-Regular'), url(http://themes.googleusercontent.com/static/fonts/drsugiyama/v2/rq_8251Ifx6dE1Mq7bUM6YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+  src: local('Alegreya SC'), local('AlegreyaSC-Regular'), url(http://themes.googleusercontent.com/static/fonts/alegreyasc/v3/-74JUGs8W14C5cCBFRS304bN6UDyHWBl620a-IRfuBk.woff) format('woff');
 }
 
 @font-face {
-  font-family: 'Share Tech Mono';
+  font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/sharetechmono/v1/RQxK-3RA0Lnf3gnnnNrAsUYuTAAIFFn5GTWtryCmBQ4.woff) format('woff');
+  src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Didact Gothic'), local('DidactGothic'), url(http://themes.googleusercontent.com/static/fonts/didactgothic/v4/v8_72sD3DYMKyM0dn3LtWp_RtrTXGeaL_Dia6_H9gNs.woff) format('woff');
 }
 
 /* INICIO dos estilos para fixar o rodape */
@@ -25,8 +32,9 @@ body > #wrap {
 	min-height: 100%;	
 }
  
-#main {overflow:auto;
-	padding-bottom: 60px;}  /* deve ter a mesma altura do rodapé */
+#main {
+	overflow:auto;
+	padding-bottom: 74px;}  /* deve ter a mesma altura do rodapé */
  
 #footer {
 	position: relative;
@@ -43,6 +51,10 @@ body:before {
 	margin-top:-32767px;/
 }
 /* FIM dos estilos para fixar o rodape */
+
+body {
+	font-family: Arial;
+}
 
 /* INICIO estilos para o efeito de rolagem para o topo */
 #back-top {
@@ -119,17 +131,17 @@ a:visited {
 }
 
 .fontIndexTitulo {
-	/* font-family: 'Dr Sugiyama', cursive; */
-	font-family: 'Dr Sugiyama';	
+	font-family: 'Alegreya SC';
 }
 
 .fontIndexDesc {
-	font-family: 'Share Tech Mono';
+	font-family: 'Josefin Sans';
 }
 
-
-
-
+.textoIntroducao {
+	font-family: 'Didact Gothic';
+	text-align: justify;
+}
 
 .corDefault {
 	color: #ff6e03;
@@ -162,8 +174,7 @@ a:visited {
 	color: #4682B4;
 }
 .linkDefault:hover {
-	color: #4682B4;
-	font-style: italic;
+	color: blue;
 }
 
 .labelFonteImagem{
@@ -185,10 +196,10 @@ a:visited {
 
 #styleHeaderFooter {
 	width: 100%;
+	background-color: #4682B4;
+	font-family: Arial;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
-	/* background: url("../image/texturaCinzaCabecalho.jpg"); */
-	/* background: #CCCCCC; */
 }
 
 .tabPrettyPhoto{
@@ -305,11 +316,20 @@ table#tabFlags tr td {
 }
 
 .textoRodape {
-	color: #4f4f4f; font-weight: bold; padding-top: 20px; text-shadow: white 0.1em 0.1em 0.2em;
+	color: #4f4f4f; 
+	font-family: arial;
+	font-weight: bold;
+	font-size: large; 
+	padding-top: 20px; 
+	text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 .textoCabecalho {
-	color: #4f4f4f; font-weight: bold; padding-top: 20px; font-size: xx-large; text-shadow: white 0.1em 0.1em 0.2em;
+	color: #4682B4; 
+	font-weight: bold; 
+	padding-top: 20px; 
+	font-size: xx-large; 
+	text-shadow: white 0.1em 0.1em 0.2em;
 }
 
 #divCabecalho {
@@ -351,13 +371,11 @@ table#tabFlags tr td {
 .letraMedia{
 	font-size: medium; 
 	font-weight: bold; 
-	color: #4F4F4F; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
 .letraNormal {	 
 	font-weight: normal; 
-	color: #1C1C1C;	
 }
 
 .menuTabela {
@@ -407,27 +425,27 @@ table#tabFlags tr td {
 } */
 
 .degradeHeader {	
-	background: #B5B5B5; /* Old browsers */
+	background: #B0C4DE; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #B5B5B5 0%,  #E8E8E8 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B5B5B5), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #B5B5B5 0%, #E8E8E8 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #B5B5B5 0%, #E8E8E8 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #B5B5B5 0%, #E8E8E8 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #B5B5B5 0%, #E8E8E8 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B5B5B5', endColorstr='#E8E8E8',GradientType=0 ); /* IE6-8 */
+	background: -moz-linear-gradient(top, #B0C4DE 0%,  #E8E8E8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#B0C4DE), color-stop(100%,#E8E8E8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #B0C4DE 0%, #E8E8E8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #B0C4DE 0%, #E8E8E8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #B0C4DE 0%, #E8E8E8 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #B0C4DE 0%, #E8E8E8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B0C4DE', endColorstr='#E8E8E8',GradientType=0 ); /* IE6-8 */
 }
 
 .degradeFooter {	
-	background: #B5B5B5; /* Old browsers */
+	background: #B0C4DE; /* Old browsers */
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: -moz-linear-gradient(top, #E8E8E8 0%,  #B5B5B5 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E8E8E8), color-stop(100%,#B5B5B5)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #E8E8E8 0%, #B5B5B5 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #E8E8E8 0%, #B5B5B5 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #E8E8E8 0%, #B5B5B5 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #E8E8E8 0%, #B5B5B5 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E8E8', endColorstr='#B5B5B5',GradientType=0 ); /* IE6-8 */
+	background: -moz-linear-gradient(top, #E8E8E8 0%,  #B0C4DE 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E8E8E8), color-stop(100%,#B0C4DE)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #E8E8E8 0%, #B0C4DE 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #E8E8E8 0%, #B0C4DE 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #E8E8E8 0%, #B0C4DE 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #E8E8E8 0%, #B0C4DE 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E8E8', endColorstr='#B0C4DE',GradientType=0 ); /* IE6-8 */
 }
 
 .degradeBodyVerde {	
@@ -569,9 +587,9 @@ table#tabFlags tr td {
 	text-align: center;
 	cursor: pointer;
 	padding: 20px;
-	border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
 }
 
 .destacar:hover {
@@ -604,11 +622,12 @@ table#tabFlags tr td {
 
 .quadroMenu{
 	width: 100%;
-	background-color: #CCCCCC;
+	font-family: Arial;	
+	/* background-color: #CCCCCC;
 	border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	box-shadow: 2px 2px 2px #8B8484;
+	box-shadow: 2px 2px 2px #8B8484; */
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;		

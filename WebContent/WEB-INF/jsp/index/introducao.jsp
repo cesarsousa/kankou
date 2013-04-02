@@ -20,9 +20,9 @@
 <table width="100%" border="0">
   <tr>
     <td width="10%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab"/></td>
-    <td width="90%" rowspan="2"  align="justify">
+    <td width="90%" rowspan="2">
     
-    	${BTextoIntroducao}
+    	<span class="textoIntroducao">${BTextoIntroducao}</span>
 				
 		<form id="formRealizarExame" action="<c:url value="/realizarExame" />" method="get"></form>
 		<div align="center">

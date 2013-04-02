@@ -40,7 +40,7 @@
 
 </div>
 </div>
-<div id="styleHeaderFooter" class="fundoIndex" align="center">
+<div id="styleHeaderFooter" align="center">
 <div id="subMenu">
 <ul>
 <li id="limenuHome" ><a id="menuHome" href="<c:url value="/home" />" >${BSubMenuIntro}</a></li>

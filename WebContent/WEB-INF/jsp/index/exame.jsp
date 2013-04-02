@@ -21,9 +21,9 @@
 <table width="100%" border="0">
   <tr>
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
-    <td width="95%" rowspan="2"  align="justify">   	
+    <td width="95%" rowspan="2">   	
     	
-    	${BTextoExame} 
+    	<span class="textoIntroducao">${BTextoExame}</span>   	
     	
     	<br/>
 		<p class="linkDownloadAutoExame" align="center">
@@ -86,38 +86,24 @@
 			</a>
 			</td>
 			</tr>
-			</tbody>
-			
-			<tfoot>
-			<tr>
-			<td colspan="3" style="border-top: 1px solid #CCCCCC;">
-			<div align="center">
-			<div id="divLabelFonteExame"> 
-				${BTextoFonteFotoExame} 
-				<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank"> ‘A digital manual for the early diagnosis of oral neoplasia’</a>
-				, ${BTextoFonteFotoExame2}
-			</div>
-			</div>
-			</td>
-			</tr>
-			</tfoot>
+			</tbody>			
 		</table>
 		
-		
+		<span class="textoIntroducao">${BTextoExame2}</span>
 		
 		<br/>		
 		
 		<div class="quadroMenu">
 			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
+			<span class="letraMedia corDefault">${BQuadroMenuTxt1}</span>
 			</p>
 			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			<span class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
 			</p>
 			
-			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
+			<%-- <form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
 				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
-			</form>
+			</form> --%>
 			
 			<table class="tabQuadroMenu">
 				<tr>

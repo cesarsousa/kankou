@@ -160,7 +160,8 @@ public class IndexController {
 		sessao.setJspRequest(JspRequest.EXAME);						
 		initResourceBundle();		
 		
-		result.include("BTextoExame", rb.getString("BTextoExame"));	
+		result.include("BTextoExame", rb.getString("BTextoExame"));
+		result.include("BTextoExame2", rb.getString("BTextoExame2"));
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
 		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
