@@ -1,5 +1,19 @@
 @CHARSET "UTF-8";
 
+@font-face {
+  font-family: 'Dr Sugiyama';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dr Sugiyama Regular'), local('DrSugiyama-Regular'), url(http://themes.googleusercontent.com/static/fonts/drsugiyama/v2/rq_8251Ifx6dE1Mq7bUM6YbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/sharetechmono/v1/RQxK-3RA0Lnf3gnnnNrAsUYuTAAIFFn5GTWtryCmBQ4.woff) format('woff');
+}
+
 /* INICIO dos estilos para fixar o rodape */
 html, body, #wrap {
 	height: 100%;
@@ -84,6 +98,8 @@ transition: 1s;}
 	background: url("../image/texturaCinza.jpg");
 } */
 
+
+
 .fundoIndex {
 	/* background: url("../image/texturaCinza.jpg"); */
 	background-color: #ff6e03;
@@ -102,10 +118,18 @@ a:visited {
 	background: url("../image/texturaCinzaCabecalho.jpg");
 }
 
-.fontCooperplateGothicLight {
-	font-family: Bookman;
-	
+.fontIndexTitulo {
+	/* font-family: 'Dr Sugiyama', cursive; */
+	font-family: 'Dr Sugiyama';	
 }
+
+.fontIndexDesc {
+	font-family: 'Share Tech Mono';
+}
+
+
+
+
 
 .corDefault {
 	color: #ff6e03;

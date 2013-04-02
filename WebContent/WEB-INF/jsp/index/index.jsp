@@ -33,8 +33,8 @@
 		<img alt="português" title="português" class="imgSombra" src="${imagem}/flagBrasil.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p class="fontCooperplateGothicLight">O Acupunturista e o exame da língua.</p>
-		<p>Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca.</p>
+		<p class="fontIndexTitulo">O Acupunturista e o exame da língua.</p>
+		<p class="fontIndexDesc">Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca.</p>
 		</td>
 		</tr>
 		
@@ -53,8 +53,8 @@
 		<img alt="english" title="english" class="imgSombra" src="${imagem}/flagUSA.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p class="fontCooperplateGothicLight">The acupuncturist and the inspection of the tongue.</p>
-		<p>Learn to expand routine examination and act in the prevention of mouth cancer.</p>
+		<p class="fontIndexTitulo">The acupuncturist and the inspection of the tongue.</p>
+		<p class="fontIndexDesc">Learn to expand routine examination and act in the prevention of mouth cancer.</p>
 		</td>
 		</tr>
 		
