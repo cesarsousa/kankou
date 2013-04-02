@@ -102,6 +102,11 @@ a:visited {
 	background: url("../image/texturaCinzaCabecalho.jpg");
 }
 
+.fontCooperplateGothicLight {
+	font-family: Bookman;
+	
+}
+
 .corDefault {
 	color: #ff6e03;
 }
