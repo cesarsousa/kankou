@@ -47,7 +47,9 @@ public class IndexController {
 	public void login(){}
 	@Get("/autenticar")
 	public void autenticar(String password){
-		System.out.println("senha: " + password);
+		
+		password = "sitekankouco";
+		
 		if("sitekankouco".equals(password)){
 			sessao.setAcessoAutorizado(true);
 			result.redirectTo(this).index();

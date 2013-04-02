@@ -85,7 +85,8 @@ transition: 1s;}
 } */
 
 .fundoIndex {
-	background: url("../image/texturaCinza.jpg");
+	/* background: url("../image/texturaCinza.jpg"); */
+	background-color: #ff6e03;
 }
 
 a {
@@ -99,6 +100,10 @@ a:visited {
 
 .texturaHeader {
 	background: url("../image/texturaCinzaCabecalho.jpg");
+}
+
+.corDefault {
+	color: #ff6e03;
 }
 
 .corPreta {
