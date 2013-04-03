@@ -106,7 +106,7 @@
 		
 		<div class="quadroMenu">			
 			<p>
-			<span class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<%-- <form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
