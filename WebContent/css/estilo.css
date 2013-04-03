@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-@font-face {
+/* @font-face {
   font-family: 'Alegreya SC';
   font-style: normal;
   font-weight: 400;
@@ -8,17 +8,24 @@
 }
 
 @font-face {
-  font-family: 'Josefin Sans';
+  font-family: 'Pompiere';
   font-style: normal;
   font-weight: 400;
-  src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v3/xgzbb53t8j-Mo-vYa23n5nhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+  src: local('Pompiere '), local('Pompiere-Regular'), url(http://themes.googleusercontent.com/static/fonts/pompiere/v3/REn9C5nNcBLtk0UzcbjDQPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+} */
+
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya SC'), local('AlegreyaSC-Regular'), url('../font/Alegreya_SC/AlegreyaSC-Regular.ttf') format('woff');
 }
 
 @font-face {
-  font-family: 'Didact Gothic';
+  font-family: 'Pompiere';
   font-style: normal;
   font-weight: 400;
-  src: local('Didact Gothic'), local('DidactGothic'), url(http://themes.googleusercontent.com/static/fonts/didactgothic/v4/v8_72sD3DYMKyM0dn3LtWp_RtrTXGeaL_Dia6_H9gNs.woff) format('woff');
+  src: local('Pompiere '), local('Pompiere-Regular'), url('../font/Pompiere/Pompiere-Regular.ttf') format('woff');
 }
 
 /* INICIO dos estilos para fixar o rodape */
@@ -59,7 +66,7 @@ body {
 /* INICIO estilos para o efeito de rolagem para o topo */
 #back-top {
 position: fixed;
-bottom: 80px;
+bottom: 100px;
 }
 
 #back-top label {
@@ -110,8 +117,6 @@ transition: 1s;}
 	background: url("../image/texturaCinza.jpg");
 } */
 
-
-
 .fundoIndex {
 	/* background: url("../image/texturaCinza.jpg"); */
 	background-color: #ff6e03;
@@ -124,7 +129,10 @@ a {
 a:visited {
 	text-decoration: none;
 }
-	
+
+.ponteiro {
+	cursor: pointer;
+}
 
 .texturaHeader {
 	background: url("../image/texturaCinzaCabecalho.jpg");
@@ -132,15 +140,17 @@ a:visited {
 
 .fontIndexTitulo {
 	font-family: 'Alegreya SC';
+	font-size: large;
 }
 
 .fontIndexDesc {
-	font-family: 'Josefin Sans';
+	font-family: 'Pompiere';
+	font-size: x-large;
 }
 
 .textoIntroducao {
-	font-family: 'Didact Gothic';
-	text-align: justify;
+	font-family: 'Alegreya SC';
+	text-align: justify;	
 }
 
 .corDefault {
@@ -297,7 +307,6 @@ a:visited {
 }
 
 table#tabFlags p {
-	font-size: medium;
 	font-weight: normal;
 	color: #363636;	
 }
@@ -355,21 +364,17 @@ table#tabFlags tr td {
 	align: right;
 	vertical-align: middle;
 	width: 220px;
-	border-left: 1px solid #E8E8E8;
-	
-	
+	border-left: 1px solid #E8E8E8;	
 }
 
-.letraGrande {
-	font-size: large; 
+.letraGrande {	 
 	font-weight: bold;
-	font-style: italic; 
+	
 	color: #4F4F4F; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
 .letraMedia{
-	font-size: medium; 
 	font-weight: bold; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }

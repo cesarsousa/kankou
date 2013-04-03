@@ -20,6 +20,12 @@ $(document).ready(function() {
     	$('#formVariacaoLesao').submit();
     });
 	
-	$("a[rel^='prettyPhoto']").prettyPhoto();	
+	$("a[rel^='prettyPhoto']").prettyPhoto();
+	
+	$('#spanTamanhoFonteExame span').click(function(){
+		alterarTamanhoTexto(this.id, '#textoExame1');
+		alterarTamanhoTexto(this.id, '#textoExame2');
+		alterarTamanhoTexto(this.id, '#BQuadroMenuTxt2');		
+	});
 	
 });

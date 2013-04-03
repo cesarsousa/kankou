@@ -21,9 +21,20 @@
 <table width="100%" border="0">
   <tr>
     <td width="5%" valign="top"><img src="${imagem}/imagemIntro_topo.png" class="imgFundoTab" /></td>
-    <td width="95%" rowspan="2">   	
+    <td width="95%" rowspan="2">
+    
+    	<div align="right" class="corDefault">
+    	<span>tamanho da fonte</span>    	
+    	<div id="spanTamanhoFonteExame">
+    	<span id="small" style="font-size: small; padding-left: 5px" class="ponteiro">A</span>
+    	<span id="medium" style="font-size: medium; padding-left: 5px" class="ponteiro">A</span>   
+    	<span id="large" style="font-size: large; padding-left: 5px" class="ponteiro">A</span>   
+    	<span id="x-large" style="font-size: x-large; padding-left: 5px" class="ponteiro">A</span>   
+    	<span id="xx-large" style="font-size: xx-large; padding-left: 5px" class="ponteiro">A</span>    
+    	</div>
+    	</div>   	
     	
-    	<span class="textoIntroducao">${BTextoExame}</span>   	
+    	<span id="textoExame1" class="textoIntroducao">${BTextoExame}</span>   	
     	
     	<br/>
 		<p class="linkDownloadAutoExame" align="center">
@@ -89,14 +100,11 @@
 			</tbody>			
 		</table>
 		
-		<span class="textoIntroducao">${BTextoExame2}</span>
+		<span id="textoExame2" class="textoIntroducao">${BTextoExame2}</span>
 		
 		<br/>		
 		
-		<div class="quadroMenu">
-			<p>
-			<span class="letraMedia corDefault">${BQuadroMenuTxt1}</span>
-			</p>
+		<div class="quadroMenu">			
 			<p>
 			<span class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
 			</p>
