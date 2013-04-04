@@ -34,13 +34,15 @@
     	</div>
     	</div>   	
     	
-    	<span id="textoExame1" class="textoIntroducao">${BTextoExame}</span>   	
+    	<span id="textoExame" class="textoIntroducao">${BTextoExame}</span>
     	
     	<br/>
 		<p class="linkDownloadAutoExame" align="center">
 		<a href="${download}/auto_exame_da_boca.zip">${BTextoDownloadExame}</a>	
 		</p>
 		<br/>	
+    	
+    	<span id="textoExame1" class="textoIntroducao">${BTextoExame1}</span>     	
 	
 		<table class="tabPrettyPhoto">
 			<tbody id="tabExame">
@@ -109,9 +111,9 @@
 			<span id="textoQuadroLink" class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
 			</p>
 			
-			<%-- <form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
+			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
 				<input id="inputVariacaoLesao" type="hidden" name="variacaoLesao">
-			</form> --%>
+			</form>
 			
 			<table class="tabQuadroMenu">
 				<tr>

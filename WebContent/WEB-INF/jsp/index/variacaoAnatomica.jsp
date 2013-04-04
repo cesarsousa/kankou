@@ -111,10 +111,7 @@
 		<br/>		
 		<div class="quadroMenu">
 			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
-			</p>
-			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">

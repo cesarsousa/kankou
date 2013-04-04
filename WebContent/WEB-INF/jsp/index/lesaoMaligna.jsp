@@ -39,9 +39,9 @@
     		<tbody id="tabLesaoMaligna">
     		
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna1.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF1Descricao}">
-					<img  alt="${BLesaoMalignaF1Titulo}" src="${imagemGeral}/lesaomaligna1.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF1Titulo}" src="${imagemGeral}/lesaomaligna1.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -51,9 +51,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna2.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF2Descricao}">
-					<img  alt="${BLesaoMalignaF2Titulo}" src="${imagemGeral}/lesaomaligna2.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF2Titulo}" src="${imagemGeral}/lesaomaligna2.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -63,9 +63,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna3.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF3Descricao}">
-					<img  alt="${BLesaoMalignaF3Titulo}" src="${imagemGeral}/lesaomaligna3.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF3Titulo}" src="${imagemGeral}/lesaomaligna3.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -75,9 +75,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna4.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF4Descricao}">
-					<img  alt="${BLesaoMalignaF4Titulo}" src="${imagemGeral}/lesaomaligna4.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF4Titulo}" src="${imagemGeral}/lesaomaligna4.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -87,9 +87,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna5.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF5Descricao}">
-					<img  alt="${BLesaoMalignaF5Titulo}" src="${imagemGeral}/lesaomaligna5.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF5Titulo}" src="${imagemGeral}/lesaomaligna5.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -99,9 +99,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna6.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF6Descricao}">
-					<img  alt="${BLesaoMalignaF6Titulo}" src="${imagemGeral}/lesaomaligna6.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF6Titulo}" src="${imagemGeral}/lesaomaligna6.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -111,9 +111,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna7.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF7Descricao}">
-					<img  alt="${BLesaoMalignaF7Titulo}" src="${imagemGeral}/lesaomaligna7.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF7Titulo}" src="${imagemGeral}/lesaomaligna7.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -123,9 +123,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna8.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF8Descricao}">
-					<img  alt="${BLesaoMalignaF8Titulo}" src="${imagemGeral}/lesaomaligna8.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF8Titulo}" src="${imagemGeral}/lesaomaligna8.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -135,9 +135,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna9.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF9Descricao}">
-					<img  alt="${BLesaoMalignaF9Titulo}" src="${imagemGeral}/lesaomaligna9.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF9Titulo}" src="${imagemGeral}/lesaomaligna9.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -147,9 +147,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna10.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF10Descricao}">
-					<img  alt="${BLesaoMalignaF10Titulo}" src="${imagemGeral}/lesaomaligna10.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF10Titulo}" src="${imagemGeral}/lesaomaligna10.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -159,9 +159,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna11.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF11Descricao}">
-					<img  alt="${BLesaoMalignaF11Titulo}" src="${imagemGeral}/lesaomaligna11.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF11Titulo}" src="${imagemGeral}/lesaomaligna11.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -171,9 +171,9 @@
 				</tr>	
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna12.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF12Descricao}">
-					<img  alt="${BLesaoMalignaF12Titulo}" src="${imagemGeral}/lesaomaligna12.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF12Titulo}" src="${imagemGeral}/lesaomaligna12.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -183,9 +183,9 @@
 				</tr>	
 				
 				<tr>
-				<td class="destaquetabLesaoMaligna">
+				<td>
 				<a href="${imagemGeral}/lesaomaligna13.JPG" rel="prettyPhoto[galeriaLesaoMaligna]" title="${BLesaoMalignaF13Descricao}">
-					<img  alt="${BLesaoMalignaF13Titulo}" src="${imagemGeral}/lesaomaligna13.JPG" width="100" height="100">
+					<img  alt="${BLesaoMalignaF13Titulo}" src="${imagemGeral}/lesaomaligna13.JPG" class="destaquetabLesaoMaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -210,10 +210,7 @@
 		<br/>		
 		<div class="quadroMenu">
 			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
-			</p>
-			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">

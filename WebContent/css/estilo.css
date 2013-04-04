@@ -118,8 +118,8 @@ transition: 1s;}
 } */
 
 .fundoIndex {
-	/* background: url("../image/texturaCinza.jpg"); */
-	background-color: #ff6e03;
+	background: url("../image/texturaLaranja.jpg");
+	/* background-color: #ff6e03; */
 }
 
 a {
@@ -283,16 +283,16 @@ a:visited {
 }
 
 .fotoTitulo{
-	font-size: medium;
+	font-size: large;
 	font-weight: bold;
-	color: #87CEFA;
+	color: #4682B4;
 	text-align: left;
 }
 
 .fotoDescricao{
-	font-size: small;
+	font-size: medium;
 	font-weight: normal;
-	color: gray;
+	color: black;
 	text-align: left;
 	
 }
@@ -654,71 +654,84 @@ table#tabFlags tr td {
 }
 
 .msgVariacaoAnatomica {
-	background-color: #5D980D;
-	border-color: #5D980D;
+	background-color: #FFFFFF;
+	border: 2px solid #5D980D;
 	text-align: left;
-	color: #ffffff;
+	color: #5D980D;
 	font-size: large;
 }
 
 .msgLesaoComum {
-	background-color: #CDCD00;
-	border-color: #CDCD00;
+	background-color: #FFFFFF;
+	border: 2px solid #CDCD00;
 	text-align: left;
-	color: #ffffff;
+	color: #CDCD00;
 	font-size: large;
 }
 
 .msgLesaoBenigna {
-	background-color: #CD950C;
-	border-color: #CD950C;
+	background-color: #FFFFFF;
+	border: 2px solid #CD950C;
 	text-align: left;
-	color: #ffffff;
+	color: #CD950C;
 	font-size: large;
 }
 
 .msgLesaoPremaligna {
-	background-color: #FF0000;
-	border-color: #FF0000;
+	background-color: #FFFFFF;
+	border: 2px solid #FF0000;
 	text-align: left;
-	color: #ffffff;
+	color: #FF0000;
 	font-size: large;
 }
 
 .msgLesaoMaligna {
-	background-color: #5D478B;
-	border-color: #5D478B;
+	background-color: #FFFFFF;
+	border: 2px solid #5D478B;
 	text-align: left;
-	color: #ffffff;
+	color: #5D478B;
 	font-size: large;
 }
 
 #tabExame tr td:hover{
-	background-color: #87CEEB;
+	background-color: #87CEEB;	
 }
 
-#tabVariacaoAnatomica tr td:hover{
+.negrito {
+	font-weight: bold;
+}
+
+/* #tabVariacaoAnatomica tr td:hover{
 	background-color: #5D980D;
-}
+} */
 
-#tabLesaoComum tr td:hover{
+/* #tabLesaoComum tr td:hover{
 	background-color: #CDCD00;
-}
+} */
 
-#tabLesaoBenigna tr td:hover{
+/* #tabLesaoBenigna tr td:hover{
 	background-color: #CD950C;
+} */
+
+.destaquetabLesaoPremaligna{
+	border: 2px solid #FFFFFF;
+}
+.destaquetabLesaoPremaligna:hover{
+	border: 2px solid #FF0000;
 }
 
-.destaquetabLesaoPremaligna:hover{
-	background-color: #FF0000;
-}
+
+
 
 /* #tabLesaoPremaligna tr td:hover{
 	background-color: #FF0000;
 } */
 
+.destaquetabLesaoMaligna{
+	border: 2px solid #FFFFFF;
+}
 .destaquetabLesaoMaligna:hover{
-	background-color: #5D478B;
+	border: 2px solid #5D478B;
 }
 
 /* #tabLesaoMaligna tr td:hover{

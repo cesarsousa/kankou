@@ -39,9 +39,9 @@
     		<tbody id="tabLesaoPremaligna">
     		
     			<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna1.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF1Descricao}">
-					<img  alt="${BLesaoPremalignaF1Titulo}" src="${imagemGeral}/lesaopremaligna1.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF1Titulo}" src="${imagemGeral}/lesaopremaligna1.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -51,9 +51,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna2.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF2Descricao}">
-					<img  alt="${BLesaoPremalignaF2Titulo}" src="${imagemGeral}/lesaopremaligna2.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF2Titulo}" src="${imagemGeral}/lesaopremaligna2.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -63,9 +63,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna3.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF3Descricao}">
-					<img  alt="${BLesaoPremalignaF3Titulo}" src="${imagemGeral}/lesaopremaligna3.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF3Titulo}" src="${imagemGeral}/lesaopremaligna3.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -75,9 +75,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna4.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF4Descricao}">
-					<img  alt="${BLesaoPremalignaF4Titulo}" src="${imagemGeral}/lesaopremaligna4.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF4Titulo}" src="${imagemGeral}/lesaopremaligna4.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -87,9 +87,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna5.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF5Descricao}">
-					<img  alt="${BLesaoPremalignaF5Titulo}" src="${imagemGeral}/lesaopremaligna5.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF5Titulo}" src="${imagemGeral}/lesaopremaligna5.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -99,9 +99,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna6.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF6Descricao}">
-					<img  alt="${BLesaoPremalignaF6Titulo}" src="${imagemGeral}/lesaopremaligna6.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF6Titulo}" src="${imagemGeral}/lesaopremaligna6.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -111,9 +111,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna7.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF7Descricao}">
-					<img  alt="${BLesaoPremalignaF7Titulo}" src="${imagemGeral}/lesaopremaligna7.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF7Titulo}" src="${imagemGeral}/lesaopremaligna7.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -123,9 +123,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna8.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF8Descricao}">
-					<img  alt="${BLesaoPremalignaF8Titulo}" src="${imagemGeral}/lesaopremaligna8.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF8Titulo}" src="${imagemGeral}/lesaopremaligna8.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -135,9 +135,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna9.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF9Descricao}">
-					<img  alt="${BLesaoPremalignaF9Titulo}" src="${imagemGeral}/lesaopremaligna9.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF9Titulo}" src="${imagemGeral}/lesaopremaligna9.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -147,9 +147,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna10.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF10Descricao}">
-					<img  alt="${BLesaoPremalignaF10Titulo}" src="${imagemGeral}/lesaopremaligna10.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF10Titulo}" src="${imagemGeral}/lesaopremaligna10.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -159,9 +159,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna11.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF11Descricao}">
-					<img  alt="${BLesaoPremalignaF11Titulo}" src="${imagemGeral}/lesaopremaligna11.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF11Titulo}" src="${imagemGeral}/lesaopremaligna11.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -171,9 +171,9 @@
 				</tr>	
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna12.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF12Descricao}">
-					<img  alt="${BLesaoPremalignaF12Titulo}" src="${imagemGeral}/lesaopremaligna12.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF12Titulo}" src="${imagemGeral}/lesaopremaligna12.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -183,9 +183,9 @@
 				</tr>	
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna13.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF13Descricao}">
-					<img  alt="${BLesaoPremalignaF13Titulo}" src="${imagemGeral}/lesaopremaligna13.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF13Titulo}" src="${imagemGeral}/lesaopremaligna13.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -195,9 +195,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna14.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF14Descricao}">
-					<img  alt="${BLesaoPremalignaF14Titulo}" src="${imagemGeral}/lesaopremaligna14.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF14Titulo}" src="${imagemGeral}/lesaopremaligna14.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -207,9 +207,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna15.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF15Descricao}">
-					<img  alt="${BLesaoPremalignaF15Titulo}" src="${imagemGeral}/lesaopremaligna15.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF15Titulo}" src="${imagemGeral}/lesaopremaligna15.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -219,9 +219,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna16.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF16Descricao}">
-					<img  alt="${BLesaoPremalignaF16Titulo}" src="${imagemGeral}/lesaopremaligna16.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF16Titulo}" src="${imagemGeral}/lesaopremaligna16.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -231,9 +231,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna17.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF17Descricao}">
-					<img  alt="${BLesaoPremalignaF17Titulo}" src="${imagemGeral}/lesaopremaligna17.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF17Titulo}" src="${imagemGeral}/lesaopremaligna17.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -243,9 +243,9 @@
 				</tr>
 				
 				<tr>
-				<td class="destaquetabLesaoPremaligna">
+				<td>
 				<a href="${imagemGeral}/lesaopremaligna18.JPG" rel="prettyPhoto[galeriaLesaoPremaligna]" title="${BLesaoPremalignaF18Descricao}">
-					<img  alt="${BLesaoPremalignaF18Titulo}" src="${imagemGeral}/lesaopremaligna18.JPG" width="100" height="100">
+					<img  alt="${BLesaoPremalignaF18Titulo}" src="${imagemGeral}/lesaopremaligna18.JPG" class="destaquetabLesaoPremaligna" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -270,10 +270,7 @@
 		<br/>		
 		<div class="quadroMenu">
 			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
-			</p>
-			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">

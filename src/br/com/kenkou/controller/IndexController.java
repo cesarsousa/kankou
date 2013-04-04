@@ -161,6 +161,7 @@ public class IndexController {
 		initResourceBundle();		
 		
 		result.include("BTextoExame", rb.getString("BTextoExame"));
+		result.include("BTextoExame1", rb.getString("BTextoExame1"));
 		result.include("BTextoExame2", rb.getString("BTextoExame2"));
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));

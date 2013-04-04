@@ -29,113 +29,137 @@
     		<thead>
     		<tr>
     		<td colspan="2">
-    		<div class="msgBorder msgLesaoComum">
-	    		${BLesaoComumTexto}
-	    	</div>
+    		<div class="msgBorder msgLesaoComum">${BLesaoComumTexto}</div>
     		</td>
     		</tr>
     		</thead>
     		
     		<tbody id="tabLesaoComum">
 			<tr>
-			<td>
-			<a href="${imagemGeral}/lesaocomum1.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF1Descricao}">
-				<img  alt="${BLesaoComunF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" width="200" height="200">
-			</a>
-			</td>
-			<td>
-			<a href="${imagemGeral}/lesaocomum2.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF2Descricao}">
-				<img  alt="${BLesaoComunF2Titulo}" src="${imagemGeral}/lesaocomum2.JPG" width="200" height="200">
-			</a>
-			</td>
+				<td>
+				<a href="${imagemGeral}/lesaocomum1.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF1Descricao}">
+					<img  alt="${BLesaoComunF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF1Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF1Descricao}</p>
+				</td>
+			</tr>
+			
+			<tr>			
+				<td>
+				<a href="${imagemGeral}/lesaocomum2.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF2Descricao}">
+					<img  alt="${BLesaoComunF2Titulo}" src="${imagemGeral}/lesaocomum2.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF2Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF2Descricao}</p>
+				</td>			
 			</tr>
 			
 			<tr>
-			<td>
-			<a href="${imagemGeral}/lesaocomum3.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF3Descricao}">
-				<img  alt="${BLesaoComunF3Titulo}" src="${imagemGeral}/lesaocomum3.JPG" width="200" height="200">
-			</a>
-			</td>						
-			<td>
-			<a href="${imagemGeral}/lesaocomum4.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF4Descricao}">
-				<img  alt="${BLesaoComunF4Titulo}" src="${imagemGeral}/lesaocomum4.JPG" width="200" height="200">
-			</a>
-			</td>
+				<td>
+				<a href="${imagemGeral}/lesaocomum3.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF3Descricao}">
+					<img  alt="${BLesaoComunF3Titulo}" src="${imagemGeral}/lesaocomum3.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF3Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF3Descricao}</p>
+				</td>
+			</tr>	
+			
+			<tr>						
+				<td>
+				<a href="${imagemGeral}/lesaocomum4.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF4Descricao}">
+					<img  alt="${BLesaoComunF4Titulo}" src="${imagemGeral}/lesaocomum4.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF4Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF4Descricao}</p>
+				</td>
+			</tr>
+			
+			<tr>				
+				<td>
+				<a href="${imagemGeral}/lesaocomum5.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF5Descricao}">
+					<img  alt="${BLesaoComunF5Titulo}" src="${imagemGeral}/lesaocomum5.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF5Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF5Descricao}</p>
+				</td>
+			</tr>
+						
+			<tr>
+				<td>
+				<a href="${imagemGeral}/lesaocomum6.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF6Descricao}">
+					<img  alt="${BLesaoComunF6Titulo}" src="${imagemGeral}/lesaocomum6.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF6Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF6Descricao}</p>
+				</td>		
+			</tr>
+			
+			<tr>				
+				<td>
+				<a href="${imagemGeral}/lesaocomum7.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF7Descricao}">
+					<img  alt="${BLesaoComunF7Titulo}" src="${imagemGeral}/lesaocomum7.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF7Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF7Descricao}</p>
+				</td>		
+			</tr>
+			
+			<tr>			
+				<td>
+				<a href="${imagemGeral}/lesaocomum8.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF8Descricao}">
+					<img  alt="${BLesaoComunF8Titulo}" src="${imagemGeral}/lesaocomum8.JPG" width="200" height="200">
+				</a>
+				</td>
+				<td>
+				<p class="fotoTitulo">${BLesaoComunF8Titulo}</p>
+				<p class="fotoDescricao">${BLesaoComunF8Descricao}</p>
+				</td>			
 			</tr>
 			
 			<tr>				
 			<td>
-			<a href="${imagemGeral}/lesaocomum5.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF5Descricao}">
-				<img  alt="${BLesaoComunF5Titulo}" src="${imagemGeral}/lesaocomum5.JPG" width="200" height="200">
-			</a>
-			</td>
-			<td>
-			<a href="${imagemGeral}/lesaocomum6.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF6Descricao}">
-				<img  alt="${BLesaoComunF6Titulo}" src="${imagemGeral}/lesaocomum6.JPG" width="200" height="200">
-			</a>
-			</td>
-			</tr>
-			
-			<tr>				
-			<td>
-			<a href="${imagemGeral}/lesaocomum7.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF7Descricao}">
-				<img  alt="${BLesaoComunF7Titulo}" src="${imagemGeral}/lesaocomum7.JPG" width="200" height="200">
-			</a>
-			</td>
-			<td>
-			<a href="${imagemGeral}/lesaocomum8.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF8Descricao}">
-				<img  alt="${BLesaoComunF8Titulo}" src="${imagemGeral}/lesaocomum8.JPG" width="200" height="200">
-			</a>
-			</td>
-			</tr>
-			
-			<tr>				
-			<td colspan="2">
 			<a href="${imagemGeral}/lesaocomum9.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF9Descricao}">
 				<img  alt="${BLesaoComunF9Titulo}" src="${imagemGeral}/lesaocomum9.JPG" width="200" height="200">
 			</a>
-			</td>			
+			</td>
+			<td>
+			<p class="fotoTitulo">${BLesaoComunF9Titulo}</p>
+			<p class="fotoDescricao">${BLesaoComunF9Descricao}</p>
+			</td>				
 			</tr>
 			</tbody>
 			
-			<tfoot>
-			
-			<%-- <tr>
-			<td colspan="2">
-			<div align="center">
-			<div id="divLabelFonteExame"> 
-				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
-				
-				<div id="divImagSiteFonteExame" style="padding: 10px;">
-					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
-					<img width="400px" height="200px" 
-						alt="A digital manual for the early diagnosis of oral neoplasia" 
-						title="A digital manual for the early diagnosis of oral neoplasia" 
-						src="${imagem}/siteFonteExame.png">
-					</a>
-				</div>		
-			</div>
-			</div>
-			</td>
-			</tr> --%>
-			
-			<tr>
-			<td colspan="2">
-			<div class="msgBorder msgLesaoComum">
-	    		${BLesaoComumTextoRodapeTab}
-	    	</div>
-			</td>
-			</tr>
+			<tfoot>			
+				<tr>
+				<td colspan="2">
+				<div class="msgBorder msgLesaoComum">
+		    		${BLesaoComumTextoRodapeTab}
+		    	</div>
+				</td>
+				</tr>
 			</tfoot>
 		</table>
 		
 		<br/>		
 		<div class="quadroMenu">
+		
 			<p>
-			<span class="letraMedia">${BQuadroMenuTxt1}</span>
-			</p>
-			<p>
-			<span class="letraNormal">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">
