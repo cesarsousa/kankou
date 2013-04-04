@@ -41,6 +41,10 @@ public class IndexController {
 		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
 		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
 		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
+		
+		// informacoes de rodape
+		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
+		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
 	}
 	
 	@Path("/")
@@ -163,9 +167,7 @@ public class IndexController {
 		result.include("BTextoExame", rb.getString("BTextoExame"));
 		result.include("BTextoExame1", rb.getString("BTextoExame1"));
 		result.include("BTextoExame2", rb.getString("BTextoExame2"));
-		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));	
-		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
-		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
+		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));		
 		
 		for(int i = 1; i < 10; i++){
 			String titulo = "BExameF" + i + "Titulo";

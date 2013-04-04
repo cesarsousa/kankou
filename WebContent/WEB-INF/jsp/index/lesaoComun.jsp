@@ -38,7 +38,7 @@
 			<tr>
 				<td>
 				<a href="${imagemGeral}/lesaocomum1.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF1Descricao}">
-					<img  alt="${BLesaoComunF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF1Titulo}" src="${imagemGeral}/lesaocomum1.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -50,7 +50,7 @@
 			<tr>			
 				<td>
 				<a href="${imagemGeral}/lesaocomum2.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF2Descricao}">
-					<img  alt="${BLesaoComunF2Titulo}" src="${imagemGeral}/lesaocomum2.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF2Titulo}" src="${imagemGeral}/lesaocomum2.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -62,7 +62,7 @@
 			<tr>
 				<td>
 				<a href="${imagemGeral}/lesaocomum3.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF3Descricao}">
-					<img  alt="${BLesaoComunF3Titulo}" src="${imagemGeral}/lesaocomum3.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF3Titulo}" src="${imagemGeral}/lesaocomum3.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -74,7 +74,7 @@
 			<tr>						
 				<td>
 				<a href="${imagemGeral}/lesaocomum4.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF4Descricao}">
-					<img  alt="${BLesaoComunF4Titulo}" src="${imagemGeral}/lesaocomum4.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF4Titulo}" src="${imagemGeral}/lesaocomum4.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -86,7 +86,7 @@
 			<tr>				
 				<td>
 				<a href="${imagemGeral}/lesaocomum5.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF5Descricao}">
-					<img  alt="${BLesaoComunF5Titulo}" src="${imagemGeral}/lesaocomum5.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF5Titulo}" src="${imagemGeral}/lesaocomum5.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -98,7 +98,7 @@
 			<tr>
 				<td>
 				<a href="${imagemGeral}/lesaocomum6.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF6Descricao}">
-					<img  alt="${BLesaoComunF6Titulo}" src="${imagemGeral}/lesaocomum6.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF6Titulo}" src="${imagemGeral}/lesaocomum6.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -110,7 +110,7 @@
 			<tr>				
 				<td>
 				<a href="${imagemGeral}/lesaocomum7.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF7Descricao}">
-					<img  alt="${BLesaoComunF7Titulo}" src="${imagemGeral}/lesaocomum7.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF7Titulo}" src="${imagemGeral}/lesaocomum7.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -122,7 +122,7 @@
 			<tr>			
 				<td>
 				<a href="${imagemGeral}/lesaocomum8.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF8Descricao}">
-					<img  alt="${BLesaoComunF8Titulo}" src="${imagemGeral}/lesaocomum8.JPG" width="200" height="200">
+					<img  alt="${BLesaoComunF8Titulo}" src="${imagemGeral}/lesaocomum8.JPG" class="destaquetabLesaoComum" width="200" height="200">
 				</a>
 				</td>
 				<td>
@@ -134,7 +134,7 @@
 			<tr>				
 			<td>
 			<a href="${imagemGeral}/lesaocomum9.JPG" rel="prettyPhoto[galeriaLesaoComum]" title="${BLesaoComunF9Descricao}">
-				<img  alt="${BLesaoComunF9Titulo}" src="${imagemGeral}/lesaocomum9.JPG" width="200" height="200">
+				<img  alt="${BLesaoComunF9Titulo}" src="${imagemGeral}/lesaocomum9.JPG" class="destaquetabLesaoComum" width="200" height="200">
 			</a>
 			</td>
 			<td>

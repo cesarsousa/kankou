@@ -40,64 +40,77 @@
 			<tr>
 			<td>
 			<a href="${imagemGeral}/varAnat1.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF1Descricao}">
-				<img  alt="${BVarAnatF1Titulo}" src="${imagemGeral}/varAnat1.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF1Titulo}" src="${imagemGeral}/varAnat1.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
 			</td>
 			<td>
+			<p class="fotoTitulo">${BVarAnatF1Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF1Descricao}</p>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
 			<a href="${imagemGeral}/varAnat2.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF2Descricao}">
-				<img  alt="${BVarAnatF2Titulo}" src="${imagemGeral}/varAnat2.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF2Titulo}" src="${imagemGeral}/varAnat2.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BVarAnatF2Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF2Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/varAnat3.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF3Descricao}">
-				<img  alt="${BVarAnatF3Titulo}" src="${imagemGeral}/varAnat3.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF3Titulo}" src="${imagemGeral}/varAnat3.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
-			</td>						
+			</td>
+			<td>
+			<p class="fotoTitulo">${BVarAnatF3Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF3Descricao}</p>
+			</td>
+			</tr>
+			
+			<tr>						
 			<td>
 			<a href="${imagemGeral}/varAnat4.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF4Descricao}">
-				<img  alt="${BVarAnatF4Titulo}" src="${imagemGeral}/varAnat4.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF4Titulo}" src="${imagemGeral}/varAnat4.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BVarAnatF4Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF4Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>				
 			<td>
 			<a href="${imagemGeral}/varAnat5.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF5Descricao}">
-				<img  alt="${BVarAnatF5Titulo}" src="${imagemGeral}/varAnat5.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF5Titulo}" src="${imagemGeral}/varAnat5.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
 			</td>
 			<td>
+			<p class="fotoTitulo">${BVarAnatF5Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF5Descricao}</p>
+			</td>
+			</tr>
+			
+			<tr>
+			<td>
 			<a href="${imagemGeral}/varAnat6.JPG" rel="prettyPhoto[galeriaVarAnat]" title="${BVarAnatF6Descricao}">
-				<img  alt="${BVarAnatF6Titulo}" src="${imagemGeral}/varAnat6.JPG" width="200" height="200">
+				<img  alt="${BVarAnatF6Titulo}" src="${imagemGeral}/varAnat6.JPG" class="destaquetabVariacaoAnatomica" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BVarAnatF6Titulo}</p>
+			<p class="fotoDescricao">${BVarAnatF6Descricao}</p>
 			</td>
 			</tr>
 			</tbody>
-			
+						
 			<tfoot>
-			
-			<%-- <tr>
-			<td colspan="2">
-			<div align="center">
-			<div id="divLabelFonteExame"> 
-				${BTextoFonteFotoExame} <span class="labelFonteImagem">‘A digital manual for the early diagnosis of oral neoplasia’.</span>
-				
-				<div id="divImagSiteFonteExame" style="padding: 10px;">
-					<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank">
-					<img width="400px" height="200px" 
-						alt="A digital manual for the early diagnosis of oral neoplasia" 
-						title="A digital manual for the early diagnosis of oral neoplasia" 
-						src="${imagem}/siteFonteExame.png">
-					</a>
-				</div>		
-			</div>
-			</div>
-			</td>
-			</tr> --%>
-			
 			<tr>
 			<td colspan="2">
 			<div class="msgBorder msgVariacaoAnatomica">
