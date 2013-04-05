@@ -50,73 +50,108 @@
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame1.JPG" rel="prettyPhoto[galeria1]" title="${BExameF1Descricao}">
-				<img  alt="${BExameF1Titulo}" src="${imagemGeral}/exame1.JPG" width="100" height="100">
+				<img  alt="${BExameF1Titulo}" src="${imagemGeral}/exame1.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF1Titulo}</p>
+			<p class="fotoDescricao">${BExameF1Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame2.JPG" rel="prettyPhoto[galeria1]" title="${BExameF2Descricao}">
-				<img  alt="${BExameF2Titulo}" src="${imagemGeral}/exame2.JPG" width="100" height="100">
+				<img  alt="${BExameF2Titulo}" src="${imagemGeral}/exame2.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF2Titulo}</p>
+			<p class="fotoDescricao">${BExameF2Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame3.JPG" rel="prettyPhoto[galeria1]" title="${BExameF3Descricao}">
-				<img  alt="${BExameF3Titulo}" src="${imagemGeral}/exame3.JPG" width="100" height="100">
+				<img  alt="${BExameF3Titulo}" src="${imagemGeral}/exame3.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF3Titulo}</p>
+			<p class="fotoDescricao">${BExameF3Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>			
 			<td>
 			<a href="${imagemGeral}/exame4.JPG" rel="prettyPhoto[galeria1]" title="${BExameF4Descricao}">
-				<img  alt="${BExameF4Titulo}" src="${imagemGeral}/exame4.JPG" width="100" height="100">
+				<img  alt="${BExameF4Titulo}" src="${imagemGeral}/exame4.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF4Titulo}</p>
+			<p class="fotoDescricao">${BExameF4Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>	
 			<td>
 			<a href="${imagemGeral}/exame5.JPG" rel="prettyPhoto[galeria1]" title="${BExameF5Descricao}">
-				<img  alt="${BExameF5Titulo}" src="${imagemGeral}/exame5.JPG" width="100" height="100">
+				<img  alt="${BExameF5Titulo}" src="${imagemGeral}/exame5.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF5Titulo}</p>
+			<p class="fotoDescricao">${BExameF5Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame6.JPG" rel="prettyPhoto[galeria1]" title="${BExameF6Descricao}">
-				<img  alt="${BExameF6Titulo}" src="${imagemGeral}/exame6.JPG" width="100" height="100">
+				<img  alt="${BExameF6Titulo}" src="${imagemGeral}/exame6.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF6Titulo}</p>
+			<p class="fotoDescricao">${BExameF6Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>			
 			<td>
 			<a href="${imagemGeral}/exame7.JPG" rel="prettyPhoto[galeria1]" title="${BExameF7Descricao}">
-				<img  alt="${BExameF7Titulo}" src="${imagemGeral}/exame7.JPG" width="100" height="100">
+				<img  alt="${BExameF7Titulo}" src="${imagemGeral}/exame7.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
 			</td>
-			</tr>
-				
+			<td>
+			<p class="fotoTitulo">${BExameF7Titulo}</p>
+			<p class="fotoDescricao">${BExameF7Descricao}</p>
+			</td>
+			</tr>				
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame8.JPG" rel="prettyPhoto[galeria1]" title="${BExameF8Descricao}">
-				<img  alt="${BExameF8Titulo}" src="${imagemGeral}/exame8.JPG" width="100" height="100">
+				<img  alt="${BExameF8Titulo}" src="${imagemGeral}/exame8.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF8Titulo}</p>
+			<p class="fotoDescricao">${BExameF8Descricao}</p>
 			</td>
 			</tr>
 			
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame9.JPG" rel="prettyPhoto[galeria1]" title="${BExameF9Descricao}">
-				<img  alt="${BExameF9Titulo}" src="${imagemGeral}/exame9.JPG" width="100" height="100">
+				<img  alt="${BExameF9Titulo}" src="${imagemGeral}/exame9.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
+			</td>
+			<td>
+			<p class="fotoTitulo">${BExameF9Titulo}</p>
+			<p class="fotoDescricao">${BExameF9Descricao}</p>
 			</td>
 			</tr>
 			</tbody>			

@@ -706,12 +706,21 @@ table#tabFlags tr td {
 	font-size: large;
 }
 
-#tabExame tr td:hover{
+/* #tabExame tr td:hover{
 	background-color: #87CEEB;	
-}
+} */
 
 .negrito {
 	font-weight: bold;
+}
+
+.destaquetabExame{
+	border: 2px solid #FFFFFF;
+}
+.destaquetabExame:hover{
+	border: 2px solid #5D980D;
+	width: 300px;
+	height: 300px;
 }
 
 /* #tabVariacaoAnatomica tr td:hover{
