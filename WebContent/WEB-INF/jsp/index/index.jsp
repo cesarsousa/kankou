@@ -24,7 +24,7 @@
 
 
 <div align="center">
-<div class="cardFlag">
+<div id="boxCentral" class="cardFlag">
 
 	<table id="tabFlags" class="colapsed">
 	
@@ -87,7 +87,7 @@
 </div> <!-- wrap -->
 
 <div id="footer">
-	<%@ include file="/footer.jsp" %>
+	<%@ include file="/footerIndex.jsp" %>
 </div>
 
 </body>

@@ -38,7 +38,7 @@ $(document).ready(function(){
 <div id="main">
  
 
-<div align="center" style="font-size: xx-large; font-weight: bold; color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em;">
+<div id="boxCentral" align="center" style="font-size: xx-large; font-weight: bold; color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em;">
 <p>Em Construção</p>
 <p>Somente pessoal autorizado</p>
 
@@ -56,7 +56,7 @@ ${erroLogin}
 </div> <!-- wrap -->
 
 <div id="footer">
-	<%@ include file="/footer.jsp" %>
+	<%@ include file="/footerIndex.jsp" %>
 </div>
 
 </body>

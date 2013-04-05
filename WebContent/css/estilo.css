@@ -204,6 +204,15 @@ a:visited {
 	vertical-align: middle;"
 }
 
+#boxCentral {
+	 height:480px; 
+	 left:50%; 
+	 margin:-240px 0 0 -320px; 
+	 position:absolute; 
+	 top:50%; 
+	 width:640px
+}
+
 #styleHeaderFooter {
 	width: 100%;
 	background-color: #4682B4;
