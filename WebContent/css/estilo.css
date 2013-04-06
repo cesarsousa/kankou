@@ -205,9 +205,9 @@ a:visited {
 }
 
 #boxCentral {
-	 height:480px; 
+	 height:300px; 
 	 left:50%; 
-	 margin:-240px 0 0 -320px; 
+	 margin:-150px 0 0 -320px; 
 	 position:absolute; 
 	 top:50%; 
 	 width:640px
@@ -379,8 +379,7 @@ table#tabFlags tr td {
 }
 
 .letraGrande {	 
-	font-weight: bold;
-	
+	font-weight: bold;	
 	color: #4F4F4F; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
@@ -410,22 +409,26 @@ table#tabFlags tr td {
 	opacity: 0.6;		
 }
 
-.linkDownloadAutoExame {	
+/* .linkDownloadAutoExame {	
 	border: 2px solid #CD950C;
 	border-radius: 5px 5px 5px 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	padding: 5px;
-}
+} */
 
-.linkDownloadAutoExame a {	
+.linkDownloadAutoExame {	
 	color: #CD950C;
 	text-align: center;
 	font-weight: bold;
 }
 
-.linkDownloadAutoExame a:hover {
-	text-shadow: #CCCCCC 0.1em 0.1em 0.2em;
+.destaqueSombra {
+	border: none;
+}
+
+.destaqueSombra:hover {
+	box-shadow: #CCCCCC 0.2em 0.2em 0.2em;
 }
 
 /* .degradeFooter {

@@ -14,11 +14,11 @@
 <td class="tdFlagLocale" >
 	<div style="padding: 10px;">
 		<a href="<c:url value="/index/locale/BR/${sessao.jspRequest}"></c:url>">
-		<img alt="português" title="português" src="${imagem}/iconeFlagBR.png" class="iconeLocale imgSombra">
+		<img alt="português" title="português" src="${imagem}/iconeFlagBR20.jpg" class="iconeLocale imgSombra">
 		</a>
 		
 		<a href="<c:url value="/index/locale/US/${sessao.jspRequest}"></c:url>">
-		<img alt="english" title="english" src="${imagem}/iconeFlagUS.png" class="iconeLocale imgSombra">
+		<img alt="english" title="english" src="${imagem}/iconeFlagUS20.jpg" class="iconeLocale imgSombra">
 		</a>
 		
 		<%-- <a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">

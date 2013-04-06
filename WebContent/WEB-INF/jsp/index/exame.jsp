@@ -36,11 +36,17 @@
     	
     	<span id="textoExame" class="textoIntroducao">${BTextoExame}</span>
     	
-    	<br/>
-		<p class="linkDownloadAutoExame" align="center">
-		<a href="${download}/auto_exame_da_boca.zip">${BTextoDownloadExame}</a>	
-		</p>
-		<br/>	
+    	<table width="100%">
+    	<tr>
+    	<td>
+    		<p class="linkDownloadAutoExame" align="center">${BTextoDownloadExame}</p></td>
+    	<td>
+    		<img src="${imagem}/setaVermelha.jpg"></td>
+    	<td>
+	    	<a href="${download}/auto_exame_da_boca.zip">
+			<img alt="${BTextoDownloadExame}" title="${BTextoDownloadExame}" src="${imagem}/autoExameDaBoca100.jpg" class="destaqueSombra"></a></td>
+    	</tr>
+    	</table>	
     	
     	<span id="textoExame1" class="textoIntroducao">${BTextoExame1}</span>     	
 	
@@ -163,7 +169,7 @@
 		
 		<div class="quadroMenu">			
 			<p>
-			<span id="textoQuadroLink" class="letraNormal corDefault">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">

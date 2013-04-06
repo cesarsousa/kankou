@@ -52,7 +52,7 @@ public class IndexController {
 	@Get("/autenticar")
 	public void autenticar(String password){
 		
-		password = "sitekankouco";
+		//password = "sitekankouco";
 		
 		if("sitekankouco".equals(password)){
 			sessao.setAcessoAutorizado(true);
