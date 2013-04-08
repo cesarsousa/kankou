@@ -127,37 +127,13 @@
 			
 			<tr>			
 			<td>
-			<a href="${imagemGeral}/exame7.JPG" rel="prettyPhoto[galeria1]" title="${BExameF7Descricao}">
-				<img  alt="${BExameF7Titulo}" src="${imagemGeral}/exame7.JPG" class="destaquetabExame" width="200" height="200">
+			<a href="${imagemGeral}/exame7.JPG" rel="prettyPhoto[galeria1]" title="${BExameF7DescricaoPopup}">
+				<img  alt="${BExameF7DescricaoPopup}" src="${imagemGeral}/exame7.JPG" class="destaquetabExame" width="200" height="200">
 			</a>
 			</td>
 			<td>
 			<p class="fotoTitulo">${BExameF7Titulo}</p>
 			<p class="fotoDescricao">${BExameF7Descricao}</p>
-			</td>
-			</tr>				
-			
-			<tr>
-			<td>
-			<a href="${imagemGeral}/exame8.JPG" rel="prettyPhoto[galeria1]" title="${BExameF8Descricao}">
-				<img  alt="${BExameF8Titulo}" src="${imagemGeral}/exame8.JPG" class="destaquetabExame" width="200" height="200">
-			</a>
-			</td>
-			<td>
-			<p class="fotoTitulo">${BExameF8Titulo}</p>
-			<p class="fotoDescricao">${BExameF8Descricao}</p>
-			</td>
-			</tr>
-			
-			<tr>
-			<td>
-			<a href="${imagemGeral}/exame9.JPG" rel="prettyPhoto[galeria1]" title="${BExameF9Descricao}">
-				<img  alt="${BExameF9Titulo}" src="${imagemGeral}/exame9.JPG" class="destaquetabExame" width="200" height="200">
-			</a>
-			</td>
-			<td>
-			<p class="fotoTitulo">${BExameF9Titulo}</p>
-			<p class="fotoDescricao">${BExameF9Descricao}</p>
 			</td>
 			</tr>
 			</tbody>			

@@ -24,7 +24,7 @@
 
 
 <div align="center">
-<div id="boxCentral" class="cardFlag">
+<div class="cardFlag">
 
 	<table id="tabFlags" class="colapsed">
 	
@@ -53,30 +53,30 @@
 		<img alt="english" title="english" class="imgSombra" src="${imagem}/flagUSA.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p class="fontIndexTitulo">The acupuncturist and the inspection of the tongue.</p>
-		<p class="fontIndexDesc">Learn to expand routine examination and act in the prevention of mouth cancer.</p>
+		<p class="fontIndexTitulo">The acupuncturist and the inspection of the tongue</p>
+		<p class="fontIndexDesc">Learn to expand routine examination and act in the prevention of mouth cancer</p>
 		</td>
 		</tr>
 		
-		<!-- <tr id="localeFR" class="zebrado">
+		<tr id="localeFR" class="zebrado">
 		<td>
-		<img alt="français" title="français" class="imgSombra" src="image/flagFranca.jpg" width="100px" height="70px">
+		<img alt="français" title="français" class="imgSombra" src="${imagem}/flagFranca.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p>L'acupuncteur et l'examen de la langue.</p>
-		<p>Apprenez à développer examen de routine et d'agir dans la prévention du cancer de la bouche.</p>
+		<p class="fontIndexTitulo">L'acupuncteur et l'inspection de la langue</p>
+		<p class="fontIndexDesc">Apprenez à realizer un examen de routine plus complet et d'agir dans la prévention du cancer de la bouche</p>
 		</td>
-		</tr>	 -->
+		</tr>
 		
-		<!-- <tr id="localeES" class="zebrado">
+		<tr id="localeES" class="zebrado">
 		<td>
-		<img alt="español" title="español" class="imgSombra" src="image/flagEspanha.jpg" width="100px" height="70px">
+		<img alt="español" title="español" class="imgSombra" src="${imagem}/flagEspanha.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p>El acupunturista y un examen de la lengua.</p>
-		<p>Aprenda a ampliar el examen de rutina y actuar en la prevención del cáncer oral.</p>
+		<p class="fontIndexTitulo">El acupunturista y la inspección de la lengua</p>
+		<p class="fontIndexDesc">Aprenda a optimizar su examen clínico de rutina y participar en la prevención del cáncer de boca</p>
 		</td>
-		</tr> -->
+		</tr>
 				
 	</table>
 </div>

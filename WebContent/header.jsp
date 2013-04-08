@@ -23,15 +23,15 @@
 		
 		<%-- <a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
 		<img alt="普通话" title="普通话" src="${imagem}/iconeFlagCN.png" class="iconeLocale imgSombra">
-		</a>
+		</a>--%>
 		
 		<a href="<c:url value="/index/locale/ES/${sessao.jspRequest}"></c:url>">
 		<img alt="español" title="español" src="${imagem}/iconeFlagES.png" class="iconeLocale imgSombra">
-		</a>
+		</a> 
 		
 		<a href="<c:url value="/index/locale/FR/${sessao.jspRequest}"></c:url>">
 		<img alt="français" title="français" src="${imagem}/iconeFlagFR.png" class="iconeLocale imgSombra">
-		</a> --%>
+		</a>
 			
 	</div>
 	</td>
@@ -50,6 +50,8 @@
 <li id="limenuLesaoBenigna"><a id="menuLesaoBenigna" href="<c:url value="/lesoes/benignas" />" >${BQuadrMenuBt3}</a></li>
 <li id="limenuLesaoPremaligna"><a id="menuLesaoPremaligna" href="<c:url value="/lesoes/premalignas" />" >${BQuadrMenuBt4}</a></li>
 <li id="limenuLesaoMaligna"><a id="menuLesaoMaligna" href="<c:url value="/lesoes/malignas" />" >${BQuadrMenuBt5}</a></li>
+<li id="limenuLink"><a id="menuLesaoMaligna" href="<c:url value="" />" >${BQuadrMenuBt6}</a></li>
+
 </ul>
 </div>
 </div>

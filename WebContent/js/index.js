@@ -88,6 +88,13 @@ $(document).ready(function() {
     	$('#limenuLesaoMaligna').removeClass('degradeRoxo');
     });
 	
+	$("#limenuLink").hover(function(){
+        $('#limenuLink').addClass('degradeHeader');
+    },
+    function(){
+    	$('#limenuLink').removeClass('degradeHeader');
+    });
+	
 	
    
 });

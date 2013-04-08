@@ -27,8 +27,7 @@ public class IndexController {
 	private void initResourceBundle() {
 		rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
-		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
-		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));		
 		
 		result.include("BSubMenuIntro", rb.getString("BSubMenuIntro"));
 		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));
@@ -41,10 +40,13 @@ public class IndexController {
 		result.include("BQuadrMenuBt3", rb.getString("BQuadrMenuBt3"));
 		result.include("BQuadrMenuBt4", rb.getString("BQuadrMenuBt4"));
 		result.include("BQuadrMenuBt5", rb.getString("BQuadrMenuBt5"));
+		result.include("BQuadrMenuBt6", rb.getString("BQuadrMenuBt6"));
 		
 		// informacoes de rodape
 		result.include("BTextoFonteFotoExame", rb.getString("BTextoFonteFotoExame"));
 		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
+		result.include("BTextoRodape", rb.getString("BTextoRodape"));
+		result.include("BTextoRodapeDesig", rb.getString("BTextoRodapeDesig"));
 	}
 	
 	@Path("/")
@@ -52,7 +54,7 @@ public class IndexController {
 	@Get("/autenticar")
 	public void autenticar(String password){
 		
-		//password = "sitekankouco";
+		password = "sitekankouco";
 		
 		if("sitekankouco".equals(password)){
 			sessao.setAcessoAutorizado(true);
@@ -169,12 +171,13 @@ public class IndexController {
 		result.include("BTextoExame2", rb.getString("BTextoExame2"));
 		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));		
 		
-		for(int i = 1; i < 10; i++){
+		for(int i = 1; i < 8; i++){
 			String titulo = "BExameF" + i + "Titulo";
 			String descricao = "BExameF" + i + "Descricao";
 			result.include(titulo, rb.getString(titulo));
 			result.include(descricao, rb.getString(descricao));
-		}				
+		}
+		result.include("BExameF7DescricaoPopup", rb.getString("BExameF7DescricaoPopup"));		
 	}
 	
 	

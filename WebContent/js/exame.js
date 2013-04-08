@@ -20,7 +20,7 @@ $(document).ready(function() {
     	$('#formVariacaoLesao').submit();
     });
 	
-	$("a[rel^='prettyPhoto']").prettyPhoto();
+	$("a[rel^='prettyPhoto']").prettyPhoto({ social_tools:false });
 	
 	$('#spanTamanhoFonteExame span').click(function(){
 		alterarTamanhoTexto(this.id, '#textoExame');
