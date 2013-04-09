@@ -36,12 +36,12 @@
     	
     	<span id="textoExame" class="textoIntroducao">${BTextoExame}</span>
     	
-    	<table width="100%">
+    	<table id="tableDownloadRoteiro" width="100%">
     	<tr>
     	<td>
     		<p class="linkDownloadAutoExame" align="center">${BTextoDownloadExame}</p></td>
     	<td>
-    		<img src="${imagem}/setaVermelha.jpg"></td>
+    		<img src="${imagem}/setaVermelha2.jpg"></td>
     	<td>
 	    	<a href="${download}/auto_exame_da_boca.zip">
 			<img alt="${BTextoDownloadExame}" title="${BTextoDownloadExame}" src="${imagem}/autoExameDaBoca100.jpg" class="destaqueSombra"></a></td>

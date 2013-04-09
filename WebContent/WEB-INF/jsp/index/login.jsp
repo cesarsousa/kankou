@@ -26,10 +26,18 @@ $(document).ready(function(){
 	border-radius: 10px;
 	font-size: large;
 	text-align: center;
+	color: #FF9900;
+	font-size: large;
+	font-weight: bold;
 }
-.login:hover {
-	border: 2px solid #000000;
+.login:focus {
+	border: 2px solid #FF9900;
 }
+
+.botaoLogin {
+	background-color: #DDDDDD;
+}
+
 </style>
 
 </head>
@@ -39,14 +47,17 @@ $(document).ready(function(){
  
 
 <div id="boxCentral" align="center" style="font-size: xx-large; font-weight: bold; color: #FFFFFF; text-shadow: black 0.1em 0.1em 0.2em;">
-<p>Em Construção</p>
-<p>Somente pessoal autorizado</p>
+<p style="color: #DDDDDD;">Em Construção</p>
+<p style="color: #DDDDDD;">Somente pessoal autorizado</p>
 
 <form action="<c:url value="/autenticar" />" method="get">
 <input id="campoLogin" type="password" name="password" class="login"/>
+<p>
+<input type="submit" value="Login" class="login ponteiro botaoLogin"/>
+</p>
 </form>
 
-<p style="font-size: xx-large; font-weight: bold; color: red; text-shadow: black 0.1em 0.1em 0.2em;">
+<p style="font-size:large; font-weight: bold; color: #DDDDDD; ">
 ${erroLogin}
 </p>
 

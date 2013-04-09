@@ -234,6 +234,13 @@ a:visited {
 	padding: 5px;
 }
 
+#tableDownloadRoteiro {
+	border: 2px solid #FF9900;  
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
 #subMenu {
 	width: 100%;
 	text-align: center;
@@ -341,7 +348,6 @@ table#tabFlags tr td {
 	font-family: arial;
 	font-weight: bold;
 	font-size: medium; 
-	padding-top: 20px; 
 	text-shadow: white 0.1em 0.1em 0.2em;
 }
 
@@ -349,8 +355,8 @@ table#tabFlags tr td {
 	color: #4682B4; 
 	font-weight: bold; 
 	padding-top: 20px; 
-	font-size: xx-large; 
-	text-shadow: white 0.1em 0.1em 0.2em;
+	font-size: 40px;
+	text-shadow: #000000 0.1em 0.1em 0.1em;
 }
 
 #divCabecalho {
@@ -358,6 +364,11 @@ table#tabFlags tr td {
 	height: 100px;
 	background-color: #cccccc;
 	padding: 0;
+}
+
+.flagIndex {
+	width: 80px;
+	height:50px;
 }
 
 .tabQuadroMenu {

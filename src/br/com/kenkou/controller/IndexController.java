@@ -136,6 +136,9 @@ public class IndexController {
 		case LESAO_MALIGNA:
 			result.redirectTo(this).lesaoMaligna();
 			break;
+		case LINKS:
+			result.redirectTo(this).linksUteis();
+			break;
 		default:
 			result.redirectTo(this).index();
 			break;
@@ -148,12 +151,10 @@ public class IndexController {
 			result.redirectTo(this).login();
 		}
 		
-		sessao.setJspRequest(JspRequest.INTRODUCAO);
-		
+		sessao.setJspRequest(JspRequest.INTRODUCAO);		
 		initResourceBundle();
 		
-		result.include("BTextoIntroducao", rb.getString("BTextoIntroducao"));	
-		
+		result.include("BTextoIntroducao", rb.getString("BTextoIntroducao"));		
 		result.include("BTxtBtRealizarExame", rb.getString("BTxtBtRealizarExame"));	
 	}
 	
@@ -275,6 +276,18 @@ public class IndexController {
 			result.include(titulo, rb.getString(titulo));
 			result.include(descricao, rb.getString(descricao));
 		}			
+	}
+	
+	@Get("/links")
+	public void linksUteis(){
+		if(!sessao.isAcessoAutorizado()){
+			result.redirectTo(this).login();
+		}
+		
+		sessao.setJspRequest(JspRequest.LINKS);
+		initResourceBundle();
+		
+		result.include("BTextoLinksUteis", rb.getString("BTextoLinksUteis"));		
 	}
 	
 	

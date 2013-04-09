@@ -30,51 +30,51 @@
 	
 		<tr id="localeBR" class="zebrado pad10">
 		<td>
-		<img alt="português" title="português" class="imgSombra" src="${imagem}/flagBrasil.jpg" width="100px" height="70px">
+		<img alt="português" title="português" class="imgSombra flagIndex" src="${imagem}/flagBrasil.jpg" width="100px" height="70px">
 		</td>
 		<td>
-		<p class="fontIndexTitulo">O Acupunturista e o exame da língua.</p>
-		<p class="fontIndexDesc">Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca.</p>
+		<p class="fontIndexTitulo"><b>O Acupunturista e o exame da língua</b></p>
+		<p class="fontIndexDesc">Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca</p>
 		</td>
-		</tr>
-		
-		<!-- <tr id="localeCN" class="zebrado">
-		<td>
-		<img alt="普通话" title="普通话" class="imgSombra" src="image/flagChina.jpg" width="100px" height="70px">
-		</td>
-		<td>
-		<p>针灸及考试舌头 .</p>
-		<p>学习扩大常规检查和采取行动预防口腔癌.</p>
-		</td>
-		</tr> -->
+		</tr>		
 		
 		<tr id="localeUS" class="zebrado">
 		<td>
-		<img alt="english" title="english" class="imgSombra" src="${imagem}/flagUSA.jpg" width="100px" height="70px">
+		<img alt="english" title="english" class="imgSombra flagIndex" src="${imagem}/flagUSA.jpg">
 		</td>
 		<td>
-		<p class="fontIndexTitulo">The acupuncturist and the inspection of the tongue</p>
+		<p class="fontIndexTitulo"><b>The acupuncturist and the inspection of the tongue</b></p>
 		<p class="fontIndexDesc">Learn to expand routine examination and act in the prevention of mouth cancer</p>
 		</td>
 		</tr>
 		
-		<tr id="localeFR" class="zebrado">
+		<tr id="localeCN" class="zebrado">
 		<td>
-		<img alt="français" title="français" class="imgSombra" src="${imagem}/flagFranca.jpg" width="100px" height="70px">
+		<img alt="普通话" title="普通话" class="imgSombra flagIndex" src="${imagem}/flagChina.jpg">
 		</td>
 		<td>
-		<p class="fontIndexTitulo">L'acupuncteur et l'inspection de la langue</p>
-		<p class="fontIndexDesc">Apprenez à realizer un examen de routine plus complet et d'agir dans la prévention du cancer de la bouche</p>
+		<p class="fontIndexTitulo"><b>针灸及考试舌头 </b></p>
+		<p class="fontIndexDesc">学习扩大常规检查和采取行动预防口腔癌</p>
 		</td>
 		</tr>
 		
 		<tr id="localeES" class="zebrado">
 		<td>
-		<img alt="español" title="español" class="imgSombra" src="${imagem}/flagEspanha.jpg" width="100px" height="70px">
+		<img alt="español" title="español" class="imgSombra flagIndex" src="${imagem}/flagEspanha.jpg">
 		</td>
 		<td>
-		<p class="fontIndexTitulo">El acupunturista y la inspección de la lengua</p>
+		<p class="fontIndexTitulo"><b>El acupunturista y la inspección de la lengua</b></p>
 		<p class="fontIndexDesc">Aprenda a optimizar su examen clínico de rutina y participar en la prevención del cáncer de boca</p>
+		</td>
+		</tr>
+		
+		<tr id="localeFR" class="zebrado">
+		<td>
+		<img alt="français" title="français" class="imgSombra flagIndex" src="${imagem}/flagFranca.jpg">
+		</td>
+		<td>
+		<p class="fontIndexTitulo"><b>L'acupuncteur et l'inspection de la langue</b></p>
+		<p class="fontIndexDesc">Apprenez à realizer un examen de routine plus complet et d'agir dans la prévention du cancer de la bouche</p>
 		</td>
 		</tr>
 				
