@@ -32,7 +32,7 @@
     	<span id="x-large" style="font-size: x-large; padding-left: 5px" class="ponteiro">A</span>   
     	<span id="xx-large" style="font-size: xx-large; padding-left: 5px" class="ponteiro">A</span>    
     	</div>
-    	</div>   	
+    	</div>  	
     	
     	<span id="textoExame" class="textoIntroducao">${BTextoExame}</span>
     	
@@ -43,7 +43,7 @@
     	<td>
     		<img src="${imagem}/setaVermelha2.jpg"></td>
     	<td>
-	    	<a href="${download}/auto_exame_da_boca.zip">
+	    	<a href="${download}/${sessao.idioma}/kankou.zip">
 			<img alt="${BTextoDownloadExame}" title="${BTextoDownloadExame}" src="${imagem}/autoExameDaBoca100.jpg" class="destaqueSombra"></a></td>
     	</tr>
     	</table>	

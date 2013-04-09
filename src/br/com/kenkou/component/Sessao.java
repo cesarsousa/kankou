@@ -41,5 +41,9 @@ public class Sessao implements Serializable {
 	public void setJspRequest(JspRequest jspRequest) {
 		this.jspRequest = jspRequest;
 	}
+	
+	public String getIdioma(){
+		return locale.getCountry();
+	}
 
 }
