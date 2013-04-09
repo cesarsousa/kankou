@@ -24,7 +24,7 @@
     <td width="95%" rowspan="2">
     
     	<div align="right" class="corDefault">
-    	<span>tamanho da fonte</span>    	
+    	<span>${BTextoTamanhoFonte}</span>     	
     	<div id="spanTamanhoFonteExame">
     	<span id="small" style="font-size: small; padding-left: 5px" class="ponteiro">A</span>
     	<span id="medium" style="font-size: medium; padding-left: 5px" class="ponteiro">A</span>   
@@ -139,6 +139,7 @@
 			</tbody>			
 		</table>
 		
+		<p class="textoIntroducao" style="font-weight: bold;">${BQuadroMenuTxt1}</p>
 		<span id="textoExame2" class="textoIntroducao">${BTextoExame2}</span>
 		
 		<br/>		

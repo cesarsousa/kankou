@@ -205,6 +205,10 @@ a:visited {
 	vertical-align: middle;"
 }
 
+.bordaDash {
+	border: 1px dashed #CCCCCC; 
+}
+
 #boxCentral {
 	 height:300px; 
 	 left:50%; 
@@ -336,6 +340,8 @@ table#tabFlags p {
 
 table#tabFlags tr td {
 	padding: 10px;
+	/* padding-left: 5px;
+	padding-right: 5px; */
 	cursor: pointer;
 }
 

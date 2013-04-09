@@ -27,7 +27,9 @@ public class IndexController {
 	private void initResourceBundle() {
 		rb = ResourceBundle.getBundle("MessagesBundle", sessao.getLocale());
 		result.include("BTextoTitulo", rb.getString("BTextoTitulo"));
-		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));		
+		result.include("BTextoCabecalho", rb.getString("BTextoCabecalho"));
+		
+		result.include("BTextoTamanhoFonte", rb.getString("BTextoTamanhoFonte"));
 		
 		result.include("BSubMenuIntro", rb.getString("BSubMenuIntro"));
 		result.include("BSubMenuExame", rb.getString("BSubMenuExame"));
