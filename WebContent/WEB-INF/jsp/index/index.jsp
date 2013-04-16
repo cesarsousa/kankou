@@ -61,8 +61,8 @@
 		<img alt="普通话" title="普通话" class="imgSombra flagIndex" src="${imagem}/flagChina.jpg">
 		</td>
 		<td>
-		<span class="fontIndexTitulo"><b>针灸及考试舌头 </b></span><br/>
-		<span class="fontIndexDesc">学习扩大常规检查和采取行动预防口腔癌</span>
+		<span class="fontIndexTitulo"><b>针灸医生和舌诊</b></span><br/>
+		<span class="fontIndexDesc">学会优化常规检查，参与口腔癌的预防.</span>
 		</td>
 		</tr>
 		
