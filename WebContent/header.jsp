@@ -12,25 +12,26 @@
 <span class="textoCabecalho">${BTextoCabecalho}</span>
 </td>
 <td class="tdFlagLocale" >
+	
 	<div style="padding: 10px;">
 		<a href="<c:url value="/index/locale/BR/${sessao.jspRequest}"></c:url>">
-		<img alt="português" title="português" src="${imagem}/iconeFlagBR20.jpg" class="iconeLocale imgSombra">
+		<img id="flagBR" alt="português" title="português" src="${imagem}/iconeFlagBR20.jpg" class="iconeLocale">
 		</a>
 		
 		<a href="<c:url value="/index/locale/US/${sessao.jspRequest}"></c:url>">
-		<img alt="english" title="english" src="${imagem}/iconeFlagUS20.jpg" class="iconeLocale imgSombra">
+		<img id="flagUS" alt="english" title="english" src="${imagem}/iconeFlagUS20.jpg" class="iconeLocale">
 		</a>
 		
 		<a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
-		<img alt="普通话" title="普通话" src="${imagem}/iconeFlagCN20.jpg" class="iconeLocale imgSombra">
+		<img id="flagCN" alt="普通话" title="普通话" src="${imagem}/iconeFlagCN20.jpg" class="iconeLocale">
 		</a>
 		
 		<a href="<c:url value="/index/locale/ES/${sessao.jspRequest}"></c:url>">
-		<img alt="español" title="español" src="${imagem}/iconeFlagES.png" class="iconeLocale imgSombra">
+		<img id="flagES" alt="español" title="español" src="${imagem}/iconeFlagES.png" class="iconeLocale">
 		</a> 
 		
 		<a href="<c:url value="/index/locale/FR/${sessao.jspRequest}"></c:url>">
-		<img alt="français" title="français" src="${imagem}/iconeFlagFR.png" class="iconeLocale imgSombra">
+		<img id="flagFR" alt="français" title="français" src="${imagem}/iconeFlagFR.png" class="iconeLocale">
 		</a>
 			
 	</div>
