@@ -139,7 +139,7 @@
 			</tbody>			
 		</table>
 		
-		<p class="textoIntroducao" style="font-weight: bold;">${BQuadroMenuTxt1}</p>
+		<p class="textoIntroducao corLaranja" style="font-weight: bold;">${BQuadroMenuTxt1}</p>
 		<span id="textoExame2" class="textoIntroducao">${BTextoExame2}</span>
 		
 		<br/>		

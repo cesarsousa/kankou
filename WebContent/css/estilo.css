@@ -158,6 +158,10 @@ a:visited {
 	color: #ff6e03;
 }
 
+.corLaranja {
+	color: #CD950C;
+}
+
 .corPreta {
 	color: #000000;
 }
@@ -398,7 +402,8 @@ table#tabFlags tr td {
 
 .letraGrande {	 
 	font-weight: bold;	
-	color: #4F4F4F; 
+	/* color: #4F4F4F; */
+	color: #CD950C; 
 	/* text-shadow: #1C1C1C 0.1em 0.1em 0.2em; */
 }
 
