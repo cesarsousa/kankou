@@ -130,6 +130,10 @@ a:visited {
 	text-decoration: none;
 }
 
+img {
+	border: none;
+}
+
 .ponteiro {
 	cursor: pointer;
 }
@@ -241,6 +245,20 @@ a:visited {
 .tabPrettyPhoto tr td {
 	padding: 5px;
 }
+
+#tableMenuPrincipal {
+	width: 800px;
+}
+
+#tableMenuPrincipal tr td {
+	padding: 5px;
+	border: 1px solid transparent;  
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* width="800" style="padding-bottom: 5px; padding-top: 5px;" */
 
 #tableDownloadRoteiro {
 	border: 2px solid #FF9900;  

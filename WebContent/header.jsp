@@ -51,16 +51,30 @@
 </div>
 <div id="styleHeaderFooter" align="center">
 <div id="subMenu">
-<ul>
-<li id="limenuHome" ><a id="menuHome" href="<c:url value="/home" />" >${BSubMenuIntro}</a></li>
-<li id="limenuExame" ><a id="menuExame" href="<c:url value="/realizarExame" />" >${BSubMenuExame}</a></li>
-<li id="limenuVariacaoAnatomica" ><a id="menuVariacaoAnatomica" href="<c:url value="/variacoes/anatomicas" />" >${BQuadrMenuBt1}</a></li>
-<li id="limenuLesaoComum"><a id="menuLesaoComum" href="<c:url value="/lesoes/comuns" />" >${BQuadrMenuBt2}</a></li>
-<li id="limenuLesaoBenigna"><a id="menuLesaoBenigna" href="<c:url value="/lesoes/benignas" />" >${BQuadrMenuBt3}</a></li>
-<li id="limenuLesaoPremaligna"><a id="menuLesaoPremaligna" href="<c:url value="/lesoes/premalignas" />" >${BQuadrMenuBt4}</a></li>
-<li id="limenuLesaoMaligna"><a id="menuLesaoMaligna" href="<c:url value="/lesoes/malignas" />" >${BQuadrMenuBt5}</a></li>
-<li id="limenuLink"><a id="menuLesaoMaligna" href="<c:url value="/links" />" >${BQuadrMenuBt6}</a></li>
 
-</ul>
+<table id="tableMenuPrincipal" align="center">
+<tr>
+<td id="limenuHome"><a id="menuHome" href="<c:url value="/home" />" >${BSubMenuIntro}</a></td>
+<td id="limenuExame"><a id="menuExame" href="<c:url value="/realizarExame" />" >${BSubMenuExame}</a></td>
+<td id="limenuVariacaoAnatomica"><a id="menuVariacaoAnatomica" href="<c:url value="/variacoes/anatomicas" />" >${BQuadrMenuBt1}</a></td>
+<td id="limenuLesaoComum"><a id="menuLesaoComum" href="<c:url value="/lesoes/comuns" />" >${BQuadrMenuBt2}</a></td>
+<td id="limenuLesaoBenigna"><a id="menuLesaoBenigna" href="<c:url value="/lesoes/benignas" />" >${BQuadrMenuBt3}</a></td>
+<td id="limenuLesaoPremaligna"><a id="menuLesaoPremaligna" href="<c:url value="/lesoes/premalignas" />" >${BQuadrMenuBt4}</a></td>
+<td id="limenuLesaoMaligna"><a id="menuLesaoMaligna" href="<c:url value="/lesoes/malignas" />" >${BQuadrMenuBt5}</a></td>
+<td id="limenuLink"><a id="menuLesaoMaligna" href="<c:url value="/links" />" >${BQuadrMenuBt6}</a></td>
+</tr>
+</table>
+
+<%-- <ul>
+<li  >></li>
+<li  ></li>
+<li  ></li>
+<li ></li>
+<li ></li>
+<li ></li>
+<li ></li>
+<li ></li>
+
+</ul> --%>
 </div>
 </div>
