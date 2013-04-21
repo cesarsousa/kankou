@@ -27,7 +27,7 @@
 	</td>
 	<td width="40" height="30" valign="middle">
 	<a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
-		<img id="flagCN" alt="普通话" title="普通话" src="${imagem}/iconeFlagCN20.jpg" class="iconeLocale">
+		<img id="flagCN" alt="中文" title="中文" src="${imagem}/iconeFlagCN20.jpg" class="iconeLocale">
 		</a>
 	</td>
 	<td width="40" height="30" valign="middle">
