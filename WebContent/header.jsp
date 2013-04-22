@@ -15,27 +15,27 @@
 	
 	<table class="colapsed">
 	<tr>
-	<td width="40" height="30" valign="middle">
+	<td width="40" height="30" valign="middle" align="center">
 	<a href="<c:url value="/index/locale/BR/${sessao.jspRequest}"></c:url>">
 		<img id="flagBR" alt="português" title="português" src="${imagem}/iconeFlagBR20.jpg" class="iconeLocale">
 		</a>
 	</td>
-	<td width="40" height="30" valign="middle">
+	<td width="40" height="30" valign="middle" align="center">
 	<a href="<c:url value="/index/locale/US/${sessao.jspRequest}"></c:url>">
 		<img id="flagUS" alt="english" title="english" src="${imagem}/iconeFlagUS20.jpg" class="iconeLocale">
 		</a>
 	</td>
-	<td width="40" height="30" valign="middle">
+	<td width="40" height="30" valign="middle" align="center">
 	<a href="<c:url value="/index/locale/CN/${sessao.jspRequest}"></c:url>">
 		<img id="flagCN" alt="中文" title="中文" src="${imagem}/iconeFlagCN20.jpg" class="iconeLocale">
 		</a>
 	</td>
-	<td width="40" height="30" valign="middle">
+	<td width="40" height="30" valign="middle" align="center">
 	<a href="<c:url value="/index/locale/ES/${sessao.jspRequest}"></c:url>">
 		<img id="flagES" alt="español" title="español" src="${imagem}/iconeFlagES.png" class="iconeLocale">
 		</a> 
 	</td>
-	<td width="40" height="30" valign="middle">
+	<td width="40" height="30" valign="middle" align="center">
 	<a href="<c:url value="/index/locale/FR/${sessao.jspRequest}"></c:url>">
 		<img id="flagFR" alt="français" title="français" src="${imagem}/iconeFlagFR.png" class="iconeLocale">
 		</a>
