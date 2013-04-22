@@ -6,6 +6,7 @@
 
 <script type="text/javascript" src="${javascript}/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="${javascript}/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="${javascript}/jquery.jqdock.js"></script>
 <%-- <script type="text/javascript" src="${javascript}/jquery.autocomplete.min.js"></script>
 <script type="text/javascript" src="${javascript}/jquery.maskedinput-1.3.min.js"></script>
 <script type="text/javascript" src="${javascript}/jquery.puts.js"></script>

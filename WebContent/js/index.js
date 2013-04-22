@@ -19,6 +19,14 @@ $(document).ready(function() {
 	       });
 	});
 	
+	// set up the options to be used for jqDock...
+	  var dockOptions =
+	    { align: 'middle' // horizontal menu, with expansion UP/DOWN from the middle
+	    , distance: 120 // half the 'at rest' width of the menu, = 0.5 * (5 * 48) = 120
+	    };
+	  // ...and apply...
+	  $('#dockFlag').jqDock(dockOptions);
+	
 	$('#localeBR').click(function(){		
     	$('#formLocaleBR').submit();
     });

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
+
 <!-- <div id="rodape"> -->
 <div id="styleHeaderFooter" class="degradeHeader" align="center">
 <div align="left" style="width: 800px;">
@@ -50,6 +51,18 @@
 </div>
 </div>
 <div id="styleHeaderFooter" align="center">
+
+<%-- <div id="menu">
+  <img src="${imagem}/iconeFlagBR20.jpg" title='Previous' alt='images/previous.png' />
+  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
+  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
+  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
+  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
+</div> --%>
+
+
+
+
 <div id="subMenu">
 
 <table id="tableMenuPrincipal" align="center">
@@ -65,16 +78,6 @@
 </tr>
 </table>
 
-<%-- <ul>
-<li  >></li>
-<li  ></li>
-<li  ></li>
-<li ></li>
-<li ></li>
-<li ></li>
-<li ></li>
-<li ></li>
 
-</ul> --%>
 </div>
 </div>
