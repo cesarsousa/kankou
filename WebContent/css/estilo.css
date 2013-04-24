@@ -314,11 +314,11 @@ img {
 	width: 800px; 
 	text-align: left; 
 	padding: 20px;
-	border: 0px solid #CCCCCC;  
-	border-radius: 1px 1px 1px 1px;
-	-webkit-border-radius: 1px;
-	border-radius: 1px;
-/* 	box-shadow: 2px 2px 2px #CCCCCC; */
+	border: 2px solid #CCCCCC;  
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px #CCCCCC;
 	background-color: #FFFFFF;	
 }
 
@@ -641,7 +641,7 @@ table#tabFlags tr td {
 }	
 
 .setDefault {
-	width: 100%;
+	width: 90%;
 	color: #FFFFFF;
 	text-shadow: #DDDDDD 0.1em 0.1em 0.2em;
 	text-align: center;
