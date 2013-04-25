@@ -52,17 +52,6 @@
 </div>
 <div id="styleHeaderFooter" align="center">
 
-<%-- <div id="menu">
-  <img src="${imagem}/iconeFlagBR20.jpg" title='Previous' alt='images/previous.png' />
-  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
-  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
-  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
-  <img src="${imagem}/iconeFlagUS20.jpg" title='Stop' alt='images/stop.png' />
-</div> --%>
-
-
-
-
 <div id="subMenu">
 
 <table id="tableMenuPrincipal" align="center">

@@ -289,7 +289,11 @@ public class IndexController {
 		sessao.setJspRequest(JspRequest.LINKS);
 		initResourceBundle();
 		
-		result.include("BTextoLinksUteis", rb.getString("BTextoLinksUteis"));		
+		result.include("BTextoLinksVoltarHome", rb.getString("BTextoLinksVoltarHome"));
+		result.include("BTextoLinksVoltarExame", rb.getString("BTextoLinksVoltarExame"));
+		result.include("BTextoLinksCompartilhar", rb.getString("BTextoLinksCompartilhar"));	
+		result.include("BTextoLinksEquipeDesenv", rb.getString("BTextoLinksEquipeDesenv"));
+		
 	}
 	
 	

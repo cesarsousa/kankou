@@ -32,8 +32,37 @@
     	<span id="xx-large" style="font-size: xx-large; padding-left: 5px" class="ponteiro">A</span>    
     	</div>
     	</div>
+
+    	<br/>    	
     	
-    	<b>${BTextoLinksUteis}</b>			
+    	<form id="formGoHome" action="<c:url value="/home" />"></form>
+    	<div id="btParaProposta" class="btLinkVoltar destaqueSombra">
+    	${BTextoLinksVoltarHome}
+    	</div>
+    	<br/>
+    	<form id="formGoExame" action="<c:url value="/realizarExame" />"></form>
+    	<div id="btParaExame" class="btLinkVoltar destaqueSombra">
+    	${BTextoLinksVoltarExame}
+    	</div>
+    	<br/>    	 
+    	
+    	<a href="${imagem}/logomarcaKankou.jpg" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
+			<img src="${imagem}/logomarcaKankou.jpg" width="200" height="50" class="destaqueSombra">
+		</a>
+
+		<br/><br/>
+		<table id="tableDownloadRoteiro" width="100%">
+    	<tr>
+    	<td>
+    	<p class="linkDownloadAutoExame" align="center">
+		${BTextoLinksEquipeDesenv}
+		
+		</p>
+		</td>
+    	</tr>
+    	</table>
+		
+					
 		
     </td>
   </tr>

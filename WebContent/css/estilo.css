@@ -206,6 +206,20 @@ img {
 	font-size: small;	
 }
 
+.btLinkVoltar {
+	width: 200px;
+	height: 50px;
+	border: 1px solid #000000;
+	background: gray;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;	
+	display: table-cell;
+	cursor: pointer;
+		
+}
+
 #rodape {
 	width: 100%;
 	height: 90px; 
