@@ -18,9 +18,7 @@ $(document).ready(function() {
 		var origem = idOrigem.replace("div","");		
 		$('#inputVariacaoLesao').attr('value', origem);		
     	$('#formVariacaoLesao').submit();
-    });
-	
-	$("a[rel^='prettyPhoto']").prettyPhoto({ social_tools:false });
+    });	
 	
 	$('#spanTamanhoFonteExame span').click(function(){
 		alterarTamanhoTexto(this.id, '#textoExame');
