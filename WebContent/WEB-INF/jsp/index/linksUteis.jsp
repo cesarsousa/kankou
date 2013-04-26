@@ -31,35 +31,101 @@
     	<span id="x-large" style="font-size: x-large; padding-left: 5px" class="ponteiro">A</span>   
     	<span id="xx-large" style="font-size: xx-large; padding-left: 5px" class="ponteiro">A</span>    
     	</div>
-    	</div>
-
-    	<br/>    	
+    	</div>    	
     	
-    	<form id="formGoHome" action="<c:url value="/home" />"></form>
-    	<div id="btParaProposta" class="btLinkVoltar destaqueSombra">
-    	${BTextoLinksVoltarHome}
-    	</div>
-    	<br/>
-    	<form id="formGoExame" action="<c:url value="/realizarExame" />"></form>
-    	<div id="btParaExame" class="btLinkVoltar destaqueSombra">
-    	${BTextoLinksVoltarExame}
-    	</div>
-    	<br/>    	 
-    	
-    	<a href="${imagem}/logomarcaKankou.jpg" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
-			<img src="${imagem}/logomarcaKankou.jpg" width="200" height="50" class="destaqueSombra">
-		</a>
-
-		<br/><br/>
-		<table id="tableDownloadRoteiro" width="100%">
+    	<table width="100%">
     	<tr>
+    	<td><img src="${imagem}/fotoRBlanco.jpg"></td>
     	<td>
-    	<p class="linkDownloadAutoExame" align="center">
-		${BTextoLinksEquipeDesenv}
-		
-		</p>
-		</td>
+    	<span id="textoIntroducao" class="textoIntroducao">
+    	${BTextoLinksTexto1}
+    	</span>
+    	</td>
     	</tr>
+    	</table>
+    	
+    	<span id="textoIntroducao" class="textoIntroducao">
+    	${BTextoLinksTexto2}
+    	${BTextoLinksTexto3}
+    	${BTextoLinksTexto4}
+    	${BTextoLinksTexto5}
+    	</span>
+    	
+    	<div style="width: 100%; border: 2px solid #CCCCCC;">
+    	formulario
+    	<pre>
+    	solggd
+    	g~´jgg[p]gsdg~çkdf~lgkdfgk
+    	dfhg~dfkh~
+    	dfkmh
+    	dfkh
+    	dfhçdf
+    	hkj
+    	dafkhgdfkjhçlfdkj
+    	fhk
+    	dfhdafkh
+    	dafçkh
+    	adfhk
+    	adfhk
+    	dafçkh~çfdhk~çldfkh~ldfh
+    	dfhd~f]hj
+    	da~fh
+    	adfhjm
+    	da~fh
+    	</pre>
+    	</div>
+    	
+    	<span id="textoIntroducao" class="textoIntroducao">
+    	${BTextoLinksTexto6}
+    	</span>
+    	
+    	<table class="tabBtLink" >
+    	<tr>
+	    	<td>
+	    	<form id="formGoHome" action="<c:url value="/home" />"></form>
+	    	<div id="btParaProposta" class="btLinkVoltar destaqueSombra">
+	    	${BTextoLinksVoltarHome}
+	    	</div>
+	    	</td>
+	    	
+	    	<td>
+	    	<form id="formGoExame" action="<c:url value="/realizarExame" />"></form>
+	    	<div id="btParaExame" class="btLinkVoltar destaqueSombra">
+	    	${BTextoLinksVoltarExame}
+	    	</div>
+	    	</td>
+	    	
+	    	<td>
+	    	<a href="${imagem}/logomarcaKankou.jpg" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
+				<img src="${imagem}/logomarcaKankou.jpg" width="200" height="50" class="destaqueSombra">
+			</a>
+	    	</td>    	
+    	</tr>
+    	</table>  	
+		
+		<table id="tableDownloadRoteiro" width="100%" cellpadding="5px" class="textoIntroducao">
+    	<tr>
+	    	<td align="center"><p class="linkDownloadAutoExame">${BTextoLinksEquipeDesenv}</p></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv1}</span></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv2}</span></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv3}</span></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv4}</span></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv5}</span></td>
+    	</tr>
+    	<tr>
+	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv6}</span></td>
+    	</tr>
+    	
     	</table>
 		
 					
