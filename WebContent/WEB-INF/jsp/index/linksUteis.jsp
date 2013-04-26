@@ -51,13 +51,27 @@
     	${BTextoLinksTexto5}
     	</span>
     	
-    	<div style="width: 100%; border: 2px solid #CCCCCC;">
-    		${BTextoLinksForm1}
-    		${BTextoLinksForm2}
-    		${BTextoLinksForm3}
-    		${BTextoLinksForm4}
-    		${BTextoLinksForm5}
-    	</div>
+   		<table id="tabRecibo" width="100%" class="textoIntroducao reciboMedico">
+   		<tr>
+   		<td width="10%" class="pad10">${BTextoLinksForm1}</td>
+   		<td width="90%" colspan="3" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm6}</div></td>
+   		</tr>
+   		
+   		<tr style="padding-bottom: 10px;">
+   		<td width="15%" class="pad10">${BTextoLinksForm2}</td>
+   		<td width="10%" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm7}</div></td>
+   		<td width="15%" align="center" class="pad10">${BTextoLinksForm3}</td>
+   		<td width="50%" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm8}</div></td>
+   		</tr>
+   		
+   		<tr style="padding-bottom: 10px;">
+   		<td colspan="4" align="left" class="pad10">${BTextoLinksForm4}</td>
+   		</tr>
+   		
+   		<tr>
+   		<td colspan="4" align="left">${BTextoLinksForm5}</td>
+   		</tr>    		
+   		</table>    		
     	
     	<span id="textosLinks3" class="textoIntroducao">
     	${BTextoLinksTexto6}
@@ -92,22 +106,22 @@
 	    	<td align="center"><p class="linkDownloadAutoExame">${BTextoLinksEquipeDesenv}</p></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv1}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv1}</span></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv2}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv2}</span></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv3}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv3}</span></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv4}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv4}</span></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv5}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv5}</span></td>
     	</tr>
     	<tr>
-	    	<td align="left"><span class="negrito">${BTextoLinksEquipeDesenv6}</span></td>
+	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv6}</span></td>
     	</tr>
     	
     	</table>

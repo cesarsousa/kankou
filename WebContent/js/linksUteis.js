@@ -13,6 +13,7 @@ $(document).ready(function() {
 		alterarTamanhoTexto(this.id, '#textosLinks1');
 		alterarTamanhoTexto(this.id, '#textosLinks2');
 		alterarTamanhoTexto(this.id, '#textosLinks3');
+		$('#tabRecibo').css('font-size', this.id);
 	});
 	
 	/*$("#menuHome").hover(function(){
