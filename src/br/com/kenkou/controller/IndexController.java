@@ -295,7 +295,7 @@ public class IndexController {
 		result.include("BTextoLinksEquipeDesenv", rb.getString("BTextoLinksEquipeDesenv"));
 		for(int i = 1; i < 7; i++) result.include("BTextoLinksEquipeDesenv" + i, rb.getString("BTextoLinksEquipeDesenv" + i));
 		for(int i = 1; i < 7; i++) result.include("BTextoLinksTexto" + i, rb.getString("BTextoLinksTexto" + i));
-	
+		for(int i = 1; i < 6; i++) result.include("BTextoLinksForm" + i, rb.getString("BTextoLinksForm" + i));
 	}
 	
 	

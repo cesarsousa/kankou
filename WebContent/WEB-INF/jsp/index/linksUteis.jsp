@@ -37,14 +37,14 @@
     	<tr>
     	<td><img src="${imagem}/fotoRBlanco.jpg"></td>
     	<td>
-    	<span id="textoIntroducao" class="textoIntroducao">
+    	<span id="textosLinks1" class="textoIntroducao">
     	${BTextoLinksTexto1}
     	</span>
     	</td>
     	</tr>
     	</table>
     	
-    	<span id="textoIntroducao" class="textoIntroducao">
+    	<span id="textosLinks2" class="textoIntroducao">
     	${BTextoLinksTexto2}
     	${BTextoLinksTexto3}
     	${BTextoLinksTexto4}
@@ -52,30 +52,14 @@
     	</span>
     	
     	<div style="width: 100%; border: 2px solid #CCCCCC;">
-    	formulario
-    	<pre>
-    	solggd
-    	g~´jgg[p]gsdg~çkdf~lgkdfgk
-    	dfhg~dfkh~
-    	dfkmh
-    	dfkh
-    	dfhçdf
-    	hkj
-    	dafkhgdfkjhçlfdkj
-    	fhk
-    	dfhdafkh
-    	dafçkh
-    	adfhk
-    	adfhk
-    	dafçkh~çfdhk~çldfkh~ldfh
-    	dfhd~f]hj
-    	da~fh
-    	adfhjm
-    	da~fh
-    	</pre>
+    		${BTextoLinksForm1}
+    		${BTextoLinksForm2}
+    		${BTextoLinksForm3}
+    		${BTextoLinksForm4}
+    		${BTextoLinksForm5}
     	</div>
     	
-    	<span id="textoIntroducao" class="textoIntroducao">
+    	<span id="textosLinks3" class="textoIntroducao">
     	${BTextoLinksTexto6}
     	</span>
     	
