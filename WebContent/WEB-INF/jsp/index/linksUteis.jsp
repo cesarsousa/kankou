@@ -106,22 +106,22 @@
 	    	<td align="center"><p class="linkDownloadAutoExame">${BTextoLinksEquipeDesenv}</p></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv1}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv1}</span></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv2}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv2}</span></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv3}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv3}</span></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv4}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv4}</span></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv5}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv5}</span></td>
     	</tr>
     	<tr>
-	    	<td align="center"><span class="textoRodape">${BTextoLinksEquipeDesenv6}</span></td>
+	    	<td align="center"><span class="textoIntroducao">${BTextoLinksEquipeDesenv6}</span></td>
     	</tr>
     	
     	</table>

@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-/* @font-face {
+@font-face {
   font-family: 'Alegreya SC';
   font-style: normal;
   font-weight: 400;
@@ -12,9 +12,9 @@
   font-style: normal;
   font-weight: 400;
   src: local('Pompiere '), local('Pompiere-Regular'), url(http://themes.googleusercontent.com/static/fonts/pompiere/v3/REn9C5nNcBLtk0UzcbjDQPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
-} */
+}
 
-@font-face {
+/* @font-face {
   font-family: 'Alegreya SC';
   font-style: normal;
   font-weight: 400;
@@ -26,7 +26,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Pompiere '), local('Pompiere-Regular'), url('../font/Pompiere/Pompiere-Regular.ttf') format('woff');
-}
+} */
 
 /* INICIO dos estilos para fixar o rodape */
 html, body, #wrap {
