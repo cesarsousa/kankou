@@ -7,7 +7,7 @@
 <table cellpadding="5px">
 <tr>
 <td align="left" valign="middle">
-<img src="${imagem}/logoBoca.png" class="iconeLogo" />
+<img src="${imagem}/bocaLogoOficial.png" />
 </td>
 <td align="left" valign="middle" width="63%">
 <span class="textoCabecalho">${BTextoCabecalho}</span>
