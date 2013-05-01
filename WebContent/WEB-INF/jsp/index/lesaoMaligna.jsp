@@ -201,6 +201,7 @@
 				<td colspan="2">
 				<div class="msgBorder msgLesaoMaligna">
 		    		${BLesaoMalignaTextoRodapeTab}
+		    		<p><a class="linkDefault" href="<c:url value="/links" />">${BQuadrMenuBt6}</a></p>
 		    	</div>
 				</td>
 				</tr>

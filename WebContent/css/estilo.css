@@ -753,7 +753,6 @@ table#tabFlags tr td {
 	border-radius: 5px;
 	margin: 10px 2px 2px 0;
 	padding: 15px;
-	text-align: justify;
 	vertical-align: middle;
 	width: 100%;	
 }
@@ -763,7 +762,7 @@ table#tabFlags tr td {
 .msgVariacaoAnatomica {
 	background-color: #FFFFFF;
 	border: 4px solid #5D980D;
-	text-align: left;
+	text-align: justify;
 	color: #4682B4;
 	font-size: large;
 }
@@ -771,7 +770,7 @@ table#tabFlags tr td {
 .msgLesaoComum {
 	background-color: #FFFFFF;
 	border: 4px solid #CDCD00;
-	text-align: left;
+	text-align: justify;
 	color: #4682B4;
 	font-size: large;
 }
@@ -779,7 +778,7 @@ table#tabFlags tr td {
 .msgLesaoBenigna {
 	background-color: #FFFFFF;
 	border: 4px solid #CD950C;
-	text-align: left;
+	text-align: justify;
 	color: #4682B4;
 	font-size: large;
 }
@@ -787,7 +786,7 @@ table#tabFlags tr td {
 .msgLesaoPremaligna {
 	background-color: #FFFFFF;
 	border: 4px solid #FF0000;
-	text-align: left;
+	text-align: justify;
 	color: #4682B4;
 	font-size: large;
 }
@@ -795,7 +794,7 @@ table#tabFlags tr td {
 .msgLesaoMaligna {
 	background-color: #FFFFFF;
 	border: 4px solid #5D478B;
-	text-align: left;
+	text-align: justify;
 	color: #4682B4;
 	font-size: large;
 }

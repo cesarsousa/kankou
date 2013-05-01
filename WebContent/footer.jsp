@@ -6,8 +6,7 @@
 	<p class="textoRodape">${BTextoRodape}<br/>
 	<span id="divLabelFonteExame" style="font-size: small;"> 
 		${BTextoFonteFotoExame} 
-		<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank"> ‘A digital manual for the early diagnosis of oral neoplasia’</a>
-		, ${BTextoFonteFotoExame2}
+		<a class="linkDefault" href="http://screening.iarc.fr/atlasoral.php?lang=1 " target="_blank"> ‘A digital manual for the early diagnosis of oral neoplasia’</a> ${BTextoFonteFotoExame2}
 	</span>
 	<br>
 	<span style="font-size: small; padding-right: 10px;" class="textoRodape">${BTextoRodapeDesig} 		

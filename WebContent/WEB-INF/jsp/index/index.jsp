@@ -48,7 +48,7 @@
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>The acupuncturist and the inspection of the tongue</b></span><br/>
-		<span class="fontIndexDesc">Learn to expand routine examination and act in the prevention of mouth cancer</span>
+		<span class="fontIndexDesc">Learn to optimize your routine clinical examination and participate in the prevention of mouth cancer.</span>
 		</td>
 		</tr>
 		
