@@ -47,7 +47,7 @@
     	<span id="textosLinks2" class="textoIntroducao">
     	${BTextoLinksTexto2}
     	${BTextoLinksTexto3}
-    	${BTextoLinksTexto4}
+    	${BTextoLinksTexto4}   	
     	${BTextoLinksTexto5}
     	</span>
     	
