@@ -3,7 +3,7 @@
 <!-- <div id="rodape"> -->
 <div id="styleHeaderFooter" class="degradeFooter">
 <div align="center">
-	<p class="textoRodape">&copy; 2012 Kankou.com.br - Todos os direitos reservados</p>
+	<p class="textoRodape">&copy; 2013 Kankou.com.br - Todos os direitos reservados</p>
 	
 	<div align="right">	
 		<p style="font-size: small; padding-right: 10px;" class="textoRodape">Design by 		
