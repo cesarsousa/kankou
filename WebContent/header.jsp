@@ -7,13 +7,15 @@
 <table cellpadding="5px">
 <tr>
 <td align="left" valign="middle">
-<img src="${imagem}/bocaLogoOficial.png" />
+<img src="${imagem}/logoHeaderImg.png" />
 </td>
-<td align="left" valign="middle" width="63%">
-<span class="textoCabecalho">${BTextoCabecalho}</span>
+<td align="left" valign="middle" width="25%">
 </td>
-<td class="tdFlagLocale" >
+<td class="tdFlagLocale" align="right" width="25%">
 	
+	
+	<div id="divAcessBandeiras" align="center"><img src="${imagem}/iconeTerra.png">
+	<div id="tabBandeiras">
 	<table class="colapsed">
 	<tr>
 	<td width="40" height="30" valign="middle" align="center">
@@ -42,8 +44,10 @@
 		</a>
 	</td>
 	</tr>
-	
 	</table>
+	</div>
+	</div>
+	
 	</td>
 </tr>
 </table>

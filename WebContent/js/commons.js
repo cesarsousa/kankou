@@ -13,5 +13,14 @@ $(document).ready(function() {
 	},
     function(){
 		$(this).removeClass('imgSombra');
-    });	    
+    });	
+	
+	$('#tabBandeiras').hide();
+	$("#divAcessBandeiras").hover(function(){
+        $('#tabBandeiras').slideDown(500);
+    },
+    function(){
+    	$('#tabBandeiras').slideUp(500);
+    });
+	
 });

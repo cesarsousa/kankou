@@ -95,7 +95,7 @@
 	    	
 	    	<td>
 	    	<a href="${imagem}/logomarcaKankou.jpg" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
-				<img src="${imagem}/logomarcaKankou.jpg" width="200" height="50" class="destaqueSombra">
+				<img src="${imagem}/btCompartilhar.png" width="200" height="50" class="destaqueSombra">
 			</a>
 	    	</td>    	
     	</tr>

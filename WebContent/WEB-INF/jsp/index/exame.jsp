@@ -43,8 +43,8 @@
     	<td>
     		<img src="${imagem}/setaVermelha2.jpg"></td>
     	<td>
-	    	<a href="${download}/${sessao.idioma}/kankou.zip">
-			<img alt="${BTextoDownloadExame}" title="${BTextoDownloadExame}" src="${imagem}/autoExameDaBoca100.jpg" class="destaqueSombra"></a></td>
+	    	<a href="${download}/${sessao.idioma}${BTextoDownloadExameZip}">
+			<img alt="${BTextoDownloadExame}" title="${BTextoDownloadExame}" src="${imagem}/iconeDownloadExame.png" class="destaqueSombra"></a></td>
     	</tr>
     	</table>	
     	

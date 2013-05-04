@@ -56,7 +56,7 @@ public class IndexController {
 	@Get("/autenticar")
 	public void autenticar(String password){
 		
-		password = "sitekankouco";
+		//password = "sitekankouco";
 		
 		if("sitekankouco".equals(password)){
 			sessao.setAcessoAutorizado(true);
@@ -172,7 +172,8 @@ public class IndexController {
 		result.include("BTextoExame", rb.getString("BTextoExame"));
 		result.include("BTextoExame1", rb.getString("BTextoExame1"));
 		result.include("BTextoExame2", rb.getString("BTextoExame2"));
-		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));		
+		result.include("BTextoDownloadExame", rb.getString("BTextoDownloadExame"));
+		result.include("BTextoDownloadExameZip", rb.getString("BTextoDownloadExameZip"));
 		
 		for(int i = 1; i < 8; i++){
 			String titulo = "BExameF" + i + "Titulo";
