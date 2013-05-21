@@ -14,7 +14,7 @@
 <td class="tdFlagLocale" align="right" width="25%">
 	
 	
-	<div id="divAcessBandeiras" align="center"><img src="${imagem}/iconeTerra.png">
+	<div id="divAcessBandeiras" align="center"><img src="${imagem}/iconeMapaMundi.png">
 	<div id="tabBandeiras">
 	<table class="colapsed">
 	<tr>
