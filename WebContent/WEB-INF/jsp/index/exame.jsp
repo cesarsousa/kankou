@@ -34,7 +34,7 @@
     	</div>
     	</div>  	
     	
-    	<span id="textoExame" class="textoIntroducao">${BTextoExame}</span>
+    	<span class="textoIntroducao" style="font-size: xx-large;">${BTextoExame}</span>
     	
     	<table id="tableDownloadRoteiro" width="100%">
     	<tr>

@@ -34,7 +34,7 @@
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>O Acupunturista e o exame da língua</b></span><br/>
-		<span class="fontIndexDesc">Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca</span>
+		<span class="fontIndexDesc">Aprenda a expandir o exame rotineiro e atue na prevenção do câncer de boca.</span>
 		</td>
 		</tr>
 		
@@ -76,7 +76,7 @@
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>El acupunturista y la inspección de la lengua</b></span><br>
-		<span class="fontIndexDesc">Aprenda a optimizar su examen clínico de rutina y participar en la prevención del cáncer de boca</span>
+		<span class="fontIndexDesc">Aprenda a optimizar su examen clínico de rutina y participar en la prevención del cáncer de boca.</span>
 		</td>
 		</tr>
 		
@@ -90,7 +90,7 @@
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>L'acupuncteur et l'inspection de la langue</b></span><br/>
-		<span class="fontIndexDesc">Apprenez à realizer un examen de routine plus complet et d'agir dans la prévention du cancer de la bouche</span>
+		<span class="fontIndexDesc">Apprenez à realizer un examen de routine plus complet et d'agir dans la prévention du cancer de la bouche.</span>
 		</td>
 		</tr>
 				
