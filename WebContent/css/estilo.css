@@ -828,9 +828,9 @@ table#tabFlags tr td {
 	border: 2px solid #FFFFFF;
 }
 .destaquetabExame:hover{
-	border: 2px solid #87CEEB;
-	width: 300px;
-	height: 300px;
+	border: 2px solid #4682B4;	
+	/* width: 300px;
+	height: 300px; */
 }
 
 /* #tabVariacaoAnatomica tr td:hover{

@@ -80,7 +80,7 @@
 			<tr>
 			<td>
 			<a href="${imagemGeral}/exame3.JPG" rel="prettyPhoto[galeria1]" title="${BExameF3Descricao}">
-				<img  alt="${BExameF3Titulo}" src="${imagemGeral}/exame3.JPG" class="destaquetabExame" width="200" height="200">
+				<img  alt="${BExameF3Titulo}" src="${imagemGeral}/exame31.JPG" class="destaquetabExame">
 			</a>
 			</td>
 			<td>
@@ -92,7 +92,7 @@
 			<tr>			
 			<td>
 			<a href="${imagemGeral}/exame4.JPG" rel="prettyPhoto[galeria1]" title="${BExameF4Descricao}">
-				<img  alt="${BExameF4Titulo}" src="${imagemGeral}/exame4.JPG" class="destaquetabExame" width="200" height="200">
+				<img  alt="${BExameF4Titulo}" src="${imagemGeral}/exame41.JPG" class="destaquetabExame">
 			</a>
 			</td>
 			<td>
