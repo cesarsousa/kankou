@@ -17,10 +17,12 @@ $(document).ready(function() {
 	
 	$('#tabBandeiras').hide();
 	$("#divAcessBandeiras").hover(function(){
+		$("#divAcessBandeiras").addClass('destaqueBandeiras');		
         $('#tabBandeiras').slideDown(500);
     },
     function(){
     	$('#tabBandeiras').slideUp(500);
+    	$("#divAcessBandeiras").removeClass('destaqueBandeiras');
     });
 	
 });

@@ -153,6 +153,14 @@ img {
 	font-size: x-large;
 }
 
+.destaqueBandeiras {	
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #FFFFFF;	
+}
+
 .textoIntroducao {
 	font-family: 'Alegreya SC';
 	text-align: justify;	
@@ -747,10 +755,10 @@ table#tabFlags tr td {
 }
 	
 
-.iconeLocale:hover {
+/* .iconeLocale:hover {
 	width: 40px;
 	height: 30px;
-}
+} */
 
 .iconeMenu:hover{	
 	filter:alpha(opacity=50);

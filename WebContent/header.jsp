@@ -98,25 +98,3 @@
 </div>
 </div>
 <br/>
-
-<div align="center">	
-	<div class="cardFlagPgs">
-	<table>
-	<tr>
-	<td valign="top"><div class="g-plusone" data-size="medium"></div></div></td>
-	<td valign="top"><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a></td>
-	<td valign="top"><div class="fb-like" data-href="http://www.kankou.com.br" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div></td>
-	
-	<!--
-	
-	<g:plusone></g:plusone>
-	 
-	<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="SeuTwitter" rel="nofollow">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></td>
-	
-	<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.kankou.com.br&2layout=button_count&show_faces=false&width=400&action=like&colorscheme=light&height=30" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:30px;" allowtransparency="true"></iframe></td>
-	 -->
-	</tr>
-	</table>		
-	</div>
-</div>
-<br/>
