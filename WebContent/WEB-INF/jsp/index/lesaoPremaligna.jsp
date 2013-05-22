@@ -261,7 +261,9 @@
 				<td colspan="2">
 				<div class="msgBorder msgLesaoPremaligna">
 		    		${BLesaoPremalignaTextoRodapeTab}
-		    		<p><a class="linkDefault" href="<c:url value="/links" />">${BQuadrMenuBt6}</a></p>
+		    		<div align="center">
+		    		<p ><a class="linkToLinks" href="<c:url value="/links" />">${BQuadrMenuBt6}</a></p>
+		    		</div>
 		    	</div>
 				</td>
 				</tr>

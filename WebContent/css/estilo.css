@@ -239,7 +239,21 @@ img {
 	vertical-align: middle;	
 	display: table-cell;
 	cursor: pointer;
-		
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.linkToLinks {
+	font-size: xx-large;
+	text-align: center;
+	color: #000000;
+	text-shadow: #696969 0.1em 0.1em 0.2em;
+}
+
+.linkToLinks:hover {	
+	color: #696969;
+	
 }
 
 #rodape {
@@ -720,9 +734,12 @@ table#tabFlags tr td {
 
 .reciboMedico {
 	padding: 25px 10px 25px 10px; 
-	width: 100%;
-	border: 2px solid #CCCCCC;
-	font-size: small;	
+	width: 95%;
+	border: 3px solid #CCCCCC;
+	
+	border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;	
 }
 
 .pad10 {

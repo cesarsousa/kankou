@@ -51,27 +51,17 @@
     	${BTextoLinksTexto5}
     	</span>
     	
-   		<table id="tabRecibo" width="100%" class="textoIntroducao reciboMedico">
-   		<tr>
-   		<td width="10%" class="pad10">${BTextoLinksForm1}</td>
-   		<td width="90%" colspan="3" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm6}</div></td>
-   		</tr>
-   		
-   		<tr style="padding-bottom: 10px;">
-   		<td width="15%" class="pad10">${BTextoLinksForm2}</td>
-   		<td width="10%" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm7}</div></td>
-   		<td width="15%" align="center" class="pad10">${BTextoLinksForm3}</td>
-   		<td width="50%" class="pad10"><div style="border-bottom: 1px solid #CCCCCC; width: 100%;">${BTextoLinksForm8}</div></td>
-   		</tr>
-   		
-   		<tr style="padding-bottom: 10px;">
-   		<td colspan="4" align="left" class="pad10">${BTextoLinksForm4}</td>
-   		</tr>
-   		
-   		<tr>
-   		<td colspan="4" align="left">${BTextoLinksForm5}</td>
-   		</tr>    		
-   		</table>    		
+    	<div id="tabRecibo" class="textoIntroducao reciboMedico">
+    	<span class="pad10">${BTextoLinksForm1}</span>
+    	<span class="pad10">${BTextoLinksForm6}</span>
+    	<span class="pad10">${BTextoLinksForm2}</span>
+    	<span class="pad10">${BTextoLinksForm7}</span>
+    	<span class="pad10">${BTextoLinksForm3}</span>
+    	<span class="pad10">${BTextoLinksForm8}</span>
+    	<span class="pad10">${BTextoLinksForm4}</span>
+    	<br/><br/>
+    	<span class="pad10">${BTextoLinksForm5}</span>
+    	</div>   		    		
     	
     	<span id="textosLinks3" class="textoIntroducao">
     	${BTextoLinksTexto6}
@@ -79,28 +69,30 @@
     	
     	<table class="tabBtLink" >
     	<tr>
-	    	<td>
+	    	<td align="center">
 	    	<form id="formGoHome" action="<c:url value="/home" />"></form>
-	    	<div id="btParaProposta" class="btLinkVoltar destaqueSombra">
+	    	<div  id="btParaProposta" class="btLinkVoltar destaqueSombra">
 	    	${BTextoLinksVoltarHome}
 	    	</div>
 	    	</td>
 	    	
-	    	<td>
+	    	<td align="center">
 	    	<form id="formGoExame" action="<c:url value="/realizarExame" />"></form>
-	    	<div id="btParaExame" class="btLinkVoltar destaqueSombra">
+	    	<div  id="btParaExame" class="btLinkVoltar destaqueSombra">
 	    	${BTextoLinksVoltarExame}
 	    	</div>
 	    	</td>
 	    	
-	    	<td>
-	    	<a href="${imagem}/logomarcaKankou.jpg" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
+	    	<%-- <td>
+	    	
+	    	<a href="${imagem}/btCompartilhar.png" rel="prettyPhoto[site]" title="${BTextoLinksCompartilhar}">
 				<img src="${imagem}/btCompartilhar.png" width="200" height="50" class="destaqueSombra">
 			</a>
-	    	</td>    	
+						
+	    	</td> --%>    	
     	</tr>
-    	</table>  	
-		
+    	</table>
+			
 		<table id="tableDownloadRoteiro" width="100%" cellpadding="5px" class="textoIntroducao">
     	<tr>
 	    	<td align="center"><p class="linkDownloadAutoExame">${BTextoLinksEquipeDesenv}</p></td>

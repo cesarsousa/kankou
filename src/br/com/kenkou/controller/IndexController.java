@@ -49,6 +49,10 @@ public class IndexController {
 		result.include("BTextoFonteFotoExame2", rb.getString("BTextoFonteFotoExame2"));
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		result.include("BTextoRodapeDesig", rb.getString("BTextoRodapeDesig"));
+		
+		result.include("BTextoLinksCompartilhar", rb.getString("BTextoLinksCompartilhar"));
+		
+		
 	}
 	
 	@Path("/")

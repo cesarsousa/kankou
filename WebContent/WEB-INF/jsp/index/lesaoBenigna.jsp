@@ -176,8 +176,8 @@
 			</a>
 			</td>
 			<td>
-			<p class="fotoTitulo">${BLesaoBenignaF11Titulo}</p>
-			<p class="fotoDescricao">${BLesaoBenignaF11Descricao}</p>
+			<p class="fotoTitulo">${BLesaoBenignaF12Titulo}</p>
+			<p class="fotoDescricao">${BLesaoBenignaF12Descricao}</p>
 			</td>			
 			</tr>
 			
@@ -223,7 +223,9 @@
 			<td colspan="3">
 			<div class="msgBorder msgLesaoBenigna">
 	    		${BLesaoBenignaTextoRodapeTab}
-	    		<p><a class="linkDefault" href="<c:url value="/links" />">${BQuadrMenuBt6}</a></p>
+	    		<div align="center">
+	    		<p ><a class="linkToLinks" href="<c:url value="/links" />">${BQuadrMenuBt6}</a></p>
+	    		</div>
 	    	</div>
 			</td>
 			</tr>
