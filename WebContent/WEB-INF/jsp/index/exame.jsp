@@ -139,14 +139,14 @@
 			</tbody>			
 		</table>
 		
-		<p class="textoIntroducao corLaranja" style="font-weight: bold;">${BQuadroMenuTxt1}</p>
+		<p id="textoOQProcurar" class="textoIntroducao corLaranja" style="font-weight: bold;">${BQuadroMenuTxt1}</p>
 		<span id="textoExame2" class="textoIntroducao">${BTextoExame2}</span>
 		
 		<br/>		
 		
 		<div class="quadroMenu">			
 			<p>
-			<span id="textoQuadroLink" class="letraNormal corDefault negrito">${BQuadroMenuTxt2}</span>
+			<span id="textoQuadroLink" class="textoIntroducao negrito corLaranja">${BQuadroMenuTxt2}</span>
 			</p>
 			
 			<form id="formVariacaoLesao" action="<c:url value="/consultar" />" method="get">

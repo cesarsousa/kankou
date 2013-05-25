@@ -21,8 +21,9 @@ $(document).ready(function() {
     });	
 	
 	$('#spanTamanhoFonteExame span').click(function(){
-		alterarTamanhoTexto(this.id, '#textoExame');
+		
 		alterarTamanhoTexto(this.id, '#textoExame1');
+		alterarTamanhoTexto(this.id, '#textoOQProcurar');
 		alterarTamanhoTexto(this.id, '#textoExame2');
 		alterarTamanhoTexto(this.id, '#textoQuadroLink');		
 	});

@@ -30,7 +30,7 @@
 	
 		<tr id="localeBR" class="zebrado">
 		<td>
-		<img alt="português" title="português" class="imgSombra flagIndex" src="${imagem}/flagBrasil.jpg" width="100px" height="70px">
+		<img alt="português" title="português" class="imgSombra flagIndex" src="${imagem}/flagBrasil.png">
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>O Acupunturista e o exame da língua</b></span><br/>
@@ -44,7 +44,7 @@
 		
 		<tr id="localeUS" class="zebrado">
 		<td>
-		<img alt="english" title="english" class="imgSombra flagIndex" src="${imagem}/flagUSA.jpg">
+		<img alt="english" title="english" class="imgSombra flagIndex" src="${imagem}/flagUsa.png">
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>The acupuncturist and the inspection of the tongue</b></span><br/>
@@ -58,7 +58,7 @@
 		
 		<tr id="localeCN" class="zebrado">
 		<td>
-		<img alt="普通话" title="普通话" class="imgSombra flagIndex" src="${imagem}/flagChina.jpg">
+		<img alt="普通话" title="普通话" class="imgSombra flagIndex" src="${imagem}/flagChina.png">
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>针灸医生和舌诊</b></span><br/>
@@ -72,7 +72,7 @@
 		
 		<tr id="localeES" class="zebrado">
 		<td>
-		<img alt="español" title="español" class="imgSombra flagIndex" src="${imagem}/flagEspanha.jpg">
+		<img alt="español" title="español" class="imgSombra flagIndex" src="${imagem}/flagEspanha.png">
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>El acupunturista y la inspección de la lengua</b></span><br>
@@ -86,7 +86,7 @@
 		
 		<tr id="localeFR" class="zebrado">
 		<td>
-		<img alt="français" title="français" class="imgSombra flagIndex" src="${imagem}/flagFranca.jpg">
+		<img alt="français" title="français" class="imgSombra flagIndex" src="${imagem}/flagFranca.png">
 		</td>
 		<td>
 		<span class="fontIndexTitulo"><b>L'acupuncteur et l'inspection de la langue</b></span><br/>
