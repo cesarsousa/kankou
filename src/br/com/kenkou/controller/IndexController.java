@@ -60,13 +60,13 @@ public class IndexController {
 	@Get("/autenticar")
 	public void autenticar(String password){
 		
-		password = "sitekankouco";
+		//password = "sitekankouco";
 		
 		if("sitekankouco".equals(password)){
 			sessao.setAcessoAutorizado(true);
 			result.redirectTo(this).index();
 		}else{
-			result.include("erroLogin", "A senha digitada esta incorreta. Acesso Negado !");
+			result.include("erroLogin", "A senha digitada está incorreta. Acesso Negado !");
 			result.redirectTo(this).login();
 		}
 	}
