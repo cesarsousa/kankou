@@ -851,11 +851,12 @@ table#tabFlags tr td {
 
 .destaquetabExame{
 	border: 2px solid #FFFFFF;
+	width: 200px;
+	height: 200px;
 }
 .destaquetabExame:hover{
-	border: 2px solid #4682B4;	
-	/* width: 300px;
-	height: 300px; */
+	width: 300px;
+	height: 300px;
 }
 
 /* #tabVariacaoAnatomica tr td:hover{
