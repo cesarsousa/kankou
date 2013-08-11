@@ -50,12 +50,10 @@ public class IndexController {
 		result.include("BTextoRodape", rb.getString("BTextoRodape"));
 		result.include("BTextoRodapeDesig", rb.getString("BTextoRodapeDesig"));
 		
-		result.include("BTextoLinksCompartilhar", rb.getString("BTextoLinksCompartilhar"));
-		
-		
+		result.include("BTextoLinksCompartilhar", rb.getString("BTextoLinksCompartilhar"));		
 	}
 	
-	@Path("/")
+	/*@Path("/")
 	public void login(){}
 	@Get("/autenticar")
 	public void autenticar(String password){
@@ -69,13 +67,13 @@ public class IndexController {
 			result.include("erroLogin", "A senha digitada está incorreta. Acesso Negado !");
 			result.redirectTo(this).login();
 		}
-	}
+	}*/
 
-	/*@Path("/")*/
+	@Path("/")
 	public void index(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.INTRODUCAO);		
 	}	
@@ -112,10 +110,9 @@ public class IndexController {
 	
 	@Get("/realizarExame")
 	public void realizarExame(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
-		
+		}*/		
 		redirect(JspRequest.EXAME);
 	}
 	
@@ -153,9 +150,9 @@ public class IndexController {
 	
 	@Get("/home")
 	public void introducao(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.INTRODUCAO);		
 		initResourceBundle();
@@ -166,9 +163,9 @@ public class IndexController {
 	
 	@Get("/exame")
 	public void exame(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.EXAME);						
 		initResourceBundle();		
@@ -191,9 +188,9 @@ public class IndexController {
 	
 	@Get("/variacoes/anatomicas")
 	public void variacaoAnatomica(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.VARIACAO_ANATOMICA);
 		initResourceBundle();
@@ -211,9 +208,9 @@ public class IndexController {
 	
 	@Get("/lesoes/comuns")
 	public void lesaoComun(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.LESAO_COMUM);
 		initResourceBundle();
@@ -230,9 +227,9 @@ public class IndexController {
 	
 	@Get("/lesoes/benignas")
 	public void lesaoBenigna(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.LESAO_BENIGNA);
 		initResourceBundle();
@@ -249,9 +246,9 @@ public class IndexController {
 	
 	@Get("/lesoes/premalignas")
 	public void lesaoPremaligna(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.LESAO_PREMALIGNA);
 		initResourceBundle();
@@ -268,9 +265,9 @@ public class IndexController {
 	
 	@Get("/lesoes/malignas")
 	public void lesaoMaligna(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.LESAO_MALIGNA);
 		initResourceBundle();
@@ -287,9 +284,9 @@ public class IndexController {
 	
 	@Get("/links")
 	public void linksUteis(){
-		if(!sessao.isAcessoAutorizado()){
+		/*if(!sessao.isAcessoAutorizado()){
 			result.redirectTo(this).login();
-		}
+		}*/
 		
 		sessao.setJspRequest(JspRequest.LINKS);
 		initResourceBundle();
