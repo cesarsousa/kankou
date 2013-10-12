@@ -45,5 +45,10 @@ public class Sessao implements Serializable {
 	public String getIdioma(){
 		return locale.getCountry();
 	}
+	
+	public boolean getPaginaNacional(){
+		if(locale.getCountry().equals("BR")) return true;
+		return false;
+	}
 
 }

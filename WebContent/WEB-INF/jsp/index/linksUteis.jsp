@@ -65,7 +65,11 @@
     	
     	<span id="textosLinks3" class="textoIntroducao">
     	${BTextoLinksTexto6}
-    	</span>
+    	<c:if test="${sessao.paginaNacional}">
+    	<a class="linkDefault" href="${download}/OMS/REVIEW_AND_ANALYSIS_OF_REPORTS_ON_CONTROLLED_CLINICAL_TRIALS.zip">Organização Mundial de Saúde - OMS</a>
+    	${BTextoLinksTexto7}
+    	</c:if>
+    	</span>   	
     	
     	<table class="tabBtLink" >
     	<tr>
